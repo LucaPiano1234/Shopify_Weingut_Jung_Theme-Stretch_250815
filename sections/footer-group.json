@@ -158,15 +158,6 @@
             "enable_follow_on_shop": false
           }
         },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "collapse_on_mobile": false,
-            "show_menu_title": true,
-            "menu_title": "<strong>Rechtliches</strong>"
-          }
-        },
         "links_Pdime8": {
           "type": "links",
           "settings": {
@@ -175,13 +166,32 @@
             "show_menu_title": true,
             "menu_title": "<strong>Sortiment</strong>"
           }
+        },
+        "links_84bKny": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "collapse_on_mobile": true,
+            "show_menu_title": true,
+            "menu_title": "Sonstiges"
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "collapse_on_mobile": false,
+            "show_menu_title": true,
+            "menu_title": "<strong>Rechtliches</strong>"
+          }
         }
       },
       "block_order": [
         "image_tghPhp",
         "text_zHBbXg",
-        "links",
-        "links_Pdime8"
+        "links_Pdime8",
+        "links_84bKny",
+        "links"
       ],
       "settings": {
         "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
