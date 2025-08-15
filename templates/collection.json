@@ -1,1 +1,259 @@
-{"sections":{"banner":{"type":"collection-banner","settings":{"color_scheme":"scheme-7","allow_transparent_header":true,"layout":"plain","show_description":true,"collection_title_size":"h4","content_position":"place-self-center","background_color_scheme":"","image_size":"auto","quick_navigation_menu":""}},"main":{"type":"main-collection","custom_css":[".button {background: #c25f02; color: white;}",".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"],"settings":{"color_scheme":"scheme-2","products_per_page":30,"products_per_row_mobile":2,"products_per_row_desktop":4,"show_product_card_size_selector":true,"quick_links_menu":"","filter_layout":"drawer","show_sort_by":true,"show_filters":true,"show_filter_group_name":true,"show_filter_values_count":false,"open_filters_by_default":false,"swatch_selector_size":"lg"}},"text_with_media_PfMjw9":{"type":"text-with-media","blocks":{"subheading_xexreX":{"type":"subheading","settings":{"text":"Für jeden Moment der passende Wein – klar strukturiert, authentisch und charakterstark.","position":"top_left"}},"heading_z3fxgV":{"type":"heading","settings":{"text":"Ein Sortiment, das verbindet","heading_tag":"h3","position":"top_left","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_q4rHER":{"type":"richtext","settings":{"text":"<p>Unser Sortiment ist so aufgebaut, dass es sowohl Einsteiger als auch Weinliebhaber leichtfällt, den passenden Wein zu finden.<\/p><ul><li><strong>Gutsweine<\/strong>: stammen aus unseren Weinbergen rund um Undenheim. Sie sind fruchtig und ideal für den Alltag.<\/li><li><strong>Ortsweine<\/strong>: zeigen, was unsere Heimat ausmacht. Die besten Lagen konzentriert auf ein Weindorf, mit Charakter und vom Terroir geprägt.<\/li><li><strong>Lagenweine<\/strong>: stammen aus exakt abgegrenzten Parzellen mit besonderem Boden, Mikroklima und Ausrichtung. Die besten Parzellen werden handwerklich selektiert<\/li><\/ul><p>Dazu kommen saisonale Highlights und echte Herzensprojekte – immer mit dem Anspruch, unsere Handschrift und unsere Heimat im Glas spürbar zu machen.<\/p>","position":"bottom_left"}},"button_UVptEr":{"type":"button","disabled":true,"settings":{"text":"Button text","url":"","position":"bottom_left","style":"solid","background":"","text_color":""}}},"block_order":["subheading_xexreX","heading_z3fxgV","richtext_q4rHER","button_UVptEr"],"name":"t:sections.text_with_media.name","settings":{"color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","content_position":"start","content_percentage_width":50,"overlay_color":"#000000","overlay_opacity":20,"add_media_spacing":false,"autoplay_video":true,"primary_image":"shopify:\/\/shop_images\/20220427_weingut-jung-weine_001_foto_mario-andreya.jpg","secondary_media_width":60,"secondary_media_mobile_width":60,"show_secondary_media_on_mobile":true,"secondary_media_alignment":"place-self-center","secondary_media_shape":"none"}},"before_after_qfqYWc":{"type":"before-after","blocks":{"before_bXxade":{"type":"before","settings":{"color_scheme":"","image":"shopify:\/\/shop_images\/Pyramide_Jung_1588c45a-8a18-45e5-9553-7bacda7ba275.webp","text":"Qualitätspyramide","text_size":"h7","text_position":"start"}},"after_hrQQAU":{"type":"after","settings":{"color_scheme":"","image":"shopify:\/\/shop_images\/Pyramide_Jung_mitText.webp","text":"After","text_size":"h7","text_position":"start"}}},"block_order":["before_bXxade","after_hrQQAU"],"name":"t:sections.before_after.name","settings":{"color_scheme":"scheme-2","layout":"stacked","add_comparison_spacing":true,"subheading":"","title":"Qualitätspyramide","title_tag":"h3","content":"","button_text":"","button_url":"","button_style":"solid","cursor_direction":"horizontal","cursor_initial_position":88,"cursor_background":"#ffffff","cursor_arrows_color":"#000000"}},"recently_viewed_products_kQKXBW":{"type":"recently-viewed-products","blocks":{"section-header":{"type":"_section-header","static":true,"settings":{"subheading":"Nochmal ansehen?","title":"Weine, die Sie zuletzt gesehen haben:","content":"","button_text":"","button_link":"","button_style":"outline","text_alignment":"left","heading_size":"h3","title_icon":"none","show_scrolling_title":false},"blocks":{}}},"custom_css":[".button {background: #c25f02; color: white;}",".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"],"name":"Weine, die zuletzt aufgerufen wurden","settings":{"color_scheme":"scheme-2","stack_products":true,"products_count":4,"products_per_row_mobile":"1","products_per_row_desktop":4,"show_scrolling_bar":true}},"image_with_text_overlay_X7f4DU":{"type":"image-with-text-overlay","blocks":{"heading_tknmyE":{"type":"heading","settings":{"text":"Persönliche Weinberatung","heading_size":"h3","html_tag":"p","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"rich_text_JTe4Hb":{"type":"rich-text","settings":{"text":"<p>Wein ist Geschmackssache – und genau deshalb nehmen wir uns Zeit für Ihre Fragen, Wünsche und Vorlieben. Ob per Telefon, E-Mail oder direkt bei uns im Weingut: Wir beraten Sie persönlich, transparent und mit dem Blick fürs Detail. Denn wir möchten, dass Sie genau den Wein finden, der zu Ihnen passt.<\/p>","content_width":"md"},"blocks":{}},"button_HANdih":{"type":"button","name":"t:blocks.button.name","settings":{"text":"Persönliche Beratung","url":"shopify:\/\/pages\/contact","open_in_new_tab":false,"style":"solid","background":"#faf4f0","text_color":"#151213"},"blocks":{}}},"block_order":["heading_tknmyE","rich_text_JTe4Hb","button_HANdih"],"name":"t:sections.image_with_text_overlay.name","settings":{"color_scheme":"","allow_transparent_header":true,"image_size":"md","image":"shopify:\/\/shop_images\/20240605_weingut-jung-vinothek_002_foto_mario-andreya_1_d23e2c93-6a50-44ae-8069-41f73219f066.jpg","overlay_color":"#000000","overlay_opacity":40,"enable_sticky_content":false,"content_width":"md","desktop_text_position":"sm:place-self-center","mobile_text_position":"place-self-center"}}},"order":["banner","main","text_with_media_PfMjw9","before_after_qfqYWc","recently_viewed_products_kQKXBW","image_with_text_overlay_X7f4DU"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": true,
+        "collection_title_size": "h4",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image_size": "auto",
+        "quick_navigation_menu": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".button {background: #c25f02; color: white;}",
+        ".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "products_per_page": 30,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": true,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "lg"
+      }
+    },
+    "text_with_media_PfMjw9": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_xexreX": {
+          "type": "subheading",
+          "settings": {
+            "text": "Für jeden Moment der passende Wein – klar strukturiert, authentisch und charakterstark.",
+            "position": "top_left"
+          }
+        },
+        "heading_z3fxgV": {
+          "type": "heading",
+          "settings": {
+            "text": "Ein Sortiment, das verbindet",
+            "heading_tag": "h3",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_q4rHER": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Unser Sortiment ist so aufgebaut, dass es sowohl Einsteiger als auch Weinliebhaber leichtfällt, den passenden Wein zu finden.</p><ul><li><strong>Gutsweine</strong>: stammen aus unseren Weinbergen rund um Undenheim. Sie sind fruchtig und ideal für den Alltag.</li><li><strong>Ortsweine</strong>: zeigen, was unsere Heimat ausmacht. Die besten Lagen konzentriert auf ein Weindorf, mit Charakter und vom Terroir geprägt.</li><li><strong>Lagenweine</strong>: stammen aus exakt abgegrenzten Parzellen mit besonderem Boden, Mikroklima und Ausrichtung. Die besten Parzellen werden handwerklich selektiert</li></ul><p>Dazu kommen saisonale Highlights und echte Herzensprojekte – immer mit dem Anspruch, unsere Handschrift und unsere Heimat im Glas spürbar zu machen.</p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_UVptEr": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Button text",
+            "url": "",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xexreX",
+        "heading_z3fxgV",
+        "richtext_q4rHER",
+        "button_UVptEr"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/20220427_weingut-jung-weine_001_foto_mario-andreya.jpg",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "before_after_qfqYWc": {
+      "type": "before-after",
+      "blocks": {
+        "before_bXxade": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Pyramide_Jung_1588c45a-8a18-45e5-9553-7bacda7ba275.webp",
+            "text": "Qualitätspyramide",
+            "text_size": "h7",
+            "text_position": "start"
+          }
+        },
+        "after_hrQQAU": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Pyramide_Jung_mitText.webp",
+            "text": "After",
+            "text_size": "h7",
+            "text_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "before_bXxade",
+        "after_hrQQAU"
+      ],
+      "name": "t:sections.before_after.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "layout": "stacked",
+        "add_comparison_spacing": true,
+        "subheading": "",
+        "title": "Qualitätspyramide",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 88,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
+    "recently_viewed_products_kQKXBW": {
+      "type": "recently-viewed-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "Nochmal ansehen?",
+            "title": "Weine, die Sie zuletzt gesehen haben:",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "custom_css": [
+        ".button {background: #c25f02; color: white;}",
+        ".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"
+      ],
+      "name": "Weine, die zuletzt aufgerufen wurden",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "stack_products": true,
+        "products_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "show_scrolling_bar": true
+      }
+    },
+    "image_with_text_overlay_X7f4DU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_tknmyE": {
+          "type": "heading",
+          "settings": {
+            "text": "Persönliche Weinberatung",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_JTe4Hb": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Wein ist Geschmackssache – und genau deshalb nehmen wir uns Zeit für Ihre Fragen, Wünsche und Vorlieben. Ob per Telefon, E-Mail oder direkt bei uns im Weingut: Wir beraten Sie persönlich, transparent und mit dem Blick fürs Detail. Denn wir möchten, dass Sie genau den Wein finden, der zu Ihnen passt.</p>",
+            "content_width": "md"
+          },
+          "blocks": {}
+        },
+        "button_HANdih": {
+          "type": "button",
+          "name": "t:blocks.button.name",
+          "settings": {
+            "text": "Persönliche Beratung",
+            "url": "shopify://pages/contact",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "#faf4f0",
+            "text_color": "#151213"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_tknmyE",
+        "rich_text_JTe4Hb",
+        "button_HANdih"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/20240605_weingut-jung-vinothek_002_foto_mario-andreya_1_d23e2c93-6a50-44ae-8069-41f73219f066.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "text_with_media_PfMjw9",
+    "before_after_qfqYWc",
+    "recently_viewed_products_kQKXBW",
+    "image_with_text_overlay_X7f4DU"
+  ]
+}
