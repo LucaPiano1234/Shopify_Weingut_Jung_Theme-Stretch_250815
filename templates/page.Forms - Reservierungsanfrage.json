@@ -96,6 +96,21 @@
           },
           "blocks": {}
         },
+        "slideshow_image_slide_tgwqge": {
+          "type": "_slideshow-image-slide",
+          "name": "t:sections.slideshow.blocks.image.name",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Gaesteraum_2014_1.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          },
+          "blocks": {}
+        },
         "slideshow-controls": {
           "type": "_slideshow-controls",
           "static": true,
@@ -108,7 +123,8 @@
       },
       "block_order": [
         "slideshow_image_slide_4QMYzH",
-        "slideshow_image_slide_L97iBh"
+        "slideshow_image_slide_L97iBh",
+        "slideshow_image_slide_tgwqge"
       ],
       "name": "t:sections.slideshow.name",
       "settings": {
