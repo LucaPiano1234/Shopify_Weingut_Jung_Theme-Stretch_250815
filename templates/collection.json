@@ -76,7 +76,6 @@
         },
         "button_UVptEr": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "text": "Zum Entdeckerpaket",
             "url": "shopify://products/kennenlernpaket",
