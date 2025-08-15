@@ -228,7 +228,8 @@
       "step": 1,
       "unit": "sec",
       "label": "t:sections.press.cycle_speed",
-      "default": 6
+      "default": 6,
+      "visible_if": "{{ section.settings.autoplay }}"
     },
     {
       "type": "color",
@@ -262,18 +263,18 @@
           "type": "range",
           "id": "logo_width",
           "label": "t:sections.press.blocks.item.logo_width",
-          "info": "t:sections.press.blocks.item.logo_width_info",
           "min": 20,
           "max": 200,
           "step": 2,
           "unit": "px",
-          "default": 80
+          "default": 80,
+          "visible_if": "{{ section.settings.item_style == 'logo' }}"
         },
         {
           "type": "inline_richtext",
           "id": "author",
           "label": "t:sections.press.blocks.item.author",
-          "info": "t:sections.press.blocks.item.author_info"
+          "visible_if": "{{ section.settings.item_style == 'avatar' }}"
         },
         {
           "type": "inline_richtext",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Сторінка {{ page }}",
@@ -501,6 +510,25 @@
       },
       "banner_content": "Доступ до цього сайту заборонено, оскільки вам менше {{ age }} років.",
       "submit": "Надіслати"
+    },
+    "quick_order_list": {
+      "variants": "Варіанти",
+      "quantity": "Кількість",
+      "price": "Ціна",
+      "total": "Всього",
+      "remove": "Видалити",
+      "volume_pricing_available": "Об'ємні ціни доступні",
+      "minimum_of": "Мінімум: {{ min }}",
+      "maximum_of": "Максимум: {{ max }}",
+      "increment_of": "Приріст: {{ step }}",
+      "view_cart": "Переглянути кошик",
+      "remove_all": "Видалити все",
+      "item_count": {
+        "zero": "{{ count }} одиниць",
+        "one": "{{ count }} одиниця",
+        "other": "{{ count }} одиниці"
+      },
+      "product_subtotal": "Проміжний підсумок"
     }
   }
 }

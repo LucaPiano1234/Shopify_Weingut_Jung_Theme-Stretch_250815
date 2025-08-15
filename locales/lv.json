@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "{{ page }}. lappuse",
@@ -500,6 +509,25 @@
       },
       "banner_content": "Piekļuve šai vietnei ir liegta, jo jums ir mazāk nekā {{ age }} gadi.",
       "submit": "Iesniegt"
+    },
+    "quick_order_list": {
+      "variants": "Varianti",
+      "quantity": "Daudzums",
+      "price": "Cena",
+      "total": "Kopā",
+      "view_cart": "Apskatīt grozu",
+      "minimum_of": "Minimums: {{ min }}",
+      "maximum_of": "Maksimums: {{ max }}",
+      "increment_of": "Palielinājums: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} preces",
+        "one": "{{ count }} prece",
+        "other": "{{ count }} preces"
+      },
+      "product_subtotal": "Produktu starpsumma",
+      "remove": "Noņemt",
+      "remove_all": "Noņemt visu",
+      "volume_pricing_available": "Apjoma cenas pieejamas"
     }
   }
 }

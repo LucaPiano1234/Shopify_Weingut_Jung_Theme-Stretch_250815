@@ -197,7 +197,8 @@
           "label": "t:sections.dynamic_grid.blocks.cell.parallax_direction_options.horizontal"
         }
       ],
-      "default": "vertical"
+      "default": "vertical",
+      "visible_if": "{{ block.settings.parallax_speed != 0 }}"
     }
   ],
   "blocks": [

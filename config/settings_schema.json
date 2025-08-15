@@ -3,7 +3,7 @@
     "name": "theme_info",
     "theme_name": "Stretch",
     "theme_author": "Maestrooo",
-    "theme_version": "1.4.1",
+    "theme_version": "1.6.0",
     "theme_documentation_url": "https://support.maestrooo.com/",
     "theme_support_url": "https://support.maestrooo.com/article/203-contact-us"
   },
@@ -886,7 +886,6 @@
         "type": "select",
         "id": "product_card_info_vertical_alignment",
         "label": "t:theme_settings.product_card.info_vertical_alignment",
-        "info": "t:theme_settings.product_card.info_vertical_alignment_info",
         "options": [
           {
             "value": "start",
@@ -897,7 +896,8 @@
             "label": "t:global.position.bottom"
           }
         ],
-        "default": "end"
+        "default": "end",
+        "visible_if": "{{ settings.product_card_info_position == 'inside' }}"
       },
       {
         "type": "select",
@@ -962,7 +962,8 @@
         "id": "product_card_show_tight_swatches",
         "label": "t:theme_settings.product_card.show_tight_swatches",
         "info": "t:theme_settings.product_card.show_tight_swatches_info",
-        "default": false
+        "default": false,
+        "visible_if": "{{ settings.product_card_show_color_swatches }}"
       },
       {
         "type": "select",
@@ -979,13 +980,13 @@
             "label": "t:theme_settings.product_card.content_position_options.outside"
           }
         ],
-        "default": "outside"
+        "default": "outside",
+        "visible_if": "{{ settings.product_card_show_color_swatches }}"
       },
       {
         "type": "select",
         "id": "product_card_swatches_placement",
         "label": "t:global.position.alignment",
-        "info": "t:theme_settings.product_card.swatches_placement_info",
         "options": [
           {
             "value": "place-self-start",
@@ -1012,7 +1013,8 @@
             "label": "t:global.position.bottom_right"
           }
         ],
-        "default": "place-self-start"
+        "default": "place-self-start",
+        "visible_if": "{{ settings.product_card_show_color_swatches and settings.product_card_swatches_position == 'inside' }}"
       },
       {
         "type": "header",
@@ -1029,7 +1031,8 @@
         "type": "checkbox",
         "id": "product_card_show_rating_if_empty",
         "label": "t:theme_settings.product_card.show_product_rating_if_empty",
-        "default": false
+        "default": false,
+        "visible_if": "{{ settings.product_card_show_rating }}"
       },
       {
         "type": "select",
@@ -1045,7 +1048,8 @@
             "label": "t:theme_settings.product_card.show_product_rating_as_options.count"
           }
         ],
-        "default": "rating"
+        "default": "rating",
+        "visible_if": "{{ settings.product_card_show_rating }}"
       },
       {
         "type": "header",
@@ -1115,7 +1119,8 @@
             "label": "t:theme_settings.product_card.show_discount_as_options.saving"
           }
         ],
-        "default": "saving"
+        "default": "saving",
+        "visible_if": "{{ settings.product_card_show_discount }}"
       },
       {
         "type": "header",
@@ -1240,7 +1245,8 @@
         "label": "t:theme_settings.cart.free_shipping_bar_minimum_amount",
         "placeholder": "t:theme_settings.cart.free_shipping_bar_minimum_amount_placeholder",
         "info": "t:theme_settings.cart.free_shipping_bar_minimum_amount_info",
-        "default": "50"
+        "default": "50",
+        "visible_if": "{{ settings.cart_show_free_shipping_bar }}"
       }
     ]
   },

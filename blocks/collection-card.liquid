@@ -71,14 +71,11 @@
   "name": "t:blocks.collection_card.name",
   "settings": [
     {
-      "type": "paragraph",
-      "content": "t:blocks.collection_card.info"
-    },
-    {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
-      "default": "scheme-3"
+      "default": "scheme-3",
+      "visible_if": "{{ section.settings.content_position == 'inside' }}"
     },
     {
       "type": "collection",

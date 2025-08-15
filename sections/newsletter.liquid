@@ -134,7 +134,6 @@
       "type": "select",
       "id": "image_size",
       "label": "t:global.image.size",
-      "info": "t:sections.newsletter.image_size_info",
       "options": [
         {
           "value": "auto",
@@ -157,14 +156,15 @@
           "label": "t:global.sizes.fit_screen"
         }
       ],
-      "default": "md"
+      "default": "md",
+      "visible_if": "{{ section.settings.image_position == 'background' }}"
     },
     {
       "type": "checkbox",
       "id": "add_image_spacing",
       "label": "t:sections.newsletter.add_image_spacing",
-      "info": "t:sections.newsletter.add_image_spacing_info",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.image_position == 'split' }}"
     },
     {
       "type": "select",
@@ -259,13 +259,14 @@
     {
       "type": "header",
       "content": "t:global.colors.category",
-      "info": "t:sections.newsletter.colors_heading_info"
+      "visible_if": "{{ section.settings.image_position == 'background' }}"
     },
     {
       "type": "color",
       "id": "overlay_color",
       "label": "t:global.colors.image_overlay_color",
-      "default": "#000000"
+      "default": "#000000",
+      "visible_if": "{{ section.settings.image_position == 'background' }}"
     },
     {
       "type": "range",
@@ -275,7 +276,8 @@
       "max": 100,
       "step": 5,
       "unit": "%",
-      "default": 20
+      "default": 20,
+      "visible_if": "{{ section.settings.image_position == 'background' }}"
     }
   ],
   "presets": [

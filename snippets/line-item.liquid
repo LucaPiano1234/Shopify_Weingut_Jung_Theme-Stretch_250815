@@ -105,7 +105,7 @@ Supported variables
     </div>
 
     {%- if show_line_price -%}
-      <div class="v-stack justify-items-end gap-0.5">
+      <div class="v-stack justify-items-end shrink-0 gap-0.5">
         <span class="line-item__line-price subheading">
           {%- if settings.currency_code_enabled -%}
             {{- line_item.final_line_price | money_with_currency -}}
@@ -116,13 +116,7 @@ Supported variables
 
         {%- if line_item.unit_price -%}
           <unit-price class="line-item__unit-line-price subheading text-subdued">
-            {%- assign unit_price_measurement = line_item.unit_price_measurement -%}
-
-            {%- if unit_price_measurement.reference_value != 1 -%}
-              {%- assign reference_value = unit_price_measurement.reference_value -%}
-            {%- endif -%}
-
-            ({{ line_item.unit_price | money }}/{{ reference_value }}{{ unit_price_measurement.reference_unit }})
+            ({{- line_item.unit_price | unit_price_with_measurement: line_item.unit_price_measurement -}})
           </unit-price>
         {%- endif -%}
       </div>

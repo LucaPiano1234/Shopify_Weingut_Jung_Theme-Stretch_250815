@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Sida {{ page }}",
@@ -494,6 +503,25 @@
       },
       "banner_content": "Åtkomst till denna webbplats nekas eftersom du är under {{ age }} år.",
       "submit": "Skicka in"
+    },
+    "quick_order_list": {
+      "variants": "Varianter",
+      "quantity": "Antal",
+      "price": "Pris",
+      "total": "Totalt",
+      "view_cart": "Visa kundvagn",
+      "minimum_of": "Minimalt: {{ min }}",
+      "maximum_of": "Maximalt: {{ max }}",
+      "increment_of": "Ökning: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} artiklar",
+        "one": "{{ count }} artikel",
+        "other": "{{ count }} artiklar"
+      },
+      "product_subtotal": "Produktsumma",
+      "remove": "Ta bort",
+      "remove_all": "Ta bort alla",
+      "volume_pricing_available": "Volymprissättning tillgänglig"
     }
   }
 }

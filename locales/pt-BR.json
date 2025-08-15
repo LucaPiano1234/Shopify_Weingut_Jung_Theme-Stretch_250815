@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Página {{ page }}",
@@ -495,6 +504,25 @@
       },
       "banner_content": "O acesso a este site foi negado porque você tem menos de {{ age }} anos.",
       "submit": "Enviar"
+    },
+    "quick_order_list": {
+      "variants": "Variações",
+      "quantity": "Quantidade",
+      "price": "Preço",
+      "total": "Total",
+      "view_cart": "Ver carrinho",
+      "minimum_of": "Mínimo: {{ min }}",
+      "maximum_of": "Máximo: {{ max }}",
+      "increment_of": "Incremento: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} itens",
+        "one": "{{ count }} item",
+        "other": "{{ count }} itens"
+      },
+      "product_subtotal": "Subtotal do produto",
+      "remove": "Remover",
+      "remove_all": "Remover todos",
+      "volume_pricing_available": "Preços por volume disponíveis"
     }
   }
 }

@@ -143,13 +143,13 @@
           "label": "t:sections.countdown_timer.image_position_options.background"
         }
       ],
-      "default": "split"
+      "default": "split",
+      "visible_if": "{{ section.settings.image != blank }}"
     },
     {
       "type": "select",
       "id": "image_size",
       "label": "t:global.image.size",
-      "info": "t:sections.countdown_timer.image_size_info",
       "options": [
         {
           "value": "auto",
@@ -172,14 +172,15 @@
           "label": "t:global.sizes.fit_screen"
         }
       ],
-      "default": "md"
+      "default": "md",
+      "visible_if": "{{ section.settings.image != blank and section.settings.image_position == 'background' }}"
     },
     {
       "type": "checkbox",
       "id": "add_image_spacing",
       "label": "t:sections.countdown_timer.add_image_spacing",
-      "info": "t:sections.countdown_timer.add_image_spacing_info",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.image != blank and section.settings.image_position == 'split' }}"
     },
     {
       "type": "header",
@@ -356,23 +357,26 @@
     {
       "type": "header",
       "content": "t:sections.countdown_timer.caption_category",
-      "info": "t:sections.countdown_timer.caption_category_info"
+      "visible_if": "{{ section.settings.image != blank and section.settings.image_position == 'split' }}"
     },
     {
       "type": "text",
       "id": "caption_text",
-      "label": "t:global.text.text"
+      "label": "t:global.text.text",
+      "visible_if": "{{ section.settings.image != blank and section.settings.image_position == 'split' }}"
     },
     {
       "type": "checkbox",
       "id": "caption_scrolling",
       "label": "t:sections.countdown_timer.caption_scrolling",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.image != blank and section.settings.image_position == 'split' }}"
     },
     {
       "type": "color",
       "id": "caption_text_color",
-      "label": "t:global.colors.text"
+      "label": "t:global.colors.text",
+      "visible_if": "{{ section.settings.image != blank and section.settings.image_position == 'split' }}"
     },
   ],
   "presets": [

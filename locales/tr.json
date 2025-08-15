@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "{{ page }}. Sayfa",
@@ -498,6 +507,25 @@
       },
       "banner_content": "Bu siteye erişim, {{ age }} yaşından küçük olduğunuz için reddedildi.",
       "submit": "Gönder"
+    },
+    "quick_order_list": {
+      "variants": "Varyantlar",
+      "quantity": "Miktar",
+      "price": "Fiyat",
+      "total": "Toplam",
+      "view_cart": "Sepeti görüntüle",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Artış: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} ürün",
+        "one": "{{ count }} ürün",
+        "other": "{{ count }} ürün"
+      },
+      "product_subtotal": "Ürün ara toplamı",
+      "remove": "Kaldır",
+      "remove_all": "Hepsini kaldır",
+      "volume_pricing_available": "Hacim fiyatlandırması mevcut"
     }
   }
 }

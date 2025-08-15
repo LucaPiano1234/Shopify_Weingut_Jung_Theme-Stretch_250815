@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Sivu {{ page }}",
@@ -499,6 +508,25 @@
       },
       "banner_content": "Pääsy tälle sivustolle on estetty, koska olet alle {{ age }} vuotta vanha.",
       "submit": "Lähetä"
+    },
+    "quick_order_list": {
+      "variants": "Vaihtoehdot",
+      "quantity": "Määrä",
+      "price": "Hinta",
+      "total": "Yhteensä",
+      "view_cart": "Näytä ostoskori",
+      "minimum_of": "Minimi: {{ min }}",
+      "maximum_of": "Maksimi: {{ max }}",
+      "increment_of": "Lisäys: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} tuotetta",
+        "one": "{{ count }} tuote",
+        "other": "{{ count }} tuotetta"
+      },
+      "product_subtotal": "Tuotteiden välisumma",
+      "remove": "Poista",
+      "remove_all": "Poista kaikki",
+      "volume_pricing_available": "Volyymihinnoittelu saatavilla"
     }
   }
 }

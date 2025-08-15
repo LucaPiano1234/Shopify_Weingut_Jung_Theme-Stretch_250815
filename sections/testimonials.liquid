@@ -205,7 +205,8 @@
       "step": 1,
       "unit": "sec",
       "label": "t:sections.testimonials.cycle_speed",
-      "default": 6
+      "default": 6,
+      "visible_if": "{{ section.settings.autoplay }}"
     },
   ],
   "blocks": [
@@ -341,7 +342,8 @@
               "label": "t:global.position.bottom_right"
             }
           ],
-          "default": "place-self-start"
+          "default": "place-self-start",
+          "visible_if": "{{ block.settings.image != blank }}"
         }
       ]
     }

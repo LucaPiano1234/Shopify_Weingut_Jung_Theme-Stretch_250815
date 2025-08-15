@@ -38,13 +38,23 @@
             </template>
 
             {%- for block in section.blocks -%}
-              <button class="{% if section.settings.tabs_icon != 'none' %}text-indent text-indent--{{ section.settings.tabs_icon }}{% endif %} h4 sm:h3" role="tab" slot="tab" aria-controls="collection-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" {{ block.shopify_attributes }}>
+              {%- capture tab_title -%}
                 {%- if section.settings.tabs_icon == 'arrow' -%}
                   {%- render 'icon' with 'big-arrow-right', stroke_width: 3, direction_aware: true -%}
                 {%- endif -%}
 
                 <span {% if section.blocks.size == 1 and section.settings.tabs_alignment == 'center' %}class="text-center"{% endif %}>{{- block.settings.title | default: block.settings.collection.title | default: 'Collection' -}}</span>
-              </button>
+              {%- endcapture -%}
+
+              {%- if section.blocks.size > 1-%}
+                <button class="{% if section.settings.tabs_icon != 'none' %}text-indent text-indent--{{ section.settings.tabs_icon }}{% endif %} h4 sm:h3" role="tab" slot="tab" aria-controls="collection-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" {{ block.shopify_attributes }}>
+                  {{- tab_title -}}
+                </button>
+              {%- else -%}
+                <div class="{% if section.settings.tabs_icon != 'none' %}text-indent text-indent--{{ section.settings.tabs_icon }}{% endif %} h4 sm:h3" role="tab" slot="tab" aria-selected="true" {{ block.shopify_attributes }}>
+                  {{- tab_title -}}
+                </div>
+              {%- endif -%}
             {%- endfor -%}
           </featured-collections-tabs>
 

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Side {{ page }}",
@@ -499,6 +508,25 @@
       },
       "banner_content": "Adgang til dette websted er nægtet, fordi du er under {{ age }} år gammel.",
       "submit": "Indsend"
+    },
+    "quick_order_list": {
+      "variants": "Varianter",
+      "quantity": "Antal",
+      "price": "Pris",
+      "total": "I alt",
+      "view_cart": "Vis kurv",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Forøgelse: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} varer",
+        "one": "{{ count }} vare",
+        "other": "{{ count }} varer"
+      },
+      "product_subtotal": "Produkt subtotal",
+      "remove": "Fjern",
+      "remove_all": "Fjern alle",
+      "volume_pricing_available": "Mængderabat tilgængelig"
     }
   }
 }

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "페이지 {{ page }}",
@@ -488,6 +497,25 @@
       },
       "banner_content": "귀하는 {{ age }}세 미만이므로 이 사이트에 액세스할 수 없습니다.",
       "submit": "입력"
+    },
+    "quick_order_list": {
+      "variants": "옵션",
+      "quantity": "수량",
+      "price": "가격",
+      "total": "합계",
+      "view_cart": "장바구니 보기",
+      "minimum_of": "최소: {{ min }}",
+      "maximum_of": "최대: {{ max }}",
+      "increment_of": "증가: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} 개",
+        "one": "{{ count }} 개",
+        "other": "{{ count }} 개"
+      },
+      "product_subtotal": "제품 소계",
+      "remove": "제거",
+      "remove_all": "모두 제거",
+      "volume_pricing_available": "대량 구매 가능"
     }
   }
 }

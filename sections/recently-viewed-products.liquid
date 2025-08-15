@@ -138,7 +138,8 @@
       "id": "show_scrolling_bar",
       "label": "t:global.product_list.show_scrolling_bar",
       "info": "t:global.product_list.show_scrolling_bar_info",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.stack_products == false }}"
     }
   ],
   "presets": [

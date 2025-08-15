@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "{{ page }} psl.",
@@ -507,6 +516,25 @@
       },
       "banner_content": "Prieiga prie šios svetainės draudžiama, nes jums dar nėra {{ age }} metų.",
       "submit": "Pateikti"
+    },
+    "quick_order_list": {
+      "variants": "Variantai",
+      "quantity": "Kiekis",
+      "price": "Kaina",
+      "total": "Viso",
+      "view_cart": "Peržiūrėti krepšelį",
+      "minimum_of": "Minimalus: {{ min }}",
+      "maximum_of": "Maksimalus: {{ max }}",
+      "increment_of": "Pridėjimas: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} prekės",
+        "one": "{{ count }} prekė",
+        "other": "{{ count }} prekės"
+      },
+      "product_subtotal": "Produktų tarpinė suma",
+      "remove": "Pašalinti",
+      "remove_all": "Pašalinti viską",
+      "volume_pricing_available": "Kiekio kainodara prieinama"
     }
   }
 }

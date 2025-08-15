@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Pagina {{ page }}",
@@ -499,6 +508,25 @@
       },
       "banner_content": "De toegang tot deze site is geweigerd omdat je jonger bent dan {{ age }} jaar.",
       "submit": "Verzenden"
+    },
+    "quick_order_list": {
+      "variants": "Varianten",
+      "quantity": "Aantal",
+      "price": "Prijs",
+      "total": "Totaal",
+      "view_cart": "Bekijk winkelwagen",
+      "minimum_of": "Minimaal: {{ min }}",
+      "maximum_of": "Maximaal: {{ max }}",
+      "increment_of": "Incrementeel: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} items",
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      },
+      "product_subtotal": "Product subtotaal",
+      "remove": "Verwijderen",
+      "remove_all": "Verwijder alles",
+      "volume_pricing_available": "Volumekorting beschikbaar"
     }
   }
 }

@@ -21,8 +21,8 @@ Supported variables
 {%- capture id_prefix -%}facets-{{ form_id }}{%- endcapture -%}
 
 <facets-form {% if update_on_change %}update-on-change{% endif %} section-id="{{ section.id }}">
-  <form id="{{ form_id }}" method="GET" action="{{ request.path }}" class="facets">
-    {%- render 'active-facets', source: collection -%}
+  <form id="{{ form_id }}" method="GET" action="{{ request.path }}" class="facets" {% if hash %}scroll-to="{{ hash }}"{% endif %}>
+    {%- render 'active-facets', source: collection, hash: hash -%}
 
     {%- comment -%}We always reset to the first page so that when criteria change, the page is restored to the first one{%- endcomment -%}
     <input type="hidden" name="page" value="">
