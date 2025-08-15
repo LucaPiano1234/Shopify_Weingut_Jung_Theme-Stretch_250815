@@ -173,6 +173,49 @@
                         {% endif %}
 
                       {%- when 'checkout_button' -%}
+
+                        <!-- Hinweis zur Mengenregel -->
+                        <p id="cart-quantity-warning" style="color: red; font-weight: bold; margin-bottom: 10px;">
+                          Bitte beachten Sie, dass die Anzahl der enthaltenen Flaschen in Ihrer Bestellung durch 6 teilbar ist. 
+                          Nur so können wir einen sicheren Versand gewährleisten.
+                        </p>
+
+                        <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                          function checkCartRule() {
+                            let totalQty = 0;
+                            document.querySelectorAll('[name="updates[]"]').forEach(function(input) {
+                              totalQty += parseInt(input.value) || 0;
+                            });
+
+                            let checkoutBtn = document.querySelector('[name="checkout"]');
+                            let warningText = document.getElementById('cart-quantity-warning');
+
+                            if (checkoutBtn) {
+                              if (totalQty % 6 !== 0) {
+                                checkoutBtn.disabled = true;
+                                checkoutBtn.style.opacity = "0.5";
+                                checkoutBtn.style.cursor = "not-allowed";
+                                checkoutBtn.title = "Die Gesamtanzahl muss durch 6 teilbar sein.";
+                                warningText.style.display = "block";
+                              } else {
+                                checkoutBtn.disabled = false;
+                                checkoutBtn.style.opacity = "1";
+                                checkoutBtn.style.cursor = "pointer";
+                                checkoutBtn.title = "";
+                                warningText.style.display = "none";
+                              }
+                            }
+                          }
+
+                          checkCartRule();
+
+                          document.querySelectorAll('[name="updates[]"]').forEach(function(input) {
+                            input.addEventListener('change', checkCartRule);
+                          });
+                        });
+                        </script>
+
                         {%- assign checkout_button = 'cart.general.checkout' | t -%}
                         {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true, form: 'cart-main-form', block: block -%}
 
@@ -255,16 +298,7 @@
     },
     {
       "type": "cart_note",
-      "name": "t:sections.main_cart.blocks.cart_note.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "checkbox",
-          "id": "open_by_default",
-          "label": "t:sections.main_cart.blocks.cart_note.open_by_default",
-          "default": false
-        }
-      ]
+      "name": "t:sections.main_cart.blocks.cart_note.name"
     },
     {
       "type": "text",
@@ -273,35 +307,25 @@
         {
           "type": "richtext",
           "id": "text",
-          "label": "t:global.text.text"
+          "label": "t:sections.main_cart.blocks.text.text"
         }
       ]
-    },
-    {
-      "type": "checkout_button",
-      "name": "t:sections.main_cart.blocks.checkout_button.name",
-      "limit": 1
     },
     {
       "type": "accelerated_buttons",
-      "name": "t:sections.main_cart.blocks.accelerated_buttons.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:sections.main_cart.blocks.accelerated_buttons.configure_paragraph"
-        }
-      ]
+      "name": "t:sections.main_cart.blocks.accelerated_buttons.name"
+    },
+    {
+      "type": "checkout_button",
+      "name": "t:sections.main_cart.blocks.checkout_button.name"
     },
     {
       "type": "terms_of_service",
-      "name": "t:sections.main_cart.blocks.terms_of_service.name",
-      "limit": 1
+      "name": "t:sections.main_cart.blocks.terms_of_service.name"
     },
     {
       "type": "payment_methods",
-      "name": "t:sections.main_cart.blocks.payment_methods.name",
-      "limit": 1
+      "name": "t:sections.main_cart.blocks.payment_methods.name"
     }
   ]
 }
