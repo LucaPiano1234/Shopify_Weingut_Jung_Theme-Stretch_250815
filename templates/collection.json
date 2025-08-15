@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "allow_transparent_header": true,
@@ -77,8 +78,8 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "text": "Button text",
-            "url": "",
+            "text": "Zum Entdeckerpaket",
+            "url": "shopify://products/kennenlernpaket",
             "position": "bottom_left",
             "style": "solid",
             "background": "",
