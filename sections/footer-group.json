@@ -170,7 +170,7 @@
         "links_84bKny": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "footer-sonstiges",
             "collapse_on_mobile": true,
             "show_menu_title": true,
             "menu_title": "Sonstiges"
