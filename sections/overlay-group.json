@@ -46,14 +46,15 @@
       ],
       "settings": {
         "color_scheme": "",
-        "apparition_delay": 13,
+        "apparition_delay": 15,
         "show_only_on_index": false,
         "hide_for_account_holders": true,
         "show_only_once": true,
+        "image": "shopify://shop_images/20220427_weingut-jung-familie_06_eeda6d6a-d12f-4d9e-9290-45caa80ee4e5.png",
         "title": "Post von Jung: Wein, Herz und echte Einblicke – jetzt 10 % Rabatt genießen!",
         "button_text": "",
-        "content": "Wir teilen, was uns bewegt: neue Weine, besondere Angebote und echte Momente aus dem Weingutsleben. <strong>ZUR NEWSLETTER ANMELDUNG</strong>",
-        "conditions": ""
+        "content": "Wir teilen, was uns bewegt: neue Weine, besondere Angebote und echte Momente aus dem Weingutsleben.",
+        "conditions": "<strong>→ ZUR NEWSLETTER ANMELDUNG</strong>"
       }
     }
   },
