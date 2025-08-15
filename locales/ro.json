@@ -500,6 +500,25 @@
       },
       "banner_content": "Accesul la acest site este refuzat deoarece aveți mai puțin de {{ age }} ani.",
       "submit": "Trimite"
+    },
+    "quick_order_list": {
+      "variants": "Variante",
+      "quantity": "Cantitate",
+      "price": "Preț",
+      "total": "Total",
+      "view_cart": "Vezi coșul",
+      "minimum_of": "Minim: {{ min }}",
+      "maximum_of": "Maxim: {{ max }}",
+      "increment_of": "Increment: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} articole",
+        "one": "{{ count }} articol",
+        "other": "{{ count }} articole"
+      },
+      "product_subtotal": "Subtotal produse",
+      "remove": "Șterge",
+      "remove_all": "Șterge tot",
+      "volume_pricing_available": "Prețuri de volum disponibile"
     }
   }
 }

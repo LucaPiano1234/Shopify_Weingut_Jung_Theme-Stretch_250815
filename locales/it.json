@@ -494,6 +494,25 @@
       },
       "banner_content": "L'accesso a questo sito è negato perché hai meno di {{ age }} anni.",
       "submit": "Invia"
+    },
+    "quick_order_list": {
+      "variants": "Varianti",
+      "quantity": "Quantità",
+      "price": "Prezzo",
+      "total": "Totale",
+      "view_cart": "Visualizza carrello",
+      "minimum_of": "Minimo: {{ min }}",
+      "maximum_of": "Massimo: {{ max }}",
+      "increment_of": "Incremento: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} articoli",
+        "one": "{{ count }} articolo",
+        "other": "{{ count }} articoli"
+      },
+      "product_subtotal": "Subtotale prodotti",
+      "remove": "Rimuovi",
+      "remove_all": "Rimuovi tutto",
+      "volume_pricing_available": "Prezzi per volume disponibili"
     }
   }
 }

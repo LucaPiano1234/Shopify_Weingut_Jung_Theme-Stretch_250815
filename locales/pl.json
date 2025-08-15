@@ -512,6 +512,25 @@
       },
       "banner_content": "Dostęp do tej strony został odrzucony, ponieważ masz mniej niż {{ age }} lat.",
       "submit": "Prześlij"
+    },
+    "quick_order_list": {
+      "variants": "Warianty",
+      "quantity": "Ilość",
+      "price": "Cena",
+      "total": "Razem",
+      "view_cart": "Zobacz koszyk",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Przyrost: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} przedmiotów",
+        "one": "{{ count }} przedmiot",
+        "other": "{{ count }} przedmioty"
+      },
+      "product_subtotal": "Suma częściowa produktów",
+      "remove": "Usuń",
+      "remove_all": "Usuń wszystko",
+      "volume_pricing_available": "Ceny hurtowe dostępne"
     }
   }
 }

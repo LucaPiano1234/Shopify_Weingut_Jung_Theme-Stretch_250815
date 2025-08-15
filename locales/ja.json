@@ -488,6 +488,25 @@
       },
       "banner_content": "このサイトへのアクセスは、{{ age }}歳未満であるため拒否されました。",
       "submit": "送信"
+    },
+    "quick_order_list": {
+      "variants": "バリエーション",
+      "quantity": "数量",
+      "price": "価格",
+      "total": "合計",
+      "view_cart": "カートを見る",
+      "minimum_of": "最小: {{ min }}",
+      "maximum_of": "最大: {{ max }}",
+      "increment_of": "増加: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} 点",
+        "one": "{{ count }} 点",
+        "other": "{{ count }} 点"
+      },
+      "product_subtotal": "商品小計",
+      "remove": "削除",
+      "remove_all": "すべて削除",
+      "volume_pricing_available": "ボリューム価格が利用可能"
     }
   }
 }

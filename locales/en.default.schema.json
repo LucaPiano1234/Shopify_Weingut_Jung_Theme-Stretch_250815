@@ -150,6 +150,7 @@
       "position": "Position",
       "mobile_position": "Mobile position",
       "content_position": "Content position",
+      "desktop_product_list_position": "Desktop product list position",
       "desktop_content_position": "Desktop content position",
       "mobile_content_position": "Mobile content position"
     },
@@ -248,7 +249,6 @@
       "desktop_icon_width": "Desktop icon width",
       "mobile_icon_width": "Mobile icon width",
       "stroke_width": "Icon thickness",
-      "stroke_width_info": "Ignored for custom icons.",
       "icon_options": {
         "none": "None",
         "shopping_and_products_category": "Shopping & products",
@@ -496,7 +496,6 @@
         "outside": "Outside image"
       },
       "info_vertical_alignment": "Vertical alignment",
-      "info_vertical_alignment_info": "Only used for \"Inside image\" position.",
       "info_horizontal_alignment": "Horizontal alignment",
       "product_title_max_lines": "Title maximum lines (0 to never truncate)",
       "when_price_varies": "When price varies...",
@@ -509,7 +508,6 @@
       "show_tight_swatches": "Show tight swatches",
       "show_tight_swatches_info": "Shape is forced to circle when enabled.",
       "product_card_swatches_position_info": "\"Outside image\" is ignored when product info content is set to \"Inside image\" position.",
-      "swatches_placement_info": "Only used for \"Inside image\" position.",
       "rating_category": "Product rating",
       "rating_category_info": "To display a rating, add a product rating app. [Learn more](https://apps.shopify.com/categories/store-design-social-proof-product-reviews)",
       "show_product_rating": "Show product rating",
@@ -632,7 +630,6 @@
     },
     "collection_card": {
       "name": "Collection card",
-      "info": "Color scheme is only used when content is positioned inside the image, otherwise the section's color scheme is used.",
       "collection": "Collection",
       "image_size_recommendation": "1400 x 1600px .jpg recommended. Default to the collection image."
     },
@@ -642,6 +639,13 @@
   },
   "sections": {
     "age_verifier_popup": {
+      "verification_type": "Verification type",
+      "verification_type_options": {
+        "date": "Birth date",
+        "button": "Button"
+      },
+      "confirm_button_label": "Confirm button label",
+      "decline_button_label": "Decline button label",
       "logo_category": "Logo",
       "logo_size_recommendation": "280 x 80px .png recommended",
       "show_age_verifier_info": "The date format automatically adjusts to match the preferred order commonly used in the customer's country.",
@@ -703,7 +707,6 @@
         "stacked": "Stacked"
       },
       "add_image_spacing": "Add image spacing",
-      "add_image_spacing_info": "Only applicable in split layout.",
       "colors_category_info": "Override color scheme and connect metafields to have per-blog post colors."
     },
     "blog_post_prev_next": {
@@ -790,7 +793,6 @@
       "image_size_recommendation": "2500 x 900px .jpg recommended. Default to the collection image.",
       "show_description": "Show collection description",
       "overlay_category": "Overlay",
-      "overlay_category_info": "Those settings are ignored in plain mode.",
       "background_color_scheme": "Background image scheme",
       "quick_navigation_category": "Quick navigation",
       "quick_navigation_menu": "Menu",
@@ -810,7 +812,6 @@
       "name": "Contact form",
       "image_size_recommendation": "2000 x 2000px .jpg recommended",
       "add_image_spacing": "Add image spacing",
-      "add_image_spacing_info": "Only applicable in split layout.",
       "show_social_media": "Show social media",
       "show_social_media_info": "Configure your social links in your [brand settings](/admin/settings/branding) or your theme social media settings.",
       "blocks": {
@@ -841,14 +842,12 @@
         "split": "Split",
         "background": "Background"
       },
-      "image_size_info": "Only for \"background\" mode.",
       "layout": "Layout",
       "layout_options": {
         "center": "Center",
         "split": "Split"
       },
       "add_image_spacing": "Add image spacing",
-      "add_image_spacing_info": "Only applicable in split layout.",
       "content_category": "Content",
       "timer_category": "Timer",
       "expiration_date": "Expiration date",
@@ -866,7 +865,6 @@
       "button_category": "Button",
       "connect_button_with_heading": "Connect with heading",
       "caption_category": "Image caption",
-      "caption_category_info": "Only applicable in split layout. Requires an image.",
       "caption_scrolling": "Scrolling text"
     },
     "custom_liquid": {
@@ -949,7 +947,7 @@
           "name": "Links",
           "menu": "Menu",
           "menu_info": "This menu won't show dropdown items.",
-          "collapse_on_mobile": "Collapse en mobile",
+          "collapse_on_mobile": "Collapse on mobile",
           "show_menu_title": "Show menu title",
           "menu_title": "Title",
           "menu_title_info": "Replaces default menu title"
@@ -963,7 +961,6 @@
           "name": "Scrolling/big logo",
           "info": "To show this block before the footer main content, move this block to the first position. For best results, upload a horizontal logo.",
           "layout": "Layout",
-          "layout_info": "When full width is selected, widths settings are ignored.",
           "layout_options": {
             "scrolling": "Scrolling",
             "full_width": "Full width"
@@ -1033,7 +1030,7 @@
           "promo_text_color_info": "Ignored if promo block has spacing.",
           "promo_text_alignment": "Text alignment",
           "promo_product": "Product",
-          "promo_product_info": "When a product is selected, the info will be pulled from the product. Heading, text and links are ignored, but image can be replaced.",
+          "promo_product_info": "When a product is selected, the info will be pulled from the product. Only the image can be replaced.",
           "promo_1": "Promo 1",
           "promo_2": "Promo 2",
           "promo_3": "Promo 3",
@@ -1092,14 +1089,11 @@
         "reveal": "Reveal image"
       },
       "show_dividers": "Show dividers",
-      "show_dividers_info": "Ignored in list mode.",
       "change_colors_on_hover": "Change colors on hover",
-      "change_colors_on_hover_info": "Ignored in reveal image layout.",
       "blocks": {
         "link": {
           "name": "Link",
           "image_size_recommendation": "1000 x 1000px .jpg recommended",
-          "colors_category_info": "Ignored in reveal image layout.",
           "background_hover": "Background on hover",
           "text_color_hover": "Text color on hover"
         }
@@ -1327,7 +1321,6 @@
       "name": "Product page",
       "allow_transparent_header_info": "When enabled, horizontal spacing is removed. For best results, avoid this option for product media with busy backgrounds.",
       "add_top_spacing": "Add spacing between header",
-      "add_top_spacing_info": "Ignored when header is transparent.",
       "show_sticky_add_to_cart": "Show sticky add to cart",
       "product_media_size": "Product media width (desktop)",
       "media_category": "Media",
@@ -1394,7 +1387,6 @@
         },
         "description": {
           "name": "Description",
-          "instructions": "Uppercase and icon settings are ignored unless content is collapsed.",
           "collapse_content": "Collapse content"
         },
         "variant_picker": {
@@ -1453,16 +1445,13 @@
           "required": "Required",
           "required_info": "If required, the customer must write a text (for text property) or tick the box (for checkbox property) to add to the cart.",
           "text_type_category": "Text",
-          "text_type_category_info": "Only applicable for line item property of type Text.",
           "text_placeholder": "Placeholder",
           "text_type_allow_long_text": "Allow long text",
           "text_type_max_length": "Maximum number of characters",
           "checkbox_type_category": "Checkbox",
-          "checkbox_type_category_info": "Only applicable for line item property of type Checkbox.",
           "checkbox_value": "Value",
           "checkbox_value_info": "Appears on the order when checked.",
           "dropdown_type_category": "Dropdown",
-          "dropdown_type_category_info": "Only applicable for line item property of type Dropdown.",
           "dropdown_values": "Values",
           "dropdown_values_info": "Separate each values by a comma."
         },
@@ -1659,9 +1648,7 @@
         "split": "Split",
         "background": "Background"
       },
-      "image_size_info": "Only for \"background\" mode.",
       "add_image_spacing": "Add image spacing",
-      "add_image_spacing_info": "Only for \"Split\" image position.",
       "icon": "Icon",
       "icon_options": {
         "none": "None",
@@ -1669,8 +1656,7 @@
         "plane": "Plane",
         "inbox": "Inbox"
       },
-      "privacy_policy_text": "Privacy policy text",
-      "colors_heading_info": "Only used in background mode."
+      "privacy_policy_text": "Privacy policy text"
     },
     "newsletter_popup": {
       "name": "Newsletter popup",
@@ -1706,9 +1692,7 @@
           "name": "Item",
           "image_size_recommendation": "200 x 40px .png recommended for logo, 400 x 400px .jpg recommended for avatar.",
           "logo_width": "Logo width",
-          "logo_width_info": "Only applies when image style is set to \"Logo\".",
           "author": "Author",
-          "author_info": "Only applies when image style is set to \"Avatar\".",
           "content_info": "For best results, keep the content length consistent between blocks."
         }
       }
@@ -1722,7 +1706,6 @@
       "mobile_category": "Mobile",
       "products_layout": "Products layout",
       "products_per_row": "Products per row",
-      "products_per_row_info": "Only for grid layout",
       "products_layout_options": {
         "grid": "Grid",
         "carousel": "Carousel"
@@ -1744,6 +1727,15 @@
           "name": "Button"
         }
       }
+    },
+    "quick_order_list": {
+      "name": "Quick order list",
+      "description": "Let your customers (such as B2B customers) add multiple variants to the cart at once. [Learn more](https://help.shopify.com/en/manual/orders/create-orders#add-products-to-an-order)",
+      "show_only_to_b2b_customers": "Show only to B2B customers",
+      "hide_on_mobile": "Hide on mobile",
+      "table_list_category": "Table list",
+      "show_image": "Show image",
+      "show_sku": "Show SKU"
     },
     "reading_text": {
       "name": "Reading text",
@@ -1959,13 +1951,10 @@
       "name": "Specifications",
       "image_size_recommendation": "2000 x 2000px .jpg recommended",
       "add_image_spacing": "Add image spacing",
-      "add_image_spacing_info": "Only for \"Split\" image position.",
       "image_position": "Image position",
-      "image_position_info": "Only when layout is set to \"Split\".",
       "attributes_category": "Attributes",
       "collapse_attributes": "Collapse attributes",
       "show_attribute_icon_on_top": "Show attribute icon on top",
-      "show_attribute_icon_on_top_info": "Ignored if attributes are collapsed.",
       "uppercase_attribute_title": "Uppercase attribute title",
       "blocks": {
         "attribute": {

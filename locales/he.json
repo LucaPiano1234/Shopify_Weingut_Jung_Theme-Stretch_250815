@@ -499,6 +499,25 @@
       },
       "banner_content": "הגישה לאתר זה נחסמה מכיוון שאתה מתחת לגיל {{ age }}.",
       "submit": "שלח"
+    },
+    "quick_order_list": {
+      "variants": "וריאציות",
+      "quantity": "כמות",
+      "price": "מחיר",
+      "total": "סך הכל",
+      "view_cart": "הצג עגלה",
+      "minimum_of": "מינימום: {{ min }}",
+      "maximum_of": "מקסימום: {{ max }}",
+      "increment_of": "עלייה: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} פריטים",
+        "one": "{{ count }} פריט",
+        "other": "{{ count }} פריטים"
+      },
+      "product_subtotal": "סכום ביניים למוצרים",
+      "remove": "הסר",
+      "remove_all": "הסר הכל",
+      "volume_pricing_available": "תמחור לפי נפח זמין"
     }
   }
 }

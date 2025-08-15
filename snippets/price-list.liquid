@@ -88,6 +88,7 @@ Supported variables
     LINE ITEM CASE (used on cart, order page...)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
+
     <sale-price class="{% if line_item.original_price > line_item.final_price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
       <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
 
@@ -129,15 +130,15 @@ Supported variables
         assign variant_price = variant.price | money
         assign variant_compare_at_price = variant.compare_at_price | money
       endif
+
+      assign is_variant_on_sale = false
+
+      if variant.price < variant.compare_at_price
+        assign is_variant_on_sale = true
+      endif
     -%}
 
     {%- if product.price_varies -%}
-      {%- assign is_variant_on_sale = false -%}
-
-      {%- if variant.price < variant.compare_at_price -%}
-        {%- assign is_variant_on_sale = true -%}
-      {%- endif -%}
-
       {%- if settings.product_card_price_strategy == 'from_price' -%}
         <sale-price class="{% if is_variant_on_sale %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
           <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
@@ -156,7 +157,7 @@ Supported variables
       </sale-price>
     {%- endif -%}
 
-    {%- if variant.price < variant.compare_at_price -%}
+    {%- if is_variant_on_sale -%}
       <compare-at-price class="{{ compare_at_price_classes }}">
         <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
         {{- variant_compare_at_price -}}
@@ -185,13 +186,7 @@ Supported variables
 
     {%- if unit_price_item.unit_price -%}
       <unit-price class="{{ unit_price_classes }}">
-        {%- assign unit_price_measurement = unit_price_item.unit_price_measurement -%}
-
-        {%- if unit_price_measurement.reference_value != 1 -%}
-          {%- assign reference_value = unit_price_measurement.reference_value -%}
-        {%- endif -%}
-
-        ({{ unit_price_item.unit_price | money }}/{{ reference_value }}{{ unit_price_measurement.reference_unit }})
+        ({{- unit_price_item.unit_price | unit_price_with_measurement: unit_price_item.unit_price_measurement -}})
       </unit-price>
     {%- endif -%}
   {%- endunless -%}

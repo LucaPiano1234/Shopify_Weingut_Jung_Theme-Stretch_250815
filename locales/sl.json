@@ -515,6 +515,25 @@
       },
       "banner_content": "Dostop do tega spletnega mesta je zavrnjen, ker ste mlajši od {{ age }} let.",
       "submit": "Pošlji"
+    },
+    "quick_order_list": {
+      "variants": "Različice",
+      "quantity": "Količina",
+      "price": "Cena",
+      "total": "Skupaj",
+      "view_cart": "Ogled košarice",
+      "minimum_of": "Najmanj: {{ min }}",
+      "maximum_of": "Največ: {{ max }}",
+      "increment_of": "Povečanje: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} izdelkov",
+        "one": "{{ count }} izdelek",
+        "other": "{{ count }} izdelki"
+      },
+      "product_subtotal": "Delna vsota izdelkov",
+      "remove": "Odstrani",
+      "remove_all": "Odstrani vse",
+      "volume_pricing_available": "Količinski popust na voljo"
     }
   }
 }

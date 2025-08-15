@@ -147,7 +147,6 @@
       "type": "select",
       "id": "layout",
       "label": "t:global.layout.layout",
-      "info": "t:global.layout.layout_info",
       "options": [
         {
           "value": "split",
@@ -158,14 +157,15 @@
           "label": "t:global.layout.layout_options.stacked"
         }
       ],
-      "default": "stacked"
+      "default": "stacked",
+      "visible_if": "{{ section.settings.image == blank }}"
     },
     {
       "type": "checkbox",
       "id": "add_image_spacing",
       "label": "t:sections.contact.add_image_spacing",
-      "info": "t:sections.contact.add_image_spacing_info",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.image != blank or section.settings.layout == 'split' }}"
     },
     {
       "type": "inline_richtext",

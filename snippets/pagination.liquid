@@ -39,7 +39,7 @@ Supported variables
       {%- if part.is_link -%}
         {%- if facet -%}
           <facet-link>
-            <a href="{{ part.url }}" class="pagination__link subheading">{{ part.title }}</a>
+            <a href="{{ part.url }}{{ hash }}" class="pagination__link subheading">{{ part.title }}</a>
           </facet-link>
         {%- else -%}
           <a href="{{ part.url }}" class="pagination__link subheading">{{ part.title }}</a>

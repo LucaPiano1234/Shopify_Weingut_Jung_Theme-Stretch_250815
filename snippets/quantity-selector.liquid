@@ -17,7 +17,7 @@ Supported variables
                use a quantity of zero if nothing is in the cart yet.
 {%- endcomment -%}
 
-<quantity-selector class="quantity-selector {% if line_item != blank %}quantity-selector--line-item{% endif %}">
+<quantity-selector class="quantity-selector {% if line_item != blank %}quantity-selector--line-item{% endif %}" {% if quick_order %}allow-reset-to-zero{% endif %}>
   {%- liquid
     assign max_quantity = ''
     assign variant = line_item.variant | default: variant
@@ -61,10 +61,14 @@ Supported variables
 
   <quantity-input class="contents">
     <input class="quantity-selector__input subheading" type="number" value="{{ quantity_value }}" name="{% if line_item != blank %}updates[]{% else %}quantity{% endif %}" inputmode="numeric" step="{{ variant.quantity_rule.increment }}" min="{{ variant.quantity_rule.min }}" {% if max_quantity != blank %}max="{{ max_quantity }}"{% endif %} {% if form %}form="{{ form }}"{% endif %} {% if line_item != blank %}data-line-key="{{ line_item.key }}"{% endif %} aria-label="{{ 'product.quantity.change_quantity' | t | escape }}">
+
+    {%- if show_spinner -%}
+      {%- render 'icon' with 'spinner', class: 'visibility-hidden' -%}
+    {%- endif -%}
   </quantity-input>
 
   {%- if line_item == blank or max_quantity != blank and line_item.quantity >= max_quantity -%}
-    <button type="button" class="quantity-selector__button" {% if line_item != blank %}disabled data-tooltip="{{ 'product.quantity.cannot_add_more' | t | escape }}"{% endif %}>
+    <button type="button" class="quantity-selector__button" {% if line_item != blank or max_quantity == quantity_value %}disabled data-tooltip="{{ 'product.quantity.cannot_add_more' | t | escape }}"{% endif %}>
       <span class="sr-only">{{ 'product.quantity.increase_quantity' | t }}</span>
       {%- render 'icon' with 'quantity-plus' -%}
     </button>

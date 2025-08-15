@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class="collection">
+    <div id="collection" class="collection">
       <div class="collection__toolbar">
         <x-tabs class="collection__resource-tab-list">
           <template shadowrootmode="open">
@@ -122,17 +122,17 @@
                         <p>{{ 'collection.faceting.no_results' | t }}</p>
         
                         {%- assign button_content = 'collection.faceting.clear_filters' | t -%}
-                        {%- assign search_url = routes.search_url | append: '?q=' | append: search.terms -%}
+                        {%- assign search_url = routes.search_url | append: '?q=' | append: search.terms | append: '#collection' -%}
                         {%- render 'button', href: search_url, is: 'facet-link', content: button_content -%}
                       </div>
                     </div>
                   {%- else -%}
                     <div class="collection__results">
-                      {%- render 'active-facets', source: search -%}
+                      {%- render 'active-facets', source: search, hash: '#collection' -%}
                       {%- render 'product-list', products: search.results, allow_highlight: false -%}
                     </div>
         
-                    {%- render 'pagination', paginate: paginate, facet: true -%}
+                    {%- render 'pagination', paginate: paginate, facet: true, hash: '#collection' -%}
                   {%- endif -%}
                 {%- endpaginate -%}
         
@@ -206,7 +206,8 @@ on desktop based on the settings
       show_sort_by: section.settings.show_sort_by, 
       open_filters_by_default: section.settings.open_filters_by_default, 
       swatch_selector_size: section.settings.swatch_selector_size, 
-      update_on_change: false, 
+      update_on_change: false,
+      scroll_to: '#collection',
       form_id: 'facets-drawer-form' 
     -%}
 

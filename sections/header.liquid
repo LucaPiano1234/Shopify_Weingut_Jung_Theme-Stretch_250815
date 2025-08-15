@@ -88,7 +88,9 @@
         {%- capture widths -%}{{ section.settings.logo_max_width | times: 2 | at_most: section.settings.logo.width }}, {{ section.settings.logo_max_width | times: 3 | at_most: section.settings.logo.width }}{%- endcapture -%}
 
         <span class="sr-only">{{ shop.name }}</span>
-        {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image' -}}
+
+        {%- assign alt_text = section.settings.logo.alt | default: shop.name -%}
+        {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, alt: alt_text, class: 'header__logo-image' -}}
 
         {%- if section.settings.transparent_logo -%}
           {{- section.settings.transparent_logo | image_url: width: section.settings.transparent_logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image header__logo-image--transparent' -}}
@@ -560,13 +562,15 @@
       "type": "checkbox",
       "id": "show_country_name",
       "label": "t:global.localization.show_country_name",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.show_country_selector }}"
     },
     {
       "type": "checkbox",
       "id": "show_country_flag",
       "label": "t:global.localization.show_country_flag",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.show_country_selector }}"
     },
     {
       "type": "header",
@@ -716,17 +720,20 @@
         {
           "type": "text",
           "id": "promo_1_heading",
-          "label": "t:global.text.heading"
+          "label": "t:global.text.heading",
+          "visible_if": "{{ block.settings.promo_1_product == blank }}"
         },
         {
           "type": "text",
           "id": "promo_1_text",
-          "label": "t:global.text.text"
+          "label": "t:global.text.text",
+          "visible_if": "{{ block.settings.promo_1_product == blank }}"
         },
         {
           "type": "url",
           "id": "promo_1_link",
-          "label": "t:global.text.link"
+          "label": "t:global.text.link",
+          "visible_if": "{{ block.settings.promo_1_product == blank }}"
         },
         {
           "type": "header",
@@ -747,17 +754,20 @@
         {
           "type": "text",
           "id": "promo_2_heading",
-          "label": "t:global.text.heading"
+          "label": "t:global.text.heading",
+          "visible_if": "{{ block.settings.promo_2_product == blank }}"
         },
         {
           "type": "text",
           "id": "promo_2_text",
-          "label": "t:global.text.text"
+          "label": "t:global.text.text",
+          "visible_if": "{{ block.settings.promo_2_product == blank }}"
         },
         {
           "type": "url",
           "id": "promo_2_link",
-          "label": "t:global.text.link"
+          "label": "t:global.text.link",
+          "visible_if": "{{ block.settings.promo_2_product == blank }}"
         },
         {
           "type": "header",
@@ -778,17 +788,20 @@
         {
           "type": "text",
           "id": "promo_3_heading",
-          "label": "t:global.text.heading"
+          "label": "t:global.text.heading",
+          "visible_if": "{{ block.settings.promo_3_product == blank }}"
         },
         {
           "type": "text",
           "id": "promo_3_text",
-          "label": "t:global.text.text"
+          "label": "t:global.text.text",
+          "visible_if": "{{ block.settings.promo_3_product == blank }}"
         },
         {
           "type": "url",
           "id": "promo_3_link",
-          "label": "t:global.text.link"
+          "label": "t:global.text.link",
+          "visible_if": "{{ block.settings.promo_3_product == blank }}"
         },
         {
           "type": "header",
@@ -809,17 +822,20 @@
         {
           "type": "text",
           "id": "promo_4_heading",
-          "label": "t:global.text.heading"
+          "label": "t:global.text.heading",
+          "visible_if": "{{ block.settings.promo_4_product == blank }}"
         },
         {
           "type": "text",
           "id": "promo_4_text",
-          "label": "t:global.text.text"
+          "label": "t:global.text.text",
+          "visible_if": "{{ block.settings.promo_4_product == blank }}"
         },
         {
           "type": "url",
           "id": "promo_4_link",
-          "label": "t:global.text.link"
+          "label": "t:global.text.link",
+          "visible_if": "{{ block.settings.promo_4_product == blank }}"
         },
         {
           "type": "header",
@@ -840,17 +856,20 @@
         {
           "type": "text",
           "id": "promo_5_heading",
-          "label": "t:global.text.heading"
+          "label": "t:global.text.heading",
+          "visible_if": "{{ block.settings.promo_5_product == blank }}"
         },
         {
           "type": "text",
           "id": "promo_5_text",
-          "label": "t:global.text.text"
+          "label": "t:global.text.text",
+          "visible_if": "{{ block.settings.promo_5_product == blank }}"
         },
         {
           "type": "url",
           "id": "promo_5_link",
-          "label": "t:global.text.link"
+          "label": "t:global.text.link",
+          "visible_if": "{{ block.settings.promo_5_product == blank }}"
         },
         {
           "type": "header",
@@ -871,17 +890,20 @@
         {
           "type": "text",
           "id": "promo_6_heading",
-          "label": "t:global.text.heading"
+          "label": "t:global.text.heading",
+          "visible_if": "{{ block.settings.promo_6_product == blank }}"
         },
         {
           "type": "text",
           "id": "promo_6_text",
-          "label": "t:global.text.text"
+          "label": "t:global.text.text",
+          "visible_if": "{{ block.settings.promo_6_product == blank }}"
         },
         {
           "type": "url",
           "id": "promo_6_link",
-          "label": "t:global.text.link"
+          "label": "t:global.text.link",
+          "visible_if": "{{ block.settings.promo_6_product == blank }}"
         }
       ]
     }

@@ -71,13 +71,7 @@
 
                               {%- if line_item.unit_price -%}
                                 <unit-price class="subheading text-subdued">
-                                  {%- assign unit_price_measurement = line_item.unit_price_measurement -%}
-                      
-                                  {%- if unit_price_measurement.reference_value != 1 -%}
-                                    {%- assign reference_value = unit_price_measurement.reference_value -%}
-                                  {%- endif -%}
-                      
-                                  ({{ line_item.unit_price | money }}/{{ reference_value }}{{ unit_price_measurement.reference_unit }})
+                                  ({{- line_item.unit_price | unit_price_with_measurement: line_item.unit_price_measurement -}})
                                 </unit-price>
                               {%- endif -%}
                             </div>

@@ -34,7 +34,7 @@
       {%- comment -%}
       IMAGE WITH CONTENT PART
       {%- endcomment -%}
-      <div class="products-with-image__image-wrapper @container/content-box">
+      <div class="products-with-image__image-wrapper @container/content-box" {% if section.settings.desktop_product_list_position == 'end' %}style="order: 2"{% endif %}>
         <div class="content-box min-h-auto md:min-h-screen">
           {%- if section.settings.image != blank -%}
             <div class="content-box__background-media with-overlay" style="--overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }}">
@@ -218,7 +218,7 @@
         endif
       -%}
 
-      <div class="products-with-image__products-wrapper min-h-full color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
+      <div class="products-with-image__products-wrapper min-h-full color-scheme color-scheme--{{ settings.default_color_scheme.id }}" {% if section.settings.desktop_product_list_position == 'end' %}style="order: 1"{% endif %}>
         <div class="md:hidden">
           {%- render 'product-list', products: section.settings.products, prefix_id: 'mobile', stack: stack_mobile, section_color_scheme: settings.default_color_scheme, show_placeholder: true -%}
         </div>
@@ -294,6 +294,22 @@
       "label": "t:sections.products_with_image.products"
     },
     {
+      "type": "select",
+      "id": "desktop_product_list_position",
+      "label": "t:global.position.desktop_product_list_position",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:global.position.left"
+        },
+        {
+          "value": "end",
+          "label": "t:global.position.right"
+        }
+      ],
+      "default": "start"
+    },
+    {
       "type": "image_picker",
       "id": "image",
       "label": "t:global.image.image",
@@ -365,7 +381,6 @@
       "type": "select",
       "id": "mobile_products_per_row",
       "label": "t:sections.products_with_image.products_per_row",
-      "info": "t:sections.products_with_image.products_per_row_info",
       "options": [
         {
           "value": "1",
@@ -376,7 +391,8 @@
           "label": "2"
         }
       ],
-      "default": "2"
+      "default": "2",
+      "visible_if": "{{ section.settings.mobile_product_layout == 'grid' }}"
     }
   ],
   "blocks": [
@@ -1019,8 +1035,8 @@
           "step": 0.5,
           "unit": "px",
           "label": "t:global.icons.stroke_width",
-          "info": "t:global.icons.stroke_width_info",
-          "default": 1.5
+          "default": 1.5,
+          "visible_if": "{{ block.settings.image == blank }}"
         },
         {
           "type": "select",

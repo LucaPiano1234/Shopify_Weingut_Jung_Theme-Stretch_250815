@@ -241,6 +241,12 @@ Supported variables
         <path d="M4 0V8" stroke="currentColor" stroke-width="1.5"/>
       </svg>
 
+    {%- when 'spinner' -%}
+      <svg aria-hidden="true" focusable="false" width="{{ mobile_width | default: 14 }}" fill="none" class="{{ class | strip }}" {% if style != blank %}style="{{ style }}"{% endif %} part="icon" viewBox="0 0 14 14">
+        <circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.5" opacity=".2" />
+        <path stroke="currentColor" stroke-width="1.5" d="M11.638 3.194a6 6 0 1 0-.395 8.049" />
+      </svg>
+
     {%- when 'share' -%}
       <svg aria-hidden="true" focusable="false" width="{{ mobile_width | default: 20 }}" class="{{ class | strip }}" {% if style != blank %}style="{{ style }}"{% endif %} part="icon" viewBox="0 0 20 20">
         <path fill="currentColor" d="M10.75 12.75a.75.75 0 0 1-1.5 0V6.06L8.03 7.28a.75.75 0 0 1-1.06-1.06l2.5-2.5a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 0 1-1.06 1.06l-1.22-1.22v6.69Z"/>

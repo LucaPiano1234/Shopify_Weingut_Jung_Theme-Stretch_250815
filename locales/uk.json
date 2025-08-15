@@ -501,6 +501,25 @@
       },
       "banner_content": "Доступ до цього сайту заборонено, оскільки вам менше {{ age }} років.",
       "submit": "Надіслати"
+    },
+    "quick_order_list": {
+      "variants": "Варіанти",
+      "quantity": "Кількість",
+      "price": "Ціна",
+      "total": "Всього",
+      "remove": "Видалити",
+      "volume_pricing_available": "Об'ємні ціни доступні",
+      "minimum_of": "Мінімум: {{ min }}",
+      "maximum_of": "Максимум: {{ max }}",
+      "increment_of": "Приріст: {{ step }}",
+      "view_cart": "Переглянути кошик",
+      "remove_all": "Видалити все",
+      "item_count": {
+        "zero": "{{ count }} одиниць",
+        "one": "{{ count }} одиниця",
+        "other": "{{ count }} одиниці"
+      },
+      "product_subtotal": "Проміжний підсумок"
     }
   }
 }

@@ -504,6 +504,25 @@
       },
       "banner_content": "The access to this site is denied because you are under {{ age }} years old.",
       "submit": "Enter"
+    },
+    "quick_order_list": {
+      "variants": "Variants",
+      "quantity": "Quantity",
+      "price": "Price",
+      "total": "Total",
+      "view_cart": "View cart",
+      "minimum_of": "Min: {{ min }}",
+      "maximum_of": "Max: {{ max }}",
+      "increment_of": "Increment: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} items",
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      },
+      "product_subtotal": "Subtotal",
+      "remove": "Remove",
+      "remove_all": "Remove all",
+      "volume_pricing_available": "Volume pricing available"
     }
   }
 }

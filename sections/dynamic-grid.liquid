@@ -161,13 +161,14 @@
     {
       "type": "header",
       "content": "t:global.colors.category",
-      "info": "t:sections.newsletter.colors_heading_info"
+      "visible_if": "{{ section.settings.background_image != blank or section.settings.background_video != blank }}"
     },
     {
       "type": "color",
       "id": "overlay_color",
       "label": "t:global.colors.image_overlay_color",
-      "default": "#000000"
+      "default": "#000000",
+      "visible_if": "{{ section.settings.background_image != blank or section.settings.background_video != blank }}"
     },
     {
       "type": "range",
@@ -177,7 +178,8 @@
       "max": 100,
       "step": 5,
       "unit": "%",
-      "default": 20
+      "default": 20,
+      "visible_if": "{{ section.settings.background_image != blank or section.settings.background_video != blank }}"
     }
   ],
   "blocks": [

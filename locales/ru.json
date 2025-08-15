@@ -515,6 +515,25 @@
       },
       "banner_content": "Доступ к этому сайту запрещен, так как вам меньше {{ age }} лет.",
       "submit": "Войти"
+    },
+    "quick_order_list": {
+      "variants": "Варианты",
+      "quantity": "Количество",
+      "price": "Цена",
+      "total": "Итого",
+      "view_cart": "Просмотреть корзину",
+      "minimum_of": "Минимум: {{ min }}",
+      "maximum_of": "Максимум: {{ max }}",
+      "increment_of": "Шаг: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} товаров",
+        "one": "{{ count }} товар",
+        "other": "{{ count }} товара"
+      },
+      "product_subtotal": "Промежуточный итог",
+      "remove": "Удалить",
+      "remove_all": "Удалить все",
+      "volume_pricing_available": "Доступны цены за объем"
     }
   }
 }

@@ -162,15 +162,15 @@
       "type": "checkbox",
       "id": "show_dividers",
       "label": "t:sections.featured_links.show_dividers",
-      "info": "t:sections.featured_links.show_dividers_info",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.layout != 'list' }}"
     },
     {
       "type": "checkbox",
       "id": "change_colors_on_hover",
       "label": "t:sections.featured_links.change_colors_on_hover",
-      "info": "t:sections.featured_links.change_colors_on_hover_info",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.layout != 'reveal' }}"
     }
   ],
   "blocks": [
@@ -251,17 +251,19 @@
         {
           "type": "header",
           "content": "t:global.colors.category",
-          "info": "t:sections.featured_links.blocks.link.colors_category_info"
+          "visible_if": "{{ section.settings.layout != 'reveal' }}"
         },
         {
           "type": "color",
           "id": "background_hover",
-          "label": "t:sections.featured_links.blocks.link.background_hover"
+          "label": "t:sections.featured_links.blocks.link.background_hover",
+          "visible_if": "{{ section.settings.layout != 'reveal' }}"
         },
         {
           "type": "color",
           "id": "text_color_hover",
-          "label": "t:sections.featured_links.blocks.link.text_color_hover"
+          "label": "t:sections.featured_links.blocks.link.text_color_hover",
+          "visible_if": "{{ section.settings.layout != 'reveal' }}"
         }
       ]
     }

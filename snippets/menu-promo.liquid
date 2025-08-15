@@ -43,7 +43,7 @@ Supported variables
           {% endif %}
 
           {%- if promo_product != blank -%}
-            <p class="subheading text-subdued">{{ promo_product.price | money }}</p>
+            {%- render 'price-list', product: promo_product, context: 'card' -%}
           {%- elsif promo_text != blank -%}
             <p>{{ promo_text }}</p>
           {%- endif -%}

@@ -104,7 +104,8 @@
       "type": "checkbox",
       "id": "pause_auto_rotate_on_hover",
       "label": "t:sections.slideshow.pause_auto_rotate_on_hover",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.autoplay }}"
     },
     {
       "type": "range",
@@ -114,7 +115,8 @@
       "step": 1,
       "unit": "sec",
       "label": "t:sections.slideshow.cycle_speed",
-      "default": 6
+      "default": 6,
+      "visible_if": "{{ section.settings.autoplay }}"
     },
     {
       "type": "color",

@@ -491,6 +491,25 @@
       },
       "banner_content": "由於您未滿 {{ age }} 歲，您無法訪問此網站。",
       "submit": "提交"
+    },
+    "quick_order_list": {
+      "variants": "變體",
+      "quantity": "數量",
+      "price": "價格",
+      "total": "總計",
+      "remove": "移除",
+      "volume_pricing_available": "可用批量定價",
+      "minimum_of": "最少：{{ min }}",
+      "maximum_of": "最多：{{ max }}",
+      "increment_of": "增量：{{ step }}",
+      "view_cart": "查看購物車",
+      "remove_all": "移除所有",
+      "item_count": {
+        "zero": "{{ count }} 件",
+        "one": "{{ count }} 件",
+        "other": "{{ count }} 件"
+      },
+      "product_subtotal": "產品小計"
     }
   }
 }

@@ -103,7 +103,8 @@
       "type": "checkbox",
       "id": "transparent_header_use_primary_colors",
       "label": "t:global.section.transparent_header_use_primary_colors",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.allow_transparent_header }}"
     },
     {
       "type": "select",
@@ -125,8 +126,8 @@
       "type": "checkbox",
       "id": "add_image_spacing",
       "label": "t:sections.blog_post_banner.add_image_spacing",
-      "info": "t:sections.blog_post_banner.add_image_spacing_info",
-      "default": false
+      "default": false,
+      "visible_if": "{{ section.settings.image_layout == 'split' }}"
     },
     {
       "type": "select",

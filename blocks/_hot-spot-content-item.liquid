@@ -118,7 +118,8 @@
       "type": "checkbox",
       "id": "round_image",
       "label": "t:global.image.round_image",
-      "default": false
+      "default": false,
+      "visible_if": "{{ block.settings.image != blank }}"
     },
     {
       "type": "inline_richtext",

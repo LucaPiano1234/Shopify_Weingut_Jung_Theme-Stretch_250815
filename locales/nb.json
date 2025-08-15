@@ -499,6 +499,25 @@
       },
       "banner_content": "Tilgang til dette nettstedet er nektet fordi du er under {{ age }} år.",
       "submit": "Bekreft"
+    },
+    "quick_order_list": {
+      "variants": "Varianter",
+      "quantity": "Antall",
+      "price": "Pris",
+      "total": "Totalt",
+      "view_cart": "Vis handlekurv",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Økning: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} varer",
+        "one": "{{ count }} vare",
+        "other": "{{ count }} varer"
+      },
+      "product_subtotal": "Produktsubtotal",
+      "remove": "Fjern",
+      "remove_all": "Fjern alle",
+      "volume_pricing_available": "Volumprising tilgjengelig"
     }
   }
 }

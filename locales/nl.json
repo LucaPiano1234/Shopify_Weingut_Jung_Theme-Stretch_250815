@@ -499,6 +499,25 @@
       },
       "banner_content": "De toegang tot deze site is geweigerd omdat je jonger bent dan {{ age }} jaar.",
       "submit": "Verzenden"
+    },
+    "quick_order_list": {
+      "variants": "Varianten",
+      "quantity": "Aantal",
+      "price": "Prijs",
+      "total": "Totaal",
+      "view_cart": "Bekijk winkelwagen",
+      "minimum_of": "Minimaal: {{ min }}",
+      "maximum_of": "Maximaal: {{ max }}",
+      "increment_of": "Incrementeel: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} items",
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      },
+      "product_subtotal": "Product subtotaal",
+      "remove": "Verwijderen",
+      "remove_all": "Verwijder alles",
+      "volume_pricing_available": "Volumekorting beschikbaar"
     }
   }
 }

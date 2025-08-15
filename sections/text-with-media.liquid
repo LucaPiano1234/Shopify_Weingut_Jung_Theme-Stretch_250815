@@ -1063,8 +1063,8 @@
           "step": 0.5,
           "unit": "px",
           "label": "t:global.icons.stroke_width",
-          "info": "t:global.icons.stroke_width_info",
-          "default": 1.5
+          "default": 1.5,
+          "visible_if": "{{ block.settings.image == blank }}"
         },
         {
           "type": "select",

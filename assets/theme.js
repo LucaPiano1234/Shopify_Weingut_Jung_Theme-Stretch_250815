@@ -1822,7 +1822,7 @@ changeLineItemQuantity_fn = async function(lineKey, targetQuantity) {
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
   const lineItem = this.closest("line-item");
   lineItem?.dispatchEvent(new CustomEvent("line-item:will-change", { bubbles: true, detail: { targetQuantity } }));
-  let sectionsToBundle = [];
+  let sectionsToBundle = /* @__PURE__ */ new Set();
   document.documentElement.dispatchEvent(new CustomEvent("cart:prepare-bundled-sections", { bubbles: true, detail: { sections: sectionsToBundle } }));
   const response = await fetch(`${Shopify.routes.root}cart/change.js`, {
     method: "POST",
@@ -1832,7 +1832,7 @@ changeLineItemQuantity_fn = async function(lineKey, targetQuantity) {
     body: JSON.stringify({
       id: lineKey,
       quantity: targetQuantity,
-      sections: sectionsToBundle.join(",")
+      sections: [...sectionsToBundle].join(",")
     })
   });
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", { bubbles: true }));
@@ -2600,7 +2600,8 @@ onFormSubmitted_fn = function(event) {
   this.dispatchEvent(new CustomEvent("facet:update", {
     bubbles: true,
     detail: {
-      url: __privateMethod(this, _FacetsForm_instances, buildUrl_fn).call(this)
+      url: __privateMethod(this, _FacetsForm_instances, buildUrl_fn).call(this),
+      scrollTo: __privateGet(this, _FacetsForm_instances, form_get).getAttribute("scroll-to")
     }
   }));
   __privateSet(this, _isDirty, false);
@@ -2643,7 +2644,10 @@ onFacetUpdate_fn = function(event) {
   this.dispatchEvent(new CustomEvent("facet:update", {
     bubbles: true,
     detail: {
-      url
+      url,
+      scrollTo: url.hash,
+      disableCache: this.hasAttribute("disable-cache"),
+      ignoreUrlSearch: this.hasAttribute("ignore-url-search")
     }
   }));
 };
@@ -2670,10 +2674,19 @@ document.addEventListener("facet:update", async (event) => {
   const url = event.detail.url, shopifySection = document.getElementById(`shopify-section-${url.searchParams.get("section_id")}`);
   const clonedUrl = new URL(url);
   clonedUrl.searchParams.delete("section_id");
+  clonedUrl.hash = "";
+  if (event.detail.ignoreUrlSearch) {
+    clonedUrl.search = "";
+  }
   history.replaceState({}, "", clonedUrl.toString());
   try {
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
-    const tempContent = new DOMParser().parseFromString(await (await cachedFetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
+    let tempContent;
+    if (event.detail.disableCache) {
+      tempContent = new DOMParser().parseFromString(await (await fetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
+    } else {
+      tempContent = new DOMParser().parseFromString(await (await cachedFetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
+    }
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", { bubbles: true }));
     const newShopifySection = tempContent.querySelector(".shopify-section");
     newShopifySection.querySelectorAll("facets-form details").forEach((detailsElement) => {
@@ -2687,7 +2700,7 @@ document.addEventListener("facet:update", async (event) => {
     if (focusedElement?.id && document.getElementById(focusedElement.id)) {
       document.getElementById(focusedElement.id).focus();
     }
-    const scrollToProductList = () => shopifySection.querySelector(".collection").scrollIntoView({ block: "start", behavior: "smooth" });
+    const scrollToProductList = () => shopifySection.querySelector(event.detail.scrollTo)?.scrollIntoView({ block: "start", behavior: "smooth" });
     if ("requestIdleCallback" in window) {
       requestIdleCallback(scrollToProductList, { timeout: 500 });
     } else {
@@ -2896,7 +2909,11 @@ _increaseButton = new WeakMap();
 _inputElement = new WeakMap();
 _QuantitySelector_instances = new WeakSet();
 onDecreaseQuantity_fn = function() {
-  __privateGet(this, _inputElement).stepDown();
+  if (this.hasAttribute("allow-reset-to-zero") && __privateGet(this, _inputElement).value === __privateGet(this, _inputElement).min) {
+    __privateGet(this, _inputElement).value = 0;
+  } else {
+    __privateGet(this, _inputElement).stepDown();
+  }
   __privateGet(this, _inputElement).dispatchEvent(new Event("change", { bubbles: true }));
   __privateMethod(this, _QuantitySelector_instances, updateUI_fn).call(this);
 };
@@ -3113,11 +3130,10 @@ onSubmit_fn = async function(event) {
   submitButtons.forEach((submitButton) => {
     submitButton.setAttribute("aria-busy", "true");
   });
-  let sectionsToBundle = [];
+  let sectionsToBundle = /* @__PURE__ */ new Set();
   document.documentElement.dispatchEvent(new CustomEvent("cart:prepare-bundled-sections", { bubbles: true, detail: { sections: sectionsToBundle } }));
   const formData = new FormData(__privateGet(this, _ProductForm_instances, form_get2));
-  formData.set("sections", sectionsToBundle.join(","));
-  formData.set("sections_url", `${Shopify.routes.root}variants/${__privateGet(this, _ProductForm_instances, form_get2).id.value}`);
+  formData.set("sections", [...sectionsToBundle].join(","));
   if (showLoadingBar) {
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
   }
@@ -4679,7 +4695,7 @@ if (!window.customElements.get("highlighted-heading")) {
 }
 
 // js/sections/age-verifier.js
-var _AgeVerifierModal_instances, form_get3, checkBirthDate_fn, getCustomerAge_fn;
+var _AgeVerifierModal_instances, form_get3, checkBirthDate_fn, accessAuthorized_fn, accessDenied_fn, getCustomerAge_fn;
 var AgeVerifierModal = class extends DialogElement {
   constructor() {
     super(...arguments);
@@ -4687,10 +4703,18 @@ var AgeVerifierModal = class extends DialogElement {
   }
   connectedCallback() {
     super.connectedCallback();
-    __privateGet(this, _AgeVerifierModal_instances, form_get3).addEventListener("submit", __privateMethod(this, _AgeVerifierModal_instances, checkBirthDate_fn).bind(this));
+    if (this.verificationType === "date") {
+      __privateGet(this, _AgeVerifierModal_instances, form_get3).addEventListener("submit", __privateMethod(this, _AgeVerifierModal_instances, checkBirthDate_fn).bind(this));
+    } else {
+      this.querySelector(".age-verifier__confirm-button")?.addEventListener("click", __privateMethod(this, _AgeVerifierModal_instances, accessAuthorized_fn).bind(this));
+      this.querySelector(".age-verifier__decline-button")?.addEventListener("click", __privateMethod(this, _AgeVerifierModal_instances, accessDenied_fn).bind(this));
+    }
     if (localStorage.getItem("authorized-access") === null && !Shopify.designMode) {
       this.show();
     }
+  }
+  get verificationType() {
+    return this.getAttribute("verification-type");
   }
   get requiredAge() {
     return parseInt(this.getAttribute("required-age"));
@@ -4719,11 +4743,17 @@ checkBirthDate_fn = function(event) {
     return;
   }
   if (customerAge >= this.requiredAge) {
-    this.hide();
-    localStorage.setItem("authorized-access", "true");
+    __privateMethod(this, _AgeVerifierModal_instances, accessAuthorized_fn).call(this);
   } else {
-    this.querySelector(".banner").hidden = false;
+    __privateMethod(this, _AgeVerifierModal_instances, accessDenied_fn).call(this);
   }
+};
+accessAuthorized_fn = function() {
+  this.hide();
+  localStorage.setItem("authorized-access", "true");
+};
+accessDenied_fn = function() {
+  this.querySelector(".banner").hidden = false;
 };
 getCustomerAge_fn = function(birthDate) {
   const diffMs = Math.max(Date.now() - birthDate.getTime(), 0);
@@ -4920,7 +4950,7 @@ _CartDrawer_instances = new WeakSet();
  * This method is called when the cart is changing, and allow custom sections to order a "re-render"
  */
 onBundleSection_fn = function(event) {
-  event.detail.sections.push(__privateGet(this, _sectionId));
+  event.detail.sections.add(__privateGet(this, _sectionId));
 };
 /**
  * When the cart changes, we need to re-render the cart drawer

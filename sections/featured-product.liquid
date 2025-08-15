@@ -456,10 +456,6 @@
       "limit": 1,
       "settings": [
         {
-          "type": "paragraph",
-          "content": "t:sections.main_product.blocks.description.instructions"
-        },
-        {
           "type": "checkbox",
           "id": "collapse_content",
           "label": "t:sections.main_product.blocks.description.collapse_content",
@@ -469,13 +465,15 @@
           "type": "checkbox",
           "id": "uppercase_title",
           "label": "t:sections.main_product.blocks.collapsible_text.uppercase_title",
-          "default": false
+          "default": false,
+          "visible_if": "{{ block.settings.collapse_content }}"
         },
         {
           "type": "image_picker",
           "id": "custom_icon",
           "label": "t:global.icons.icon",
-          "info": "t:global.icons.custom_icon_info"
+          "info": "t:global.icons.custom_icon_info",
+          "visible_if": "{{ block.settings.collapse_content }}"
         }
       ]
     },
@@ -547,7 +545,8 @@
               "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_size_options.large"
             }
           ],
-          "default": "lg"
+          "default": "lg",
+          "visible_if": "{{ block.settings.swatch_selector_style == 'swatch' }}"
         },
         {
           "type": "select",
@@ -691,47 +690,52 @@
         {
           "type": "header",
           "content": "t:sections.main_product.blocks.line_item_property.text_type_category",
-          "info": "t:sections.main_product.blocks.line_item_property.text_type_category_info"
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "checkbox",
           "id": "allow_long_text",
           "label": "t:sections.main_product.blocks.line_item_property.text_type_allow_long_text",
-          "default": false
+          "default": false,
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "text",
           "id": "placeholder",
-          "label": "t:sections.main_product.blocks.line_item_property.text_placeholder"
+          "label": "t:sections.main_product.blocks.line_item_property.text_placeholder",
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "number",
           "id": "max_length",
-          "label": "t:sections.main_product.blocks.line_item_property.text_type_max_length"
+          "label": "t:sections.main_product.blocks.line_item_property.text_type_max_length",
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "header",
           "content": "t:sections.main_product.blocks.line_item_property.checkbox_type_category",
-          "info": "t:sections.main_product.blocks.line_item_property.checkbox_type_category_info"
+          "visible_if": "{{ block.settings.type == 'checkbox' }}"
         },
         {
           "type": "text",
           "id": "checkbox_value",
           "label": "t:sections.main_product.blocks.line_item_property.checkbox_value",
           "info": "t:sections.main_product.blocks.line_item_property.checkbox_value_info",
-          "default": "Yes"
+          "default": "Yes",
+          "visible_if": "{{ block.settings.type == 'checkbox' }}"
         },
         {
           "type": "header",
           "content": "t:sections.main_product.blocks.line_item_property.dropdown_type_category",
-          "info": "t:sections.main_product.blocks.line_item_property.dropdown_type_category_info"
+          "visible_if": "{{ block.settings.type == 'dropdown' }}"
         },
         {
           "type": "text",
           "id": "select_values",
           "label": "t:sections.main_product.blocks.line_item_property.dropdown_values",
           "info": "t:sections.main_product.blocks.line_item_property.dropdown_values_info",
-          "default": "Value 1,Value 2,Value 3"
+          "default": "Value 1,Value 2,Value 3",
+          "visible_if": "{{ block.settings.type == 'dropdown' }}"
         }
       ]
     },

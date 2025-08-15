@@ -35,7 +35,7 @@
       </div>
     </div>
   {%- else -%}
-    <div class="collection">
+    <div id="collection" class="collection">
       {%- render 'collection-toolbar' -%}
 
       <div class="collection__inner">
@@ -45,7 +45,7 @@
               {%- comment -%}On desktop the sort by is shown on the right rather than the sidebar{%- endcomment -%}
               <p class="subheading">{{ 'collection.faceting.filters' | t }}</p>
 
-              {%- render 'facets', source: collection, show_sort_by: false, open_filters_by_default: section.settings.open_filters_by_default, update_on_change: true, form_id: 'facets-sidebar-form' -%}
+              {%- render 'facets', source: collection, show_sort_by: false, open_filters_by_default: section.settings.open_filters_by_default, update_on_change: true, form_id: 'facets-sidebar-form', hash: '#collection' -%}
             </safe-sticky>
           {%- endif -%}
 
@@ -55,16 +55,17 @@
                 <p>{{ 'collection.faceting.no_results' | t }}</p>
 
                 {%- assign button_content = 'collection.faceting.clear_filters' | t -%}
-                {%- render 'button', href: collection.url, is: 'facet-link', content: button_content -%}
+                {%- assign button_link = collection.url | append: '#collection' -%}
+                {%- render 'button', href: button_link, is: 'facet-link', content: button_content -%}
               </div>
             </div>
           {%- else -%}
             <div class="collection__results">
-              {%- render 'active-facets', source: collection -%}
+              {%- render 'active-facets', source: collection, hash: "#collection" -%}
               {%- render 'product-list', products: collection.products, allow_highlight: true, paginate: paginate, blocks: section.blocks, output_override_attributes: true -%}
             </div>
 
-            {%- render 'pagination', paginate: paginate, facet: true -%}
+            {%- render 'pagination', paginate: paginate, facet: true, hash: '#collection' -%}
           {%- endif -%}
         {%- endpaginate -%}
 
@@ -92,8 +93,9 @@ on desktop based on the settings
       show_sort_by: section.settings.show_sort_by, 
       open_filters_by_default: section.settings.open_filters_by_default, 
       swatch_selector_size: section.settings.swatch_selector_size, 
-      update_on_change: false, 
-      form_id: 'facets-drawer-form' 
+      update_on_change: false,
+      form_id: 'facets-drawer-form',
+      scroll_to: '#collection'
     -%}
 
     <div slot="footer">

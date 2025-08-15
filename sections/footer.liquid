@@ -8,7 +8,7 @@
       {%- if logo_image != blank -%}
         {%- if scrolling_logo_block.settings.layout == 'full_width' -%}
           <div class="footer__big-logo footer__big-logo--full" {{ scrolling_logo_block.shopify_attributes }}>
-            {{- logo_image | image_url: width: logo_image.width | image_tag: loading: 'lazy', widths: '200,400,600,800,1000,1200,1400,1600,1800,2000' -}}
+            {{- logo_image | image_url: width: logo_image.width | image_tag: loading: 'lazy', widths: '200,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
           </div>
         {%- else -%}
         <marquee-text speed="0.3" direction="start-to-end" class="footer__big-logo footer__big-logo--scrolling scrolling-content full-bleed" {{ scrolling_logo_block.shopify_attributes }}>
@@ -262,13 +262,15 @@
       "type": "checkbox",
       "id": "show_country_name",
       "label": "t:global.localization.show_country_name",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.show_country_selector }}"
     },
     {
       "type": "checkbox",
       "id": "show_country_flag",
       "label": "t:global.localization.show_country_flag",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.show_country_selector }}"
     },
     {
       "type": "header",
@@ -411,7 +413,6 @@
           "type": "select",
           "id": "layout",
           "label": "t:sections.footer.blocks.scrolling_logo.layout",
-          "info": "t:sections.footer.blocks.scrolling_logo.layout_info",
           "options": [
             {
               "value": "scrolling",
@@ -437,7 +438,8 @@
           "max": 100,
           "unit": "%",
           "label": "t:global.image.width",
-          "default": 45
+          "default": 45,
+          "visible_if": "{{ block.settings.layout != 'full_width' }}"
         },
         {
           "type": "range",
@@ -446,7 +448,8 @@
           "max": 100,
           "unit": "%",
           "label": "t:global.image.mobile_width",
-          "default": 65
+          "default": 65,
+          "visible_if": "{{ block.settings.layout != 'full_width' }}"
         }
       ]
     }

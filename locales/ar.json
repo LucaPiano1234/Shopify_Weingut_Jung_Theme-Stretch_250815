@@ -503,6 +503,25 @@
       },
       "banner_content": "تم رفض الوصول إلى هذا الموقع لأن عمرك أقل من {{ age }} عامًا.",
       "submit": "إرسال"
+    },
+    "quick_order_list": {
+      "variants": "المتغيرات",
+      "quantity": "الكمية",
+      "price": "السعر",
+      "total": "الإجمالي",
+      "view_cart": "عرض السلة",
+      "minimum_of": "الحد الأدنى: {{ min }}",
+      "maximum_of": "الحد الأقصى: {{ max }}",
+      "increment_of": "زيادة: {{ step }}",
+      "item_count": {
+        "zero": "{{ count }} عناصر",
+        "one": "{{ count }} عنصر",
+        "other": "{{ count }} عناصر"
+      },
+      "product_subtotal": "إجمالي المنتجات الفرعي",
+      "remove": "إزالة",
+      "remove_all": "إزالة الكل",
+      "volume_pricing_available": "تسعير الحجم متاح"
     }
   }
 }
