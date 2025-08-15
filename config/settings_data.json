@@ -34,6 +34,7 @@
     "button_font_size_mobile": 14,
     "button_font_size_desktop": 16,
     "button_text_transform": "none",
+    "input_uppercase": false,
     "heading_default_highlight_effect": "none",
     "heading_italic_font": "open_sans_n4",
     "button_animation": "none",
