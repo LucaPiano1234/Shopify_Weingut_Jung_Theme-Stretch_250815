@@ -543,5 +543,10 @@
         "accept_marketing_checkbox_label": "Post von Jung – mit Wein, Herz und echten Einblicken. Abonnieren Sie unseren Newsletter und genießen Sie 10 % Rabatt auf Ihre erste Bestellung."
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "marketing_checkbox_label": "Post von Jung – mit Wein, Herz und echten Einblicken. Abonnieren Sie unseren Newsletter und genießen Sie 10 % Rabatt auf Ihre erste Bestellung."
+    }
   }
 }
