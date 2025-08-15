@@ -1,1 +1,1237 @@
-{"sections":{"slideshow_rwmxqG":{"type":"slideshow","blocks":{"slideshow_image_slide_eKXjbg":{"type":"_slideshow-image-slide","settings":{"color_scheme":"scheme-3","image":"shopify:\/\/shop_images\/20240605_weingut-jung-familie_11.webp","slide_link":"","content_max_width":1000,"mobile_content_position":"place-self-center","desktop_content_position":"sm:place-self-center","overlay_color":"#000000","overlay_opacity":30},"blocks":{"heading_78XbXg":{"type":"heading","settings":{"text":"Herzhaft rheinhessisch – aus der Region, für die Region.","heading_size":"h3","html_tag":"h1","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"button_TpRVnm":{"type":"button","name":"t:blocks.button.name","settings":{"text":"Weingut entdecken","url":"shopify:\/\/collections","open_in_new_tab":false,"style":"solid","background":"#c35e02","text_color":"#ffffff"},"blocks":{}}},"block_order":["heading_78XbXg","button_TpRVnm"]},"slideshow_image_slide_tXedBH":{"type":"_slideshow-image-slide","settings":{"color_scheme":"scheme-3","image":"shopify:\/\/shop_images\/Headerbilder_Weinberg_Jung.webp","slide_link":"","content_max_width":1000,"mobile_content_position":"place-self-end-center","desktop_content_position":"sm:place-self-center","overlay_color":"#000000","overlay_opacity":30},"blocks":{"heading_BXqHGd":{"type":"heading","settings":{"text":"Wein erleben, nicht nur verkosten","heading_size":"h3","html_tag":"h1","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"button_FJra7P":{"type":"button","name":"t:blocks.button.name","settings":{"text":"zu unseren Veranstaltungen","url":"shopify:\/\/pages\/veranstaltungen","open_in_new_tab":false,"style":"solid","background":"#c35e02","text_color":"#ffffff"},"blocks":{}}},"block_order":["heading_BXqHGd","button_FJra7P"]},"slideshow_image_slide_DYneXD":{"type":"_slideshow-image-slide","settings":{"color_scheme":"scheme-3","image":"shopify:\/\/shop_images\/Headerbild3_Weingut_Jung_vinothek.webp","slide_link":"","content_max_width":1000,"mobile_content_position":"place-self-center","desktop_content_position":"sm:place-self-center","overlay_color":"#000000","overlay_opacity":30},"blocks":{"heading_zgCxtN":{"type":"heading","settings":{"text":"Mehr als 50 Weine – sortenrein, charakterstark, mit Liebe ausgebaut.","heading_size":"h3","html_tag":"h1","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"button_GeBEhr":{"type":"button","name":"t:blocks.button.name","settings":{"text":"zum Weinsortiment","url":"shopify:\/\/collections","open_in_new_tab":false,"style":"solid","background":"#c35e02","text_color":"#ffffff"},"blocks":{}}},"block_order":["heading_zgCxtN","button_GeBEhr"]},"slideshow-controls":{"type":"_slideshow-controls","static":true,"settings":{"controls_style":"dot","controls_color":"#ffffff"},"blocks":{}}},"block_order":["slideshow_image_slide_eKXjbg","slideshow_image_slide_tXedBH","slideshow_image_slide_DYneXD"],"settings":{"allow_transparent_header":true,"image_size":"lg","transition_type":"fade","autoplay":true,"pause_auto_rotate_on_hover":true,"cycle_speed":6,"background":"#000000"}},"rich_text_AdhnUE":{"type":"rich-text","blocks":{"heading_qpje4q":{"type":"heading","settings":{"text":"Wein macht Jung","heading_tag":"h2","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_9NfXzD":{"type":"richtext","settings":{"text":"<p>Mitten im rheinhessischen Dorf Undenheim liegt unser Weingut. Seit sechs Generationen wird es mit einer langen Tradition und dennoch jung und zeitlos geführt. Unsere Weine haben eine besondere Eigenschaft: Sie erzählen <\/p><p>Geschichten, bringen Menschen zusammen und schaffen Begegnungen. Kommt vorbei und erlebt Gemeinschaft und Herzlichkeit. So geht ihr nicht nur beschwingt, sondern auch ein wenig verjüngt von unserem Hof.<\/p>"}}},"block_order":["heading_qpje4q","richtext_9NfXzD"],"name":"t:sections.rich_text.name","settings":{"color_scheme":"scheme-2","content_width":"lg","text_alignment":"center"}},"logo_list_bAneNz":{"type":"logo-list","blocks":{"logo_dGLjFj":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Falstaff__Weinjournal__Logo_svg.png","width":120,"mobile_width":90,"link":""}},"logo_bHXWih":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Eichelmann-Logo_f4513578-8cfb-44db-bcc2-5357a2d128ee_1.png","width":120,"mobile_width":90,"link":""}}},"block_order":["logo_dGLjFj","logo_bHXWih"],"name":"t:sections.logo_list.name","settings":{"color_scheme":"scheme-2","subheading":"","title":"Empfohlen von:","heading_tag":"h5","content_alignment":"center","reveal_on_scroll":true,"stack_on_mobile":false,"add_logos_spacing":false,"logos_padding_block":0,"logo_background":"#ffffff","logo_border":""}},"featured_collections_eKdt6r":{"type":"featured-collections","blocks":{"collection_eV3Rdp":{"type":"collection","settings":{"collection":"alle-weine","products_count":4,"title":"Unsere Bestseller","content":"","link":"{{ block.settings.collection.url }}"}}},"block_order":["collection_eV3Rdp"],"custom_css":[".button {background: #c25f02; color: white;}",".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"],"name":"t:sections.featured_collections.name","settings":{"color_scheme":"scheme-2","stack_products_mobile":true,"stack_products_desktop":true,"products_per_row_mobile":"2","products_per_row_desktop":4,"tabs_alignment":"center","tabs_icon":"none","show_view_all_button":true,"show_scrolling_bar":true}},"trust_icons_HEJKDX":{"type":"trust-icons","blocks":{"item_BbxT7D":{"type":"item","settings":{"icon":"picto-truck","icon_width":24,"mobile_icon_width":20,"title":"Schneller Versand","content":"In wenigen Werktagen macht sich Ihr Paket auf den Weg – sicher & liebevoll verpackt."}},"item_cgbjz3":{"type":"item","settings":{"icon":"picto-happy","icon_width":24,"mobile_icon_width":20,"title":"Direkt vom Weingut","content":"Kein Zwischenhandel – unsere Weine kommen direkt aus dem Keller zu Ihnen."}},"item_afYAHV":{"type":"item","settings":{"icon":"picto-credit-card","icon_width":24,"mobile_icon_width":20,"title":"Sichere & flexible Bezahlung","content":"Ob PayPal, Rechnung oder Vorkasse – Sie wählen, wie Sie bezahlen möchten."}},"item_nGfJ7B":{"type":"item","settings":{"icon":"picto-phone","icon_width":24,"mobile_icon_width":20,"title":"Persönlicher Kundenservice","content":"Sie haben Fragen? Helga oder Johannes melden sich persönlich bei Ihnen."}}},"block_order":["item_BbxT7D","item_cgbjz3","item_afYAHV","item_nGfJ7B"],"disabled":true,"settings":{"color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","item_heading_style":"subheading"}},"text_with_media_prHap9":{"type":"text-with-media","blocks":{"subheading_tXnegG":{"type":"subheading","settings":{"text":"Kennenlernpaket","position":"top_left"}},"heading_MgzBzn":{"type":"heading","settings":{"text":"Unsere Weine kennenlernen <\/br>– ganz entspannt zu Hause","heading_tag":"h3","position":"top_left","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_DJCkJX":{"type":"richtext","settings":{"text":"<p>Sie möchten den Charakter unseres Weinguts selbst erleben? Dann ist unser Kennenlernpaket genau das Richtige für Sie. Eine sorgfältig zusammengestellte Auswahl typischer Jung-Weine – frisch, sortenrein und mit Persönlichkeit. Ideal, um unsere Stilistik zu entdecken und Ihre Favoriten zu finden.<\/p><p>Ob für einen geselligen Abend oder als Geschenkidee – das Kennenlernpaket bringt ein Stück Undenheim direkt zu Ihnen nach Hause.<\/p><p><strong>Jetzt probieren und Lieblingswein entdecken!<\/strong><\/p>","position":"bottom_left"}},"button_7qhzWU":{"type":"button","settings":{"text":"zum Kennenlernpaket","url":"shopify:\/\/products\/test-weinpaket","position":"bottom_left","style":"solid","background":"","text_color":""}}},"block_order":["subheading_tXnegG","heading_MgzBzn","richtext_DJCkJX","button_7qhzWU"],"disabled":true,"name":"t:sections.text_with_media.name","settings":{"color_scheme":"scheme-6","content_position":"start","content_percentage_width":50,"overlay_color":"#000000","overlay_opacity":20,"add_media_spacing":true,"autoplay_video":true,"primary_image":"shopify:\/\/shop_images\/WG_Jung_Test_Paket.png","secondary_media_width":65,"secondary_media_mobile_width":60,"show_secondary_media_on_mobile":false,"secondary_media_alignment":"place-self-center","secondary_media_shape":"none"}},"featured_product_list_WeU8GW":{"type":"featured-product-list","disabled":true,"name":"t:sections.featured_product_list.name","settings":{"color_scheme":"scheme-2","product_list":["test-rose","test-rotwein","test-sekt","test-weisswein"],"stack_products_mobile":false,"stack_products_desktop":false,"products_per_row_mobile":"1","products_per_row_desktop":4,"intro_color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","intro_title":"Unsere Bestseller","intro_title_tag":"h5","intro_content":"<p>Das kaufen unsere Kunden am Liebsten<\/p>","intro_button_text":"","intro_button_link":"shopify:\/\/collections\/all","intro_button_style":"solid"}},"products_with_image_zezLbb":{"type":"products-with-image","blocks":{"heading_kYVd7U":{"type":"heading","settings":{"text":"<strong>Unsere Weine kennenlernen – ganz entspannt zu Hause<\/strong>","heading_tag":"h3","position":"middle_center","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_tymCXP":{"type":"richtext","settings":{"text":"<p>6 Weine, null Verpflichtung. Für alle, die Weine lieber probieren als studieren! <br\/><br\/>Wir packen eine Auswahl an frischen und sortenreinen Jung-Weinen ins Paket und ihr findet ganz einfach euren Lieblingswein.<\/p><p><strong>Jetzt probieren!<\/strong><\/p>","position":"middle_center"}}},"block_order":["heading_kYVd7U","richtext_tymCXP"],"custom_css":["@media screen and (min-width: 1000px) {.products-with-image__carousel-container {max-width: fit-content; }}",".button {background: #c25f02; color: white; position: sticky;}"],"name":"t:sections.products_with_image.name","settings":{"color_scheme":"scheme-6","products":[],"image":"shopify:\/\/shop_images\/20220427_weingut-jung-weine_026_foto_mario-andreya.jpg","overlay_color":"#000000","overlay_opacity":60,"desktop_product_layout":"carousel","mobile_product_layout":"grid","mobile_products_per_row":"1"}},"featured_product_k96yJc":{"type":"featured-product","blocks":{"vendor_NWkMcM":{"type":"vendor","settings":{}},"title_x6CE9B":{"type":"title","settings":{"heading_tag":"h3"}},"badges_QXRxaY":{"type":"badges","settings":{}},"price_PnrG3b":{"type":"price","settings":{"show_taxes_notice":false}},"rating_wTmaJT":{"type":"rating","settings":{"show_empty":false}},"payment_terms_JG8pT3":{"type":"payment_terms","settings":{}},"separator_k7xz6i":{"type":"separator","settings":{}},"description_n6AFHw":{"type":"description","settings":{"collapse_content":false,"uppercase_title":false}},"variant_picker_Wi7LCP":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"separate_options":false,"selector_style":"block","swatch_selector_style":"swatch","swatch_selector_size":"lg","block_selector_style":"outline","variant_image_options":"","size_chart_page":""}},"buy_buttons_M4LYge":{"type":"buy_buttons","settings":{"show_payment_button":false,"show_gift_card_recipient":true,"show_quantity_selector":false,"add_quantity_selector_spacing":true,"atc_button_style":"solid","atc_button_background":"","atc_button_text_color":"","payment_button_background":"","payment_button_text_color":""}},"pickup_availability_W868dA":{"type":"pickup_availability","disabled":true,"settings":{}}},"block_order":["vendor_NWkMcM","title_x6CE9B","badges_QXRxaY","price_PnrG3b","rating_wTmaJT","payment_terms_JG8pT3","separator_k7xz6i","description_n6AFHw","variant_picker_Wi7LCP","buy_buttons_M4LYge","pickup_availability_W868dA"],"disabled":true,"name":"t:sections.featured_product.name","settings":{"color_scheme":"scheme-2","subheading":"","title":"","title_tag":"h3","title_icon":"none","show_scrolling_title":false,"show_product_link":false,"text_alignment":"left","product":"test-weinpaket","product_media_size":50,"content_alignment":"left","desktop_media_layout":"carousel","desktop_carousel_controls":"thumbnails_under","mobile_controls":"lines","enable_media_autoplay":false,"enable_video_looping":true,"enable_image_zoom":true,"max_image_zoom_level":3}},"text_with_media_qeeKbC":{"type":"text-with-media","blocks":{"subheading_DxepzW":{"type":"subheading","settings":{"text":"Unser Terroir. Unser Handwerk. Unsere Haltung.","position":"top_left"}},"heading_7QNjwQ":{"type":"heading","settings":{"text":"Wo Wein Wurzeln hat und Menschen zusammenbringt.","heading_tag":"h3","position":"top_left","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_jDKiXX":{"type":"richtext","settings":{"text":"<p>Seit sechs Generationen schlägt unser Herz für Wein mitten in Rheinhessen.<br\/>Unsere Reben rund um Undenheim stehen auf <strong>fruchtbarem Boden, umgeben von sanften Hügeln und warmen Lagen.<\/strong><br\/><br\/><strong>Wir arbeiten nachhaltig, mit viel Gespür für Boden, Rebe und Mensch. <\/strong>Wir sind wie die Reben tief in unserer Heimat verwurzelt und denken nicht in Jahren, sondern in Generationen.<\/p><p><\/p>","position":"bottom_left"}},"button_3qQ9tX":{"type":"button","settings":{"text":"Mehr über uns erfahren","url":"shopify:\/\/pages\/weingut-lagen","position":"bottom_left","style":"solid","background":"","text_color":""}}},"block_order":["subheading_DxepzW","heading_7QNjwQ","richtext_jDKiXX","button_3qQ9tX"],"custom_css":[".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"],"name":"t:sections.text_with_media.name","settings":{"color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","content_position":"start","content_percentage_width":50,"overlay_color":"#000000","overlay_opacity":20,"add_media_spacing":false,"autoplay_video":true,"primary_image":"shopify:\/\/shop_images\/Weingut_Jung_Familie.webp","secondary_media_width":60,"secondary_media_mobile_width":60,"show_secondary_media_on_mobile":true,"secondary_media_alignment":"place-self-center","secondary_media_shape":"none"}},"collection_list_DwYpDz":{"type":"collection-list","blocks":{"collection_card_zRyber":{"type":"collection-card","settings":{"color_scheme":"","collection":"weinpakete","image":"{{ closest.collection.image }}","title":"{{ closest.collection.title }}","heading_tag":"h5","button_text":"","button_style":"outline","overlay_color":"#000000","overlay_opacity":20},"blocks":{}},"collection_card_7AfrwK":{"type":"collection-card","settings":{"color_scheme":"","collection":"weissweine","image":"{{ closest.collection.image }}","title":"{{ closest.collection.title }}","heading_tag":"h5","button_text":"","button_style":"outline","overlay_color":"#000000","overlay_opacity":20},"blocks":{}},"collection_card_C7c7Ar":{"type":"collection-card","settings":{"color_scheme":"","collection":"rotweine","image":"{{ closest.collection.image }}","title":"{{ closest.collection.title }}","heading_tag":"h5","button_text":"","button_style":"outline","overlay_color":"#000000","overlay_opacity":20},"blocks":{}},"collection_card_iDtWpx":{"type":"collection-card","settings":{"color_scheme":"","collection":"rose","image":"{{ closest.collection.image }}","title":"{{ closest.collection.title }}","heading_tag":"h5","button_text":"","button_style":"outline","overlay_color":"#000000","overlay_opacity":20},"blocks":{}},"section-header":{"type":"_section-header","static":true,"settings":{"subheading":"","title":"Unsere Weine entdecken","content":"<p>Ob fruchtig & leicht, kräftig & charaktervoll oder prickelnd & verspielt – hier finden Sie<br\/>genau den Wein, der zu Ihrem Geschmack und Anlass passt. Stöbern Sie durch unsere Kategorien und entdecken Sie die Vielfalt des Weinguts Jung.<\/p>","button_text":"","button_link":"","button_style":"outline","text_alignment":"center","heading_size":"h3","title_icon":"none","show_scrolling_title":false},"blocks":{}}},"block_order":["collection_card_zRyber","collection_card_7AfrwK","collection_card_C7c7Ar","collection_card_iDtWpx"],"name":"t:sections.collection_list.name","settings":{"color_scheme":"scheme-2","items_per_row":4,"stack_on_mobile":true,"add_horizontal_spacing":true,"content_position":"outside","column_spacing":"sm","image_size":"auto"}},"image_with_text_overlay_WVC9nN":{"type":"image-with-text-overlay","blocks":{"subheading_JqpTnn":{"type":"subheading","disabled":true,"settings":{"text":"Ehrliche Weine, bequem online bestellen."},"blocks":{}},"heading_gqhNPn":{"type":"heading","settings":{"text":"Empfehlung von Johannes: Riesling Roter Hang","heading_size":"h3","html_tag":"p","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"rich_text_JyG9Am":{"type":"rich-text","settings":{"text":"<p>Dieser Riesling ist mehr als nur ein Wein – er ist ein Statement. Als besondere Empfehlung von Johannes steht der <em>Rote Hang<\/em> für den spannenden Einstieg in unsere Welt: ein Lagenwein mit Tiefe, Charakter und Herkunft.<\/p><p>Die Trauben stammen von den roten Tonschieferböden des berühmten Roten Hangs – und das schmeckt man. Frische und Reife, Mineralität und Saftigkeit, Klarheit und Komplexität: Dieser Riesling vereint Gegensätze zu einem harmonischen Ganzen.<\/p>","content_width":"md"},"blocks":{}},"button_xrtwrP":{"type":"button","name":"t:blocks.button.name","settings":{"text":"→ Jetzt entdecken","url":"https:\/\/weingut-jung-vd.myshopify.com\/search?q=riesling+roter+hang","open_in_new_tab":false,"style":"solid","background":"#c45e19","text_color":"#ffffff"},"blocks":{}}},"block_order":["subheading_JqpTnn","heading_gqhNPn","rich_text_JyG9Am","button_xrtwrP"],"name":"t:sections.image_with_text_overlay.name","settings":{"color_scheme":"","allow_transparent_header":true,"image_size":"lg","image":"shopify:\/\/shop_images\/20210311_weingut-jung-johannes-j.webp","overlay_color":"#000000","overlay_opacity":30,"enable_sticky_content":false,"content_width":"md","desktop_text_position":"sm:place-self-center","mobile_text_position":"place-self-center"}},"featured_product_list_dVCnt3":{"type":"featured-product-list","disabled":true,"name":"t:sections.featured_product_list.name","settings":{"color_scheme":"scheme-2","product_list":["test-weisswein"],"stack_products_mobile":true,"stack_products_desktop":false,"products_per_row_mobile":"1","products_per_row_desktop":2,"intro_color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","intro_title":"Empfehlung von Johannes: Riesling Roter Hang","intro_title_tag":"h4","intro_content":"<p>Dieser Riesling ist mehr als nur ein Wein – er ist ein Statement. Als besondere Empfehlung von Johannes steht der <em>Rote Hang<\/em> für den spannenden Einstieg in unsere Welt: ein Lagenwein mit Tiefe, Charakter und Herkunft.<\/p><p>Die Trauben stammen von den roten Tonschieferböden des berühmten Roten Hangs – und das schmeckt man. Frische und Reife, Mineralität und Saftigkeit, Klarheit und Komplexität: Dieser Riesling vereint Gegensätze zu einem harmonischen Ganzen.<\/p>","intro_button_text":"","intro_button_link":"","intro_button_style":"outline"}},"rich_text_KAzBBk":{"type":"rich-text","blocks":{"subheading_zp9DAQ":{"type":"subheading","settings":{"text":"Subheading"}},"heading_iRLdQt":{"type":"heading","settings":{"text":"Heading","heading_tag":"h1","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_QmhAG7":{"type":"richtext","settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}},"image_Lpj4TW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2014_B27C1545_Large_7ac7f6fa-788b-4166-b692-b27f5c1110d1.webp","width_mode":"full_width","max_width":600,"mobile_max_width":400}}},"block_order":["subheading_zp9DAQ","heading_iRLdQt","richtext_QmhAG7","image_Lpj4TW"],"disabled":true,"name":"t:sections.rich_text.name","settings":{"color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","content_width":"md","text_alignment":"left"}},"text_with_media_dYcQLT":{"type":"text-with-media","blocks":{"subheading_iPhzEq":{"type":"subheading","settings":{"text":"Unsere Weine folgen keinem Trend, sondern einer Haltung.","position":"top_left"}},"heading_xLbbUW":{"type":"heading","settings":{"text":"Charakter statt Konvention.","heading_tag":"h3","position":"top_left","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_t38rJQ":{"type":"richtext","settings":{"text":"<p><strong>Bei uns gibt es keine Show, sondern echte Handarbeit,<\/strong> gelebte Nachhaltigkeit und Weine mit Haltung. <br\/>Unsere Weinbergsarbeit ist geprägt von einem tiefen Respekt vor Natur und Boden. <\/p><p>Wir leben unmittelbar von der Natur und schaffen deshalb gerne Heimat für Bienen, Insekten, Würmer, Vögel, Ameisen und die vielen nützlichen unsichtbaren Mikroorganismen. <\/p><p><strong>Seit mehr als 20 Jahren verwenden wir keinen Mineraldünger, sondern lassen organische Materialien wie Rebholz und Laub im Weinberg und führen Trester in ihn zurück.<\/strong> <\/p><p>Durch einsäen von Blumen, Klee und Blühmischungen bereichern wir nicht nur optisch unsere Weinberge, sondern lockern dadurch Erde und beleben die Böden durch guten Humusgehalt. <br\/><br\/>Wir begleiten und pflegen unsere Reben das ganze Jahr, egal ob bei Kälte, Hitze, Regen oder Trockenheit. Unsere Gäste erleben Weinkultur, wie sie sein sollte: ehrlich und familiär.<\/p><p><strong>Das ist unser Versprechen – heute und in Zukunft!<\/strong><\/p>","position":"bottom_left"}},"button_UfNLAh":{"type":"button","settings":{"text":"Mehr über uns erfahren","url":"shopify:\/\/pages\/weingut-lagen","position":"bottom_left","style":"solid","background":"","text_color":""}}},"block_order":["subheading_iPhzEq","heading_xLbbUW","richtext_t38rJQ","button_UfNLAh"],"custom_css":[".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"],"name":"t:sections.text_with_media.name","settings":{"color_scheme":"scheme-2","content_position":"end","content_percentage_width":50,"overlay_color":"#000000","overlay_opacity":0,"add_media_spacing":true,"autoplay_video":true,"primary_image":"shopify:\/\/shop_images\/Headerbilder_Weine.webp","secondary_media_width":60,"secondary_media_mobile_width":60,"show_secondary_media_on_mobile":true,"secondary_media_alignment":"place-self-center","secondary_media_shape":"none"}},"press_bEYMPi":{"type":"press","blocks":{"item_B9gJML":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Wir hatten einen unvergesslichen Abend mit euren Weinen – sie haben unsere Hochzeit perfekt gemacht.“"}},"item_chxfEk":{"type":"item","settings":{"logo_width":80,"author":"","content":"„So persönlich und herzlich wie hier wird man selten empfangen.“"}},"item_m84Ptj":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Man merkt, dass ihr euren Wein mit viel Herzblut macht – ehrlich, bodenständig und lecker.“"}},"item_PLhEmA":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Ich wusste gar nicht, wie viel Arbeit hinter einer Flasche Wein steckt.“"}},"item_Xe67AF":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Der Muskateller war eine echte Überraschung – fruchtig, leicht, einfach lecker.“"}}},"block_order":["item_B9gJML","item_chxfEk","item_m84Ptj","item_PLhEmA","item_Xe67AF"],"name":"t:sections.press.name","settings":{"color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","title":"","use_arrows_navigation":true,"show_quotation_mark":true,"quotation_tag":"h3","item_style":"avatar","autoplay":true,"cycle_speed":6,"overlay_color":"#000000","overlay_opacity":20}},"video_BB3mQE":{"type":"video","blocks":{"subheading_nPdChQ":{"type":"subheading","settings":{"text":"Ehrliche Weine, bequem online bestellen.","position":"middle_center"}},"heading_y3LUMN":{"type":"heading","settings":{"text":"Von unseren Reben direkt zu Ihnen nach Hause.","mobile_heading_tag":"h1","desktop_heading_tag":"sm:h3","position":"middle_center","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"play_button_DhikFb":{"type":"play_button","disabled":true,"settings":{"position":"middle_center","show_play_cursor":false}},"richtext_YWpLCD":{"type":"richtext","settings":{"text":"<p>Seit sechs Generationen leben wir Wein mit Herz und Haltung. Für uns bedeutet Wein Gemeinschaft, Genuss und Lebensfreude. Ob fruchtig-frisch oder charaktervoll-komplex – in unserem Shop finden Sie Weine, die verbinden.<\/p><p><a href=\"\/collections\/alle-weine\" title=\"Alle Weine\">→ JETZT ENTDECKEN<\/a><\/p>","position":"middle_center"}}},"block_order":["subheading_nPdChQ","heading_y3LUMN","play_button_DhikFb","richtext_YWpLCD"],"custom_css":[],"name":"t:sections.video.name","settings":{"color_scheme":"","allow_transparent_header":true,"autoplay":true,"show_controls":false,"video_size":"md","mobile_video_size":"md","video":"shopify:\/\/files\/videos\/20211001_luftvideo_weingut-jung-spiesheim_005_video_www.vonganzoben.de (1).mp4","external_video_url":""}},"image_with_text_overlay_yFPznJ":{"type":"image-with-text-overlay","blocks":{"subheading_eq9GQA":{"type":"subheading","settings":{"text":"Ehrliche Weine, bequem online bestellen."},"blocks":{}},"heading_pPDjTT":{"type":"heading","settings":{"text":"Von unseren Reben direkt zu Ihnen nach Hause.","heading_size":"h3","html_tag":"p","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"rich_text_rMKPdR":{"type":"rich-text","settings":{"text":"<p>Seit sechs Generationen leben wir Wein mit Herz und Haltung. Für uns bedeutet Wein Gemeinschaft, Genuss und Lebensfreude. Ob fruchtig-frisch oder charaktervoll-komplex – in unserem Shop finden Sie Weine, die verbinden.<\/p>","content_width":"sm"},"blocks":{}},"button_TmTEdw":{"type":"button","name":"t:blocks.button.name","settings":{"text":"→ Jetzt entdecken","url":"shopify:\/\/collections\/alle-weine","open_in_new_tab":false,"style":"solid","background":"#c45e19","text_color":"#ffffff"},"blocks":{}}},"block_order":["subheading_eq9GQA","heading_pPDjTT","rich_text_rMKPdR","button_TmTEdw"],"disabled":true,"name":"t:sections.image_with_text_overlay.name","settings":{"color_scheme":"","allow_transparent_header":true,"image_size":"md","image":"shopify:\/\/shop_images\/20211001_luftbild-weingut-jung-s.webp","overlay_color":"#000000","overlay_opacity":40,"enable_sticky_content":false,"content_width":"md","desktop_text_position":"sm:place-self-center","mobile_text_position":"place-self-center"}},"media_blocks_xetMiD":{"type":"media-blocks","blocks":{"image_with_text_HWqL4i":{"type":"image_with_text","settings":{"change_color_scheme_on_hover":false,"color_scheme":"","color_scheme_hover":"","icon":"none","icon_width":32,"mobile_icon_width":24,"icon_position":"middle_center","subheading":"Media 1","subheading_position":"middle_center","title":"","heading_tag":"h4","heading_position":"middle_center","scrolling_title":false,"scrolling_title_separator":"none","show_text_vertically":false,"text":"<p>Share some content about your store<\/p>","text_position":"bottom_right","button_style":"solid","link_url":"","link_text":"","link_position":"middle_center"}}},"block_order":["image_with_text_HWqL4i"],"disabled":true,"name":"t:sections.media_blocks.name","settings":{"color_scheme":"","allow_transparent_header":true,"subheading":"","title":"Media blocks","content":"<p>Use this section to create rich content by using images, videos, scrolling text or horizontal text. If textual content is more important than imagery, consider using the multi column section instead.<\/p>","heading_tag":"h4","text_alignment":"left","scrolling_title":false,"scrolling_title_separator":"circle","stack_on_mobile":true,"add_horizontal_spacing":true,"add_border":false,"column_spacing":"sm","items_per_row":2,"block_size":"auto"}},"reading_text_M4WmRp":{"type":"reading-text","disabled":true,"settings":{"color_scheme":"scheme-4","subheading":"","content":"Write some content that will be progressively revealed as the customer scrolls the page.","button_text":"","button_link":"","heading_tag":"h4","mobile_text_position":"place-self-center","desktop_text_position":"sm:place-self-center","content_width":"full","reading_speed":"1.5","separate_button":false,"text_opacity":20,"overlay_color":"#000000","overlay_opacity":20}}},"order":["slideshow_rwmxqG","rich_text_AdhnUE","logo_list_bAneNz","featured_collections_eKdt6r","trust_icons_HEJKDX","text_with_media_prHap9","featured_product_list_WeU8GW","products_with_image_zezLbb","featured_product_k96yJc","text_with_media_qeeKbC","collection_list_DwYpDz","image_with_text_overlay_WVC9nN","featured_product_list_dVCnt3","rich_text_KAzBBk","text_with_media_dYcQLT","press_bEYMPi","video_BB3mQE","image_with_text_overlay_yFPznJ","media_blocks_xetMiD","reading_text_M4WmRp"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_rwmxqG": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_image_slide_eKXjbg": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/20240605_weingut-jung-familie_11.webp",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          },
+          "blocks": {
+            "heading_78XbXg": {
+              "type": "heading",
+              "settings": {
+                "text": "Herzhaft rheinhessisch – aus der Region, für die Region.",
+                "heading_size": "h3",
+                "html_tag": "h1",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "button_TpRVnm": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "Weingut entdecken",
+                "url": "shopify://collections",
+                "open_in_new_tab": false,
+                "style": "solid",
+                "background": "#c35e02",
+                "text_color": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_78XbXg",
+            "button_TpRVnm"
+          ]
+        },
+        "slideshow_image_slide_tXedBH": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/Headerbilder_Weinberg_Jung.webp",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          },
+          "blocks": {
+            "heading_BXqHGd": {
+              "type": "heading",
+              "settings": {
+                "text": "Wein erleben, nicht nur verkosten",
+                "heading_size": "h3",
+                "html_tag": "h1",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "button_FJra7P": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "zu unseren Veranstaltungen",
+                "url": "shopify://pages/veranstaltungen",
+                "open_in_new_tab": false,
+                "style": "solid",
+                "background": "#c35e02",
+                "text_color": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_BXqHGd",
+            "button_FJra7P"
+          ]
+        },
+        "slideshow_image_slide_DYneXD": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/Headerbild3_Weingut_Jung_vinothek.webp",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          },
+          "blocks": {
+            "heading_zgCxtN": {
+              "type": "heading",
+              "settings": {
+                "text": "Mehr als 50 Weine – sortenrein, charakterstark, mit Liebe ausgebaut.",
+                "heading_size": "h3",
+                "html_tag": "h1",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "button_GeBEhr": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "zum Weinsortiment",
+                "url": "shopify://collections",
+                "open_in_new_tab": false,
+                "style": "solid",
+                "background": "#c35e02",
+                "text_color": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_zgCxtN",
+            "button_GeBEhr"
+          ]
+        },
+        "slideshow-controls": {
+          "type": "_slideshow-controls",
+          "static": true,
+          "settings": {
+            "controls_style": "dot",
+            "controls_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slideshow_image_slide_eKXjbg",
+        "slideshow_image_slide_tXedBH",
+        "slideshow_image_slide_DYneXD"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "transition_type": "fade",
+        "autoplay": true,
+        "pause_auto_rotate_on_hover": true,
+        "cycle_speed": 6,
+        "background": "#000000"
+      }
+    },
+    "rich_text_AdhnUE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qpje4q": {
+          "type": "heading",
+          "settings": {
+            "text": "Wein macht Jung",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_9NfXzD": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Mitten im rheinhessischen Dorf Undenheim liegt unser Weingut. Seit sechs Generationen wird es mit einer langen Tradition und dennoch jung und zeitlos geführt. Unsere Weine haben eine besondere Eigenschaft: Sie erzählen </p><p>Geschichten, bringen Menschen zusammen und schaffen Begegnungen. Kommt vorbei und erlebt Gemeinschaft und Herzlichkeit. So geht ihr nicht nur beschwingt, sondern auch ein wenig verjüngt von unserem Hof.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qpje4q",
+        "richtext_9NfXzD"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_width": "lg",
+        "text_alignment": "center"
+      }
+    },
+    "logo_list_bAneNz": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_dGLjFj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Falstaff__Weinjournal__Logo_svg.png",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        },
+        "logo_bHXWih": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Eichelmann-Logo_f4513578-8cfb-44db-bcc2-5357a2d128ee_1.png",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_dGLjFj",
+        "logo_bHXWih"
+      ],
+      "name": "t:sections.logo_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "",
+        "title": "Empfohlen von:",
+        "heading_tag": "h5",
+        "content_alignment": "center",
+        "reveal_on_scroll": true,
+        "stack_on_mobile": false,
+        "add_logos_spacing": false,
+        "logos_padding_block": 0,
+        "logo_background": "#ffffff",
+        "logo_border": ""
+      }
+    },
+    "featured_collections_eKdt6r": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_eV3Rdp": {
+          "type": "collection",
+          "settings": {
+            "collection": "alle-weine",
+            "products_count": 4,
+            "title": "Unsere Bestseller",
+            "content": "",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection_eV3Rdp"
+      ],
+      "custom_css": [
+        ".button {background: #c25f02; color: white;}",
+        ".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"
+      ],
+      "name": "t:sections.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "stack_products_mobile": true,
+        "stack_products_desktop": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "center",
+        "tabs_icon": "none",
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    },
+    "trust_icons_HEJKDX": {
+      "type": "trust-icons",
+      "blocks": {
+        "item_BbxT7D": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Schneller Versand",
+            "content": "In wenigen Werktagen macht sich Ihr Paket auf den Weg – sicher & liebevoll verpackt."
+          }
+        },
+        "item_cgbjz3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-happy",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Direkt vom Weingut",
+            "content": "Kein Zwischenhandel – unsere Weine kommen direkt aus dem Keller zu Ihnen."
+          }
+        },
+        "item_afYAHV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Sichere & flexible Bezahlung",
+            "content": "Ob PayPal, Rechnung oder Vorkasse – Sie wählen, wie Sie bezahlen möchten."
+          }
+        },
+        "item_nGfJ7B": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Persönlicher Kundenservice",
+            "content": "Sie haben Fragen? Helga oder Johannes melden sich persönlich bei Ihnen."
+          }
+        }
+      },
+      "block_order": [
+        "item_BbxT7D",
+        "item_cgbjz3",
+        "item_afYAHV",
+        "item_nGfJ7B"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "item_heading_style": "subheading"
+      }
+    },
+    "text_with_media_prHap9": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_tXnegG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Kennenlernpaket",
+            "position": "top_left"
+          }
+        },
+        "heading_MgzBzn": {
+          "type": "heading",
+          "settings": {
+            "text": "Unsere Weine kennenlernen </br>– ganz entspannt zu Hause",
+            "heading_tag": "h3",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_DJCkJX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Sie möchten den Charakter unseres Weinguts selbst erleben? Dann ist unser Kennenlernpaket genau das Richtige für Sie. Eine sorgfältig zusammengestellte Auswahl typischer Jung-Weine – frisch, sortenrein und mit Persönlichkeit. Ideal, um unsere Stilistik zu entdecken und Ihre Favoriten zu finden.</p><p>Ob für einen geselligen Abend oder als Geschenkidee – das Kennenlernpaket bringt ein Stück Undenheim direkt zu Ihnen nach Hause.</p><p><strong>Jetzt probieren und Lieblingswein entdecken!</strong></p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_7qhzWU": {
+          "type": "button",
+          "settings": {
+            "text": "zum Kennenlernpaket",
+            "url": "shopify://products/test-weinpaket",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tXnegG",
+        "heading_MgzBzn",
+        "richtext_DJCkJX",
+        "button_7qhzWU"
+      ],
+      "disabled": true,
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-6",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": true,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/WG_Jung_Test_Paket.png",
+        "secondary_media_width": 65,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": false,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "featured_product_list_WeU8GW": {
+      "type": "featured-product-list",
+      "disabled": true,
+      "name": "t:sections.featured_product_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "product_list": [
+          "test-rose",
+          "test-rotwein",
+          "test-sekt",
+          "test-weisswein"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "intro_image_overlay": "#00000021",
+        "intro_title": "Unsere Bestseller",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>Das kaufen unsere Kunden am Liebsten</p>",
+        "intro_button_text": "",
+        "intro_button_link": "shopify://collections/all",
+        "intro_button_style": "solid"
+      }
+    },
+    "products_with_image_zezLbb": {
+      "type": "products-with-image",
+      "blocks": {
+        "heading_kYVd7U": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Unsere Weine kennenlernen – ganz entspannt zu Hause</strong>",
+            "heading_tag": "h3",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_tymCXP": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>6 Weine, null Verpflichtung. Für alle, die Weine lieber probieren als studieren! <br/><br/>Wir packen eine Auswahl an frischen und sortenreinen Jung-Weinen ins Paket und ihr findet ganz einfach euren Lieblingswein.</p><p><strong>Jetzt probieren!</strong></p>",
+            "position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kYVd7U",
+        "richtext_tymCXP"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {.products-with-image__carousel-container {max-width: fit-content; }}",
+        ".button {background: #c25f02; color: white; position: sticky;}"
+      ],
+      "name": "t:sections.products_with_image.name",
+      "settings": {
+        "color_scheme": "scheme-7",
+        "products": [],
+        "desktop_product_list_position": "start",
+        "image": "shopify://shop_images/20220427_weingut-jung-weine_026_foto_mario-andreya.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 60,
+        "desktop_product_layout": "carousel",
+        "mobile_product_layout": "grid",
+        "mobile_products_per_row": "1"
+      }
+    },
+    "featured_product_k96yJc": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_NWkMcM": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_x6CE9B": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_QXRxaY": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PnrG3b": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_wTmaJT": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms_JG8pT3": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_k7xz6i": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_n6AFHw": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
+          }
+        },
+        "variant_picker_Wi7LCP": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "separate_options": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "swatch_selector_size": "lg",
+            "block_selector_style": "outline",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_M4LYge": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": false,
+            "add_quantity_selector_spacing": true,
+            "atc_button_style": "solid",
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_W868dA": {
+          "type": "pickup_availability",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_NWkMcM",
+        "title_x6CE9B",
+        "badges_QXRxaY",
+        "price_PnrG3b",
+        "rating_wTmaJT",
+        "payment_terms_JG8pT3",
+        "separator_k7xz6i",
+        "description_n6AFHw",
+        "variant_picker_Wi7LCP",
+        "buy_buttons_M4LYge",
+        "pickup_availability_W868dA"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured_product.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "",
+        "title": "",
+        "title_tag": "h3",
+        "title_icon": "none",
+        "show_scrolling_title": false,
+        "show_product_link": false,
+        "text_alignment": "left",
+        "product": "test-weinpaket",
+        "product_media_size": 50,
+        "content_alignment": "left",
+        "desktop_media_layout": "carousel",
+        "desktop_carousel_controls": "thumbnails_under",
+        "mobile_controls": "lines",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "text_with_media_qeeKbC": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_DxepzW": {
+          "type": "subheading",
+          "settings": {
+            "text": "Unser Terroir. Unser Handwerk. Unsere Haltung.",
+            "position": "top_left"
+          }
+        },
+        "heading_7QNjwQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Wo Wein Wurzeln hat und Menschen zusammenbringt.",
+            "heading_tag": "h3",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_jDKiXX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Seit sechs Generationen schlägt unser Herz für Wein mitten in Rheinhessen.<br/>Unsere Reben rund um Undenheim stehen auf <strong>fruchtbarem Boden, umgeben von sanften Hügeln und warmen Lagen.</strong><br/><br/><strong>Wir arbeiten nachhaltig, mit viel Gespür für Boden, Rebe und Mensch. </strong>Wir sind wie die Reben tief in unserer Heimat verwurzelt und denken nicht in Jahren, sondern in Generationen.</p><p></p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_3qQ9tX": {
+          "type": "button",
+          "settings": {
+            "text": "Mehr über uns erfahren",
+            "url": "shopify://pages/weingut-lagen",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DxepzW",
+        "heading_7QNjwQ",
+        "richtext_jDKiXX",
+        "button_3qQ9tX"
+      ],
+      "custom_css": [
+        ".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/Weingut_Jung_Familie.webp",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "collection_list_DwYpDz": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_card_zRyber": {
+          "type": "collection-card",
+          "settings": {
+            "color_scheme": "",
+            "collection": "weinpakete",
+            "image": "{{ closest.collection.image }}",
+            "title": "{{ closest.collection.title }}",
+            "heading_tag": "h5",
+            "button_text": "",
+            "button_style": "outline",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {}
+        },
+        "collection_card_7AfrwK": {
+          "type": "collection-card",
+          "settings": {
+            "color_scheme": "",
+            "collection": "weissweine",
+            "image": "{{ closest.collection.image }}",
+            "title": "{{ closest.collection.title }}",
+            "heading_tag": "h5",
+            "button_text": "",
+            "button_style": "outline",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {}
+        },
+        "collection_card_C7c7Ar": {
+          "type": "collection-card",
+          "settings": {
+            "color_scheme": "",
+            "collection": "rotweine",
+            "image": "{{ closest.collection.image }}",
+            "title": "{{ closest.collection.title }}",
+            "heading_tag": "h5",
+            "button_text": "",
+            "button_style": "outline",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {}
+        },
+        "collection_card_iDtWpx": {
+          "type": "collection-card",
+          "settings": {
+            "color_scheme": "",
+            "collection": "rose",
+            "image": "{{ closest.collection.image }}",
+            "title": "{{ closest.collection.title }}",
+            "heading_tag": "h5",
+            "button_text": "",
+            "button_style": "outline",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {}
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Unsere Weine entdecken",
+            "content": "<p>Ob fruchtig & leicht, kräftig & charaktervoll oder prickelnd & verspielt – hier finden Sie<br/>genau den Wein, der zu Ihrem Geschmack und Anlass passt. Stöbern Sie durch unsere Kategorien und entdecken Sie die Vielfalt des Weinguts Jung.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "center",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "collection_card_zRyber",
+        "collection_card_7AfrwK",
+        "collection_card_C7c7Ar",
+        "collection_card_iDtWpx"
+      ],
+      "name": "t:sections.collection_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "items_per_row": 4,
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "content_position": "outside",
+        "column_spacing": "sm",
+        "image_size": "auto"
+      }
+    },
+    "image_with_text_overlay_WVC9nN": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_JqpTnn": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Ehrliche Weine, bequem online bestellen."
+          },
+          "blocks": {}
+        },
+        "heading_gqhNPn": {
+          "type": "heading",
+          "settings": {
+            "text": "Empfehlung von Johannes: Riesling Roter Hang",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_JyG9Am": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Dieser Riesling ist mehr als nur ein Wein – er ist ein Statement. Als besondere Empfehlung von Johannes steht der <em>Rote Hang</em> für den spannenden Einstieg in unsere Welt: ein Lagenwein mit Tiefe, Charakter und Herkunft.</p><p>Die Trauben stammen von den roten Tonschieferböden des berühmten Roten Hangs – und das schmeckt man. Frische und Reife, Mineralität und Saftigkeit, Klarheit und Komplexität: Dieser Riesling vereint Gegensätze zu einem harmonischen Ganzen.</p>",
+            "content_width": "md"
+          },
+          "blocks": {}
+        },
+        "button_xrtwrP": {
+          "type": "button",
+          "name": "t:blocks.button.name",
+          "settings": {
+            "text": "→ Jetzt entdecken",
+            "url": "https://weingut-jung-vd.myshopify.com/search?q=riesling+roter+hang",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "#c45e19",
+            "text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_JqpTnn",
+        "heading_gqhNPn",
+        "rich_text_JyG9Am",
+        "button_xrtwrP"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "image": "shopify://shop_images/20210311_weingut-jung-johannes-j.webp",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "featured_product_list_dVCnt3": {
+      "type": "featured-product-list",
+      "disabled": true,
+      "name": "t:sections.featured_product_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "product_list": [
+          "test-weisswein"
+        ],
+        "stack_products_mobile": true,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "intro_color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "intro_image_overlay": "#00000021",
+        "intro_title": "Empfehlung von Johannes: Riesling Roter Hang",
+        "intro_title_tag": "h4",
+        "intro_content": "<p>Dieser Riesling ist mehr als nur ein Wein – er ist ein Statement. Als besondere Empfehlung von Johannes steht der <em>Rote Hang</em> für den spannenden Einstieg in unsere Welt: ein Lagenwein mit Tiefe, Charakter und Herkunft.</p><p>Die Trauben stammen von den roten Tonschieferböden des berühmten Roten Hangs – und das schmeckt man. Frische und Reife, Mineralität und Saftigkeit, Klarheit und Komplexität: Dieser Riesling vereint Gegensätze zu einem harmonischen Ganzen.</p>",
+        "intro_button_text": "",
+        "intro_button_link": "",
+        "intro_button_style": "outline"
+      }
+    },
+    "rich_text_KAzBBk": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zp9DAQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_iRLdQt": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_QmhAG7": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "image_Lpj4TW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2014_B27C1545_Large_7ac7f6fa-788b-4166-b692-b27f5c1110d1.webp",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zp9DAQ",
+        "heading_iRLdQt",
+        "richtext_QmhAG7",
+        "image_Lpj4TW"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "content_width": "md",
+        "text_alignment": "left"
+      }
+    },
+    "text_with_media_dYcQLT": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_iPhzEq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Unsere Weine folgen keinem Trend, sondern einer Haltung.",
+            "position": "top_left"
+          }
+        },
+        "heading_xLbbUW": {
+          "type": "heading",
+          "settings": {
+            "text": "Charakter statt Konvention.",
+            "heading_tag": "h3",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_t38rJQ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>Bei uns gibt es keine Show, sondern echte Handarbeit,</strong> gelebte Nachhaltigkeit und Weine mit Haltung. <br/>Unsere Weinbergsarbeit ist geprägt von einem tiefen Respekt vor Natur und Boden. </p><p>Wir leben unmittelbar von der Natur und schaffen deshalb gerne Heimat für Bienen, Insekten, Würmer, Vögel, Ameisen und die vielen nützlichen unsichtbaren Mikroorganismen. </p><p><strong>Seit mehr als 20 Jahren verwenden wir keinen Mineraldünger, sondern lassen organische Materialien wie Rebholz und Laub im Weinberg und führen Trester in ihn zurück.</strong> </p><p>Durch einsäen von Blumen, Klee und Blühmischungen bereichern wir nicht nur optisch unsere Weinberge, sondern lockern dadurch Erde und beleben die Böden durch guten Humusgehalt. <br/><br/>Wir begleiten und pflegen unsere Reben das ganze Jahr, egal ob bei Kälte, Hitze, Regen oder Trockenheit. Unsere Gäste erleben Weinkultur, wie sie sein sollte: ehrlich und familiär.</p><p><strong>Das ist unser Versprechen – heute und in Zukunft!</strong></p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_UfNLAh": {
+          "type": "button",
+          "settings": {
+            "text": "Mehr über uns erfahren",
+            "url": "shopify://pages/weingut-lagen",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iPhzEq",
+        "heading_xLbbUW",
+        "richtext_t38rJQ",
+        "button_UfNLAh"
+      ],
+      "custom_css": [
+        ".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_position": "end",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": true,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/Headerbilder_Weine.webp",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "press_bEYMPi": {
+      "type": "press",
+      "blocks": {
+        "item_B9gJML": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Wir hatten einen unvergesslichen Abend mit euren Weinen – sie haben unsere Hochzeit perfekt gemacht.“"
+          }
+        },
+        "item_chxfEk": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„So persönlich und herzlich wie hier wird man selten empfangen.“"
+          }
+        },
+        "item_m84Ptj": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Man merkt, dass ihr euren Wein mit viel Herzblut macht – ehrlich, bodenständig und lecker.“"
+          }
+        },
+        "item_PLhEmA": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Ich wusste gar nicht, wie viel Arbeit hinter einer Flasche Wein steckt.“"
+          }
+        },
+        "item_Xe67AF": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Der Muskateller war eine echte Überraschung – fruchtig, leicht, einfach lecker.“"
+          }
+        }
+      },
+      "block_order": [
+        "item_B9gJML",
+        "item_chxfEk",
+        "item_m84Ptj",
+        "item_PLhEmA",
+        "item_Xe67AF"
+      ],
+      "name": "t:sections.press.name",
+      "settings": {
+        "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "title": "",
+        "use_arrows_navigation": true,
+        "show_quotation_mark": true,
+        "quotation_tag": "h3",
+        "item_style": "avatar",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "video_BB3mQE": {
+      "type": "video",
+      "blocks": {
+        "subheading_nPdChQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ehrliche Weine, bequem online bestellen.",
+            "position": "middle_center"
+          }
+        },
+        "heading_y3LUMN": {
+          "type": "heading",
+          "settings": {
+            "text": "Von unseren Reben direkt zu Ihnen nach Hause.",
+            "mobile_heading_tag": "h1",
+            "desktop_heading_tag": "sm:h3",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "play_button_DhikFb": {
+          "type": "play_button",
+          "disabled": true,
+          "settings": {
+            "position": "middle_center",
+            "show_play_cursor": false
+          }
+        },
+        "richtext_YWpLCD": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Seit sechs Generationen leben wir Wein mit Herz und Haltung. Für uns bedeutet Wein Gemeinschaft, Genuss und Lebensfreude. Ob fruchtig-frisch oder charaktervoll-komplex – in unserem Shop finden Sie Weine, die verbinden.</p><p><a href=\"/collections/alle-weine\" title=\"Alle Weine\">→ JETZT ENTDECKEN</a></p>",
+            "position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nPdChQ",
+        "heading_y3LUMN",
+        "play_button_DhikFb",
+        "richtext_YWpLCD"
+      ],
+      "custom_css": [],
+      "name": "t:sections.video.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "mobile_video_size": "md",
+        "video": "shopify://files/videos/20211001_luftvideo_weingut-jung-spiesheim_005_video_www.vonganzoben.de (1).mp4",
+        "external_video_url": ""
+      }
+    },
+    "image_with_text_overlay_yFPznJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_eq9GQA": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ehrliche Weine, bequem online bestellen."
+          },
+          "blocks": {}
+        },
+        "heading_pPDjTT": {
+          "type": "heading",
+          "settings": {
+            "text": "Von unseren Reben direkt zu Ihnen nach Hause.",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_rMKPdR": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Seit sechs Generationen leben wir Wein mit Herz und Haltung. Für uns bedeutet Wein Gemeinschaft, Genuss und Lebensfreude. Ob fruchtig-frisch oder charaktervoll-komplex – in unserem Shop finden Sie Weine, die verbinden.</p>",
+            "content_width": "sm"
+          },
+          "blocks": {}
+        },
+        "button_TmTEdw": {
+          "type": "button",
+          "name": "t:blocks.button.name",
+          "settings": {
+            "text": "→ Jetzt entdecken",
+            "url": "shopify://collections/alle-weine",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "#c45e19",
+            "text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_eq9GQA",
+        "heading_pPDjTT",
+        "rich_text_rMKPdR",
+        "button_TmTEdw"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/20211001_luftbild-weingut-jung-s.webp",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "media_blocks_xetMiD": {
+      "type": "media-blocks",
+      "blocks": {
+        "image_with_text_HWqL4i": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "",
+            "color_scheme_hover": "",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "middle_center",
+            "subheading": "Media 1",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "<p>Share some content about your store</p>",
+            "text_position": "bottom_right",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_HWqL4i"
+      ],
+      "disabled": true,
+      "name": "t:sections.media_blocks.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "subheading": "",
+        "title": "Media blocks",
+        "content": "<p>Use this section to create rich content by using images, videos, scrolling text or horizontal text. If textual content is more important than imagery, consider using the multi column section instead.</p>",
+        "heading_tag": "h4",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "circle",
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "add_border": false,
+        "column_spacing": "sm",
+        "items_per_row": 2,
+        "block_size": "auto"
+      }
+    },
+    "reading_text_M4WmRp": {
+      "type": "reading-text",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-4",
+        "subheading": "",
+        "content": "Write some content that will be progressively revealed as the customer scrolls the page.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h4",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 20,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "slideshow_rwmxqG",
+    "rich_text_AdhnUE",
+    "logo_list_bAneNz",
+    "featured_collections_eKdt6r",
+    "trust_icons_HEJKDX",
+    "text_with_media_prHap9",
+    "featured_product_list_WeU8GW",
+    "products_with_image_zezLbb",
+    "featured_product_k96yJc",
+    "text_with_media_qeeKbC",
+    "collection_list_DwYpDz",
+    "image_with_text_overlay_WVC9nN",
+    "featured_product_list_dVCnt3",
+    "rich_text_KAzBBk",
+    "text_with_media_dYcQLT",
+    "press_bEYMPi",
+    "video_BB3mQE",
+    "image_with_text_overlay_yFPznJ",
+    "media_blocks_xetMiD",
+    "reading_text_M4WmRp"
+  ]
+}
