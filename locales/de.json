@@ -97,11 +97,15 @@
       "view_in_space": "In deinem Bereich ansehen",
       "taxes_included": "inkl. MwSt.",
       "taxes_excluded": "zzgl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten<\/a> werden an der Kasse berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden an der Kasse berechnet",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
         "other": "{{ count }} Farben verfügbar"
+      },
+      "variant_in_cart_count": {
+        "one": "",
+        "other": ""
       }
     },
     "gallery": {
@@ -237,7 +241,11 @@
       "addresses": "Adressen",
       "logout": "Abmelden",
       "no_orders": "Du hast noch nichts bestellt.",
-      "continue_shopping": "Weiter einkaufen"
+      "continue_shopping": "Weiter einkaufen",
+      "orders_count": {
+        "one": "",
+        "other": ""
+      }
     },
     "login": {
       "title": "Anmelden",
@@ -263,7 +271,7 @@
       "last_name": "Nachname",
       "email": "E-Mail",
       "password": "Passwort",
-      "accepts_marketing": "Newsletter abonnieren",
+      "accepts_marketing": "Post von Jung – mit Wein, Herz und echten Einblicken. Abonnieren Sie unseren Newsletter und genießen Sie 10 % Rabatt auf Ihre erste Bestellung.",
       "submit": "Kundenkonto erstellen",
       "login": "Anmelden"
     },
@@ -342,7 +350,8 @@
       "remove_item": "Artikel entfernen {{ title }}",
       "item_count": {
         "one": "{{ count }} Artikel",
-        "other": "{{ count }} Artikel"
+        "other": "{{ count }} Artikel",
+        "zero": ""
       },
       "continue_shopping": "Weiter einkaufen",
       "weight": "Gewicht",
@@ -523,6 +532,21 @@
       "remove": "Entfernen",
       "remove_all": "Alle entfernen",
       "volume_pricing_available": "Mengenpreise verfügbar"
+    }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": "<p>Mit freundlicher Unterstützung von <a href=\"https://www.vinodigital.de\">Vino Digital</a></p>"
+    },
+    "checkout": {
+      "marketing": {
+        "accept_marketing_checkbox_label": "Post von Jung – mit Wein, Herz und echten Einblicken. Abonnieren Sie unseren Newsletter und genießen Sie 10 % Rabatt auf Ihre erste Bestellung."
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "marketing_checkbox_label": "Post von Jung – mit Wein, Herz und echten Einblicken. Abonnieren Sie unseren Newsletter und genießen Sie 10 % Rabatt auf Ihre erste Bestellung."
     }
   }
 }
