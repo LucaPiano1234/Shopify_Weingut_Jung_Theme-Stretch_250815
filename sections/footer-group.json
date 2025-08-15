@@ -170,10 +170,10 @@
         "links_Pdime8": {
           "type": "links",
           "settings": {
-            "menu": "main-menu",
+            "menu": "footer-shoppinf",
             "collapse_on_mobile": true,
             "show_menu_title": true,
-            "menu_title": "<strong>Menü</strong>"
+            "menu_title": "<strong>Sortiment</strong>"
           }
         }
       },
