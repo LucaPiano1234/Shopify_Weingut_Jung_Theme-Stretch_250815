@@ -11,10 +11,50 @@
   "sections": {
     "00c86ed4-2278-4ddc-9d13-9668f82bdbad": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
         "content_width": "md"
+      }
+    },
+    "rich_text_8VjrXb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_aWmVTx": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ihre persönliche Weinprobe"
+          }
+        },
+        "heading_a8GhBd": {
+          "type": "heading",
+          "settings": {
+            "text": "Kommen Sie vorbei und erleben Sie Rheinhessen im Glas",
+            "heading_tag": "h5",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_qFibAT": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Bei uns spüren Sie die Verbundenheit mit der Region in jedem Glas. Unsere Weinberge werden mit Respekt vor Boden und Natur gepflegt, im Keller entsteht aus jeder Traube ein Wein, der Charakter und Terroir widerspiegelt. Bei einer Weinprobe nehmen wir uns Zeit für Sie – keine Verkaufsshow, sondern echte Momente voller Geschmack, Geschichten und Herzlichkeit.</p><p>Reservieren Sie noch heute Ihre persönliche Weinprobe oder Ihren Besuch und lassen Sie sich von unserer Leidenschaft anstecken.</p><p>Füllen Sie einfach das Formular aus, wir melden uns so schnell wie möglich bei Ihnen, um Ihren Besuch oder Ihre Weinprobe zu vereinbaren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aWmVTx",
+        "heading_a8GhBd",
+        "richtext_qFibAT"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
       }
     },
     "forms": {
@@ -140,6 +180,7 @@
   },
   "order": [
     "00c86ed4-2278-4ddc-9d13-9668f82bdbad",
+    "rich_text_8VjrXb",
     "forms",
     "slideshow_txfAXx"
   ]
