@@ -1,1 +1,643 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{"heading_tag":"h3"}},"price":{"type":"price","settings":{"show_taxes_notice":true}},"rating":{"type":"rating","settings":{"show_empty":true}},"separator":{"type":"separator","settings":{}},"icons_with_text_V8LFEF":{"type":"icons_with_text","settings":{"items_per_row":1,"icon_1":"shopify:\/\/shop_images\/Shipping.png","icon_1_width":24,"icon_1_text":"Schneller & sicherer Versand","icon_2":"shopify:\/\/shop_images\/Wein.png","icon_2_width":24,"icon_2_text":"Direkt vom Weingut","icon_3":"shopify:\/\/shop_images\/beratung.png","icon_3_width":24,"icon_3_text":"Familiäre Beratung ","icon_4_width":24,"icon_4_text":""}},"badges":{"type":"badges","disabled":true,"settings":{}},"description":{"type":"description","settings":{"collapse_content":false,"uppercase_title":false}},"text_DacYMy":{"type":"text","settings":{"text":"<p>Enthält Sulfite<\/p>"}},"payment_terms":{"type":"payment_terms","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_payment_button":false,"show_gift_card_recipient":true,"show_quantity_selector":true,"add_quantity_selector_spacing":true,"atc_button_style":"solid","atc_button_background":"#c35e02","atc_button_text_color":"#ffffff","payment_button_background":"#c35e02","payment_button_text_color":"#ffffff"}},"variant_picker":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"separate_options":false,"selector_style":"block","swatch_selector_style":"swatch","swatch_selector_size":"lg","block_selector_style":"outline","variant_image_options":"","size_chart_page":""}},"sku_4btNMz":{"type":"sku","settings":{}},"accordion_mD9gnL":{"type":"accordion","name":"Langbeschreibung","settings":{"title":"Mehr Details","content":"<p>{{ product.metafields.custom.qualit_tspyramide.value }}<\/p><p>Rebsorte: {{ product.metafields.custom.rebsorte.value }}<\/p><p>Jahrgang: {{ product.metafields.custom.jahrgang.value }}<\/p><p>Anbaugebiet: {{ product.metafields.custom.anbaugebiet.value }}<\/p><p>Alkoholgehalt: {{ product.metafields.custom.alkohol.value }}<\/p><p>Qualität: {{ product.metafields.custom.qualit_tsstufe.value }}<\/p><p>Trinktemperatur: {{ product.metafields.custom.trinktemperatur.value }}<\/p><p>Anlass: {{ product.metafields.custom.anlass.value }}<\/p><p>Aromen:<\/p>{{ product.metafields.custom.aromen | metafield_tag }}","uppercase_title":false,"icon":"none","page":""}},"accordion_TtawKz":{"type":"accordion","name":"Nährwerte","settings":{"title":"Nährwerte","content":"<p>Kohlenhydrate: {{ product.metafields.custom.kohlenhydrate.value }}<\/p><p>davon Zucker: {{ product.metafields.custom.davon_zucker.value }}<\/p><p>Brennwert: {{ product.metafields.custom.brennwert.value }}<\/p><p>Säure: {{ product.metafields.custom.s_ure.value }}<\/p><p>Restsüße: {{ product.metafields.custom.rests_e.value }}<\/p><p>Enthält geringfügige Mengen von Fett, gesättigten Fettsäuren, Eiweiß und Salz<\/p>","uppercase_title":false,"icon":"none","page":""}}},"block_order":["vendor","title","price","rating","separator","icons_with_text_V8LFEF","badges","description","text_DacYMy","payment_terms","buy_buttons","variant_picker","sku_4btNMz","accordion_mD9gnL","accordion_TtawKz"],"settings":{"color_scheme":"scheme-2","allow_transparent_header":false,"transparent_header_use_primary_colors":false,"add_top_spacing":true,"show_sticky_add_to_cart":true,"product_media_size":40,"content_alignment":"left","desktop_media_layout":"grid_half_highlight_first","desktop_carousel_controls":"dots","mobile_controls":"none","enable_media_autoplay":false,"enable_video_looping":true,"enable_image_zoom":true,"max_image_zoom_level":3}},"text_with_media_8E8dGG":{"type":"text-with-media","blocks":{"subheading_9bcFp3":{"type":"subheading","settings":{"text":"Unser Terroir. Unser Handwerk. Unsere Haltung.","position":"top_left"}},"heading_fDhnJH":{"type":"heading","settings":{"text":"Wo Wein Wurzeln hat und Menschen zusammenbringt.","heading_tag":"h3","position":"top_left","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_gjThKF":{"type":"richtext","settings":{"text":"<p><strong>Bei uns wächst mehr als nur Wein.<\/strong><\/p><p>In sechster Generation verbinden wir Handwerk mit Haltung, Gastfreundschaft mit Genuss. Unsere Weinberge rund um Undenheim sind geprägt von kalkreichen Böden und warmen Lagen, das ergibt Weine mit Charakter, Tiefe und Trinkfreude.<\/p><p><strong>Wir arbeiten nachhaltig, mit viel Gespür für Boden, Rebe und Mensch, ohne Label, aber mit Überzeugung. <\/strong><\/p><p>Und weil Wein bei uns nicht nur ins Glas, sondern auch ins Leben gehört, stehen bei allem, was wir tun, Gemeinschaft und ehrliche Begegnungen im Mittelpunkt.<\/p>","position":"bottom_left"}},"button_QEiVzn":{"type":"button","settings":{"text":"Mehr über uns erfahren","url":"shopify:\/\/pages\/weingut-lagen","position":"bottom_left","style":"solid","background":"","text_color":""}}},"block_order":["subheading_9bcFp3","heading_fDhnJH","richtext_gjThKF","button_QEiVzn"],"custom_css":[".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"],"name":"t:sections.text_with_media.name","settings":{"color_scheme":"scheme-6","content_position":"start","content_percentage_width":50,"overlay_color":"#000000","overlay_opacity":20,"add_media_spacing":false,"autoplay_video":true,"primary_image":"shopify:\/\/shop_images\/Weingut_Jung_Familie.webp","secondary_media_width":60,"secondary_media_mobile_width":60,"show_secondary_media_on_mobile":true,"secondary_media_alignment":"place-self-center","secondary_media_shape":"none"}},"logo_list_N7BzBe":{"type":"logo-list","blocks":{"logo_CjEpDg":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Falstaff__Weinjournal__Logo_svg.png","width":120,"mobile_width":90,"link":""}},"logo_6DDRYF":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/Eichelmann-Logo_f4513578-8cfb-44db-bcc2-5357a2d128ee_1.png","width":120,"mobile_width":90,"link":""}}},"block_order":["logo_CjEpDg","logo_6DDRYF"],"name":"t:sections.logo_list.name","settings":{"color_scheme":"scheme-2","subheading":"","title":"Empfohlen von:","heading_tag":"h4","content_alignment":"center","reveal_on_scroll":true,"stack_on_mobile":false,"add_logos_spacing":false,"logos_padding_block":0,"logo_background":"","logo_border":""}},"related-products":{"type":"related-products","blocks":{"section-header":{"type":"_section-header","static":true,"settings":{"subheading":"","title":"Diese Produkte könnten Ihnen auch gefallen:","content":"","button_text":"","button_link":"","button_style":"outline","text_alignment":"left","heading_size":"h3","title_icon":"none","show_scrolling_title":false},"blocks":{}}},"custom_css":[".button {background: #c25f02; color: white;}",".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"],"settings":{"color_scheme":"scheme-2","stack_products":true,"recommendations_count":4,"products_per_row_mobile":"1","products_per_row_desktop":4,"show_view_all_button":true,"show_scrolling_bar":true}},"press_CP3GzR":{"type":"press","blocks":{"item_aRF9Wm":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Wir hatten einen unvergesslichen Abend mit euren Weinen – sie haben unsere Hochzeit perfekt gemacht.“"}},"item_MRekNn":{"type":"item","settings":{"logo_width":80,"author":"","content":"„So persönlich und herzlich wie hier wird man selten empfangen.“"}},"item_gbwFr9":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Man merkt, dass ihr euren Wein mit viel Herzblut macht – ehrlich, bodenständig und lecker.“"}},"item_t8cRKG":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Ich wusste gar nicht, wie viel Arbeit hinter einer Flasche Wein steckt.“"}},"item_cLexJP":{"type":"item","settings":{"logo_width":80,"author":"","content":"„Der Muskateller war eine echte Überraschung – fruchtig, leicht, einfach lecker.“"}}},"block_order":["item_aRF9Wm","item_MRekNn","item_gbwFr9","item_t8cRKG","item_cLexJP"],"name":"t:sections.press.name","settings":{"color_scheme":"scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f","title":"","use_arrows_navigation":true,"show_quotation_mark":true,"quotation_tag":"h3","item_style":"avatar","autoplay":true,"cycle_speed":6,"overlay_color":"#000000","overlay_opacity":20}},"recently_viewed_products_LVH7dk":{"type":"recently-viewed-products","blocks":{"section-header":{"type":"_section-header","static":true,"settings":{"subheading":"","title":"Produkte, die Sie zuletzt angesehen haben","content":"","button_text":"","button_link":"","button_style":"outline","text_alignment":"left","heading_size":"h3","title_icon":"none","show_scrolling_title":false},"blocks":{}}},"custom_css":[".button {background: #c25f02; color: white;}",".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"],"name":"t:sections.recently_viewed_products.name","settings":{"color_scheme":"scheme-2","stack_products":true,"products_count":4,"products_per_row_mobile":"1","products_per_row_desktop":4,"show_scrolling_bar":true}},"text_with_media_9xGDFt":{"type":"text-with-media","blocks":{"subheading_HXLhJW":{"type":"subheading","settings":{"text":"Für jeden Moment der passende Wein – klar strukturiert, authentisch und charakterstark.","position":"top_left"}},"heading_GJxypT":{"type":"heading","settings":{"text":"Ein Sortiment, das verbindet","heading_tag":"h3","position":"top_left","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_7YwpRM":{"type":"richtext","settings":{"text":"<p>Unser Sortiment ist so aufgebaut, dass es sowohl Einsteiger als auch Weinliebhaber leichtfällt, den passenden Wein zu finden.<\/p><ul><li><strong>Gutsweine<\/strong>: stammen aus unseren Weinbergen rund um Undenheim. Sie sind fruchtig und ideal für den Alltag.<\/li><li><strong>Ortsweine<\/strong>: zeigen, was unsere Heimat ausmacht. Die besten Lagen konzentriert auf ein Weindorf, mit Charakter und vom Terroir geprägt. <\/li><li><strong>Lagenweine<\/strong>: stammen aus exakt abgegrenzten Parzellen mit besonderem Boden, Mikroklima und Ausrichtung. Die besten Parzellen werden handwerklich selektiert<\/li><\/ul><p>Dazu kommen saisonale Highlights und echte Herzensprojekte – immer mit dem Anspruch, unsere Handschrift und unsere Heimat im Glas spürbar zu machen.<\/p>","position":"bottom_left"}},"button_PrgNTb":{"type":"button","disabled":true,"settings":{"text":"Button text","url":"","position":"bottom_left","style":"solid","background":"","text_color":""}}},"block_order":["subheading_HXLhJW","heading_GJxypT","richtext_7YwpRM","button_PrgNTb"],"custom_css":[".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"],"name":"t:sections.text_with_media.name","settings":{"color_scheme":"scheme-6","content_position":"start","content_percentage_width":50,"overlay_color":"#000000","overlay_opacity":20,"add_media_spacing":false,"autoplay_video":true,"primary_image":"shopify:\/\/shop_images\/20220427_weingut-jung-weine_001_foto_mario-andreya.jpg","secondary_media_width":60,"secondary_media_mobile_width":60,"show_secondary_media_on_mobile":true,"secondary_media_alignment":"place-self-center","secondary_media_shape":"none"}},"before_after_waUXDD":{"type":"before-after","blocks":{"before_YmdGwU":{"type":"before","settings":{"color_scheme":"","image":"shopify:\/\/shop_images\/Pyramide_Jung_1588c45a-8a18-45e5-9553-7bacda7ba275.webp","text":"Before","text_size":"h7","text_position":"start"}},"after_HRq9at":{"type":"after","settings":{"color_scheme":"","image":"shopify:\/\/shop_images\/Pyramide_Jung_mitText.webp","text":"After","text_size":"h7","text_position":"start"}}},"block_order":["before_YmdGwU","after_HRq9at"],"name":"t:sections.before_after.name","settings":{"color_scheme":"scheme-2","layout":"stacked","add_comparison_spacing":true,"subheading":"","title":"","title_tag":"h3","content":"","button_text":"","button_url":"","button_style":"solid","cursor_direction":"horizontal","cursor_initial_position":50,"cursor_background":"#ffffff","cursor_arrows_color":"#000000"}},"image_with_text_overlay_yQaexC":{"type":"image-with-text-overlay","blocks":{"heading_KjFWjL":{"type":"heading","settings":{"text":"Persönliche Weinberatung","heading_size":"h3","html_tag":"p","indent":"none","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""},"blocks":{}},"rich_text_kfWxQY":{"type":"rich-text","settings":{"text":"<p>Wein ist Geschmackssache – und genau deshalb nehmen wir uns Zeit für Ihre Fragen, Wünsche und Vorlieben. Ob per Telefon, E-Mail oder direkt bei uns im Weingut: Wir beraten Sie persönlich, transparent und mit dem Blick fürs Detail. Denn wir möchten, dass Sie genau den Wein finden, der zu Ihnen passt.<\/p>","content_width":"md"},"blocks":{}},"button_eQbCBE":{"type":"button","name":"t:blocks.button.name","settings":{"text":"Persönliche Beratung","url":"shopify:\/\/pages\/contact","open_in_new_tab":false,"style":"solid","background":"#faf4f0","text_color":""},"blocks":{}}},"block_order":["heading_KjFWjL","rich_text_kfWxQY","button_eQbCBE"],"name":"t:sections.image_with_text_overlay.name","settings":{"color_scheme":"","allow_transparent_header":true,"image_size":"md","image":"shopify:\/\/shop_images\/20240605_weingut-jung-vinothek_002_foto_mario-andreya_1_d23e2c93-6a50-44ae-8069-41f73219f066.jpg","overlay_color":"#000000","overlay_opacity":40,"enable_sticky_content":false,"content_width":"md","desktop_text_position":"sm:place-self-center","mobile_text_position":"place-self-center"}},"products_with_image_dAjFU3":{"type":"products-with-image","blocks":{"subheading_T4yUHm":{"type":"subheading","disabled":true,"settings":{"text":"Subheading","position":"middle_center"}},"heading_kfWnTH":{"type":"heading","settings":{"text":"Diese Weine passen perfekt zu deiner Auswahl","heading_tag":"h2","position":"middle_center","highlight_effect":"default","highlight_accent_color":"","highlight_text_color":""}},"richtext_TTgcXn":{"type":"richtext","disabled":true,"settings":{"text":"<p>Use this text to share information about your products, and showcase a list of related products.<\/p>","position":"middle_center"}}},"block_order":["subheading_T4yUHm","heading_kfWnTH","richtext_TTgcXn"],"disabled":true,"name":"t:sections.products_with_image.name","settings":{"color_scheme":"","products":"{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}","image":"shopify:\/\/shop_images\/Weinreben.webp","overlay_color":"#000000","overlay_opacity":30,"desktop_product_layout":"grid","mobile_product_layout":"grid","mobile_products_per_row":"2"}}},"order":["main","text_with_media_8E8dGG","logo_list_N7BzBe","related-products","press_CP3GzR","recently_viewed_products_LVH7dk","text_with_media_9xGDFt","before_after_waUXDD","image_with_text_overlay_yQaexC","products_with_image_dAjFU3"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "icons_with_text_V8LFEF": {
+          "type": "icons_with_text",
+          "settings": {
+            "items_per_row": 1,
+            "icon_1": "shopify://shop_images/Shipping.png",
+            "icon_1_width": 24,
+            "icon_1_text": "Schneller & sicherer Versand",
+            "icon_2": "shopify://shop_images/Wein.png",
+            "icon_2_width": 24,
+            "icon_2_text": "Direkt vom Weingut",
+            "icon_3": "shopify://shop_images/beratung.png",
+            "icon_3_width": 24,
+            "icon_3_text": "Familiäre Beratung ",
+            "icon_4_width": 24,
+            "icon_4_text": ""
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
+          }
+        },
+        "text_DacYMy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enthält Sulfite</p>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": true,
+            "add_quantity_selector_spacing": true,
+            "atc_button_style": "solid",
+            "atc_button_background": "#c35e02",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#c35e02",
+            "payment_button_text_color": "#ffffff"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "separate_options": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "swatch_selector_size": "lg",
+            "block_selector_style": "outline",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "sku_4btNMz": {
+          "type": "sku",
+          "settings": {}
+        },
+        "accordion_mD9gnL": {
+          "type": "accordion",
+          "name": "Langbeschreibung",
+          "settings": {
+            "title": "Mehr Details",
+            "content": "<p>{{ product.metafields.custom.qualit_tspyramide.value }}</p><p>Rebsorte: {{ product.metafields.custom.rebsorte.value }}</p><p>Jahrgang: {{ product.metafields.custom.jahrgang.value }}</p><p>Anbaugebiet: {{ product.metafields.custom.anbaugebiet.value }}</p><p>Alkoholgehalt: {{ product.metafields.custom.alkohol.value }}</p><p>Qualität: {{ product.metafields.custom.qualit_tsstufe.value }}</p><p>Trinktemperatur: {{ product.metafields.custom.trinktemperatur.value }}</p><p>Anlass: {{ product.metafields.custom.anlass.value }}</p><p>Aromen:</p>{{ product.metafields.custom.aromen | metafield_tag }}",
+            "uppercase_title": false,
+            "icon": "none",
+            "page": ""
+          }
+        },
+        "accordion_TtawKz": {
+          "type": "accordion",
+          "name": "Nährwerte",
+          "settings": {
+            "title": "Nährwerte",
+            "content": "<p>Kohlenhydrate: {{ product.metafields.custom.kohlenhydrate.value }}</p><p>davon Zucker: {{ product.metafields.custom.davon_zucker.value }}</p><p>Brennwert: {{ product.metafields.custom.brennwert.value }}</p><p>Säure: {{ product.metafields.custom.s_ure.value }}</p><p>Restsüße: {{ product.metafields.custom.rests_e.value }}</p><p>Enthält geringfügige Mengen von Fett, gesättigten Fettsäuren, Eiweiß und Salz</p>",
+            "uppercase_title": false,
+            "icon": "none",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "rating",
+        "separator",
+        "icons_with_text_V8LFEF",
+        "badges",
+        "description",
+        "text_DacYMy",
+        "payment_terms",
+        "buy_buttons",
+        "variant_picker",
+        "sku_4btNMz",
+        "accordion_mD9gnL",
+        "accordion_TtawKz"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "add_top_spacing": true,
+        "show_sticky_add_to_cart": true,
+        "product_media_size": 40,
+        "content_alignment": "left",
+        "desktop_media_layout": "grid_half_highlight_first",
+        "desktop_carousel_controls": "dots",
+        "mobile_controls": "none",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "text_with_media_8E8dGG": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_9bcFp3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Unser Terroir. Unser Handwerk. Unsere Haltung.",
+            "position": "top_left"
+          }
+        },
+        "heading_fDhnJH": {
+          "type": "heading",
+          "settings": {
+            "text": "Wo Wein Wurzeln hat und Menschen zusammenbringt.",
+            "heading_tag": "h3",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_gjThKF": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>Bei uns wächst mehr als nur Wein.</strong></p><p>In sechster Generation verbinden wir Handwerk mit Haltung, Gastfreundschaft mit Genuss. Unsere Weinberge rund um Undenheim sind geprägt von kalkreichen Böden und warmen Lagen, das ergibt Weine mit Charakter, Tiefe und Trinkfreude.</p><p><strong>Wir arbeiten nachhaltig, mit viel Gespür für Boden, Rebe und Mensch, ohne Label, aber mit Überzeugung. </strong></p><p>Und weil Wein bei uns nicht nur ins Glas, sondern auch ins Leben gehört, stehen bei allem, was wir tun, Gemeinschaft und ehrliche Begegnungen im Mittelpunkt.</p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_QEiVzn": {
+          "type": "button",
+          "settings": {
+            "text": "Mehr über uns erfahren",
+            "url": "shopify://pages/weingut-lagen",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9bcFp3",
+        "heading_fDhnJH",
+        "richtext_gjThKF",
+        "button_QEiVzn"
+      ],
+      "custom_css": [
+        ".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/Weingut_Jung_Familie.webp",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "logo_list_N7BzBe": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_CjEpDg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Falstaff__Weinjournal__Logo_svg.png",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        },
+        "logo_6DDRYF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Eichelmann-Logo_f4513578-8cfb-44db-bcc2-5357a2d128ee_1.png",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_CjEpDg",
+        "logo_6DDRYF"
+      ],
+      "name": "t:sections.logo_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "",
+        "title": "Empfohlen von:",
+        "heading_tag": "h4",
+        "content_alignment": "center",
+        "reveal_on_scroll": true,
+        "stack_on_mobile": false,
+        "add_logos_spacing": false,
+        "logos_padding_block": 0,
+        "logo_background": "",
+        "logo_border": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Diese Produkte könnten Ihnen auch gefallen:",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "custom_css": [
+        ".button {background: #c25f02; color: white;}",
+        ".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "stack_products": true,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    },
+    "press_CP3GzR": {
+      "type": "press",
+      "blocks": {
+        "item_aRF9Wm": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Wir hatten einen unvergesslichen Abend mit euren Weinen – sie haben unsere Hochzeit perfekt gemacht.“"
+          }
+        },
+        "item_MRekNn": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„So persönlich und herzlich wie hier wird man selten empfangen.“"
+          }
+        },
+        "item_gbwFr9": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Man merkt, dass ihr euren Wein mit viel Herzblut macht – ehrlich, bodenständig und lecker.“"
+          }
+        },
+        "item_t8cRKG": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Ich wusste gar nicht, wie viel Arbeit hinter einer Flasche Wein steckt.“"
+          }
+        },
+        "item_cLexJP": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "",
+            "content": "„Der Muskateller war eine echte Überraschung – fruchtig, leicht, einfach lecker.“"
+          }
+        }
+      },
+      "block_order": [
+        "item_aRF9Wm",
+        "item_MRekNn",
+        "item_gbwFr9",
+        "item_t8cRKG",
+        "item_cLexJP"
+      ],
+      "name": "t:sections.press.name",
+      "settings": {
+        "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
+        "title": "",
+        "use_arrows_navigation": true,
+        "show_quotation_mark": true,
+        "quotation_tag": "h3",
+        "item_style": "avatar",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "recently_viewed_products_LVH7dk": {
+      "type": "recently-viewed-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Produkte, die Sie zuletzt angesehen haben",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "custom_css": [
+        ".button {background: #c25f02; color: white;}",
+        ".color-scheme--scheme-2 {--border-color: 0 0 0 0;}"
+      ],
+      "name": "t:sections.recently_viewed_products.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "stack_products": true,
+        "products_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "show_scrolling_bar": true
+      }
+    },
+    "text_with_media_9xGDFt": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_HXLhJW": {
+          "type": "subheading",
+          "settings": {
+            "text": "Für jeden Moment der passende Wein – klar strukturiert, authentisch und charakterstark.",
+            "position": "top_left"
+          }
+        },
+        "heading_GJxypT": {
+          "type": "heading",
+          "settings": {
+            "text": "Ein Sortiment, das verbindet",
+            "heading_tag": "h3",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_7YwpRM": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Unser Sortiment ist so aufgebaut, dass es sowohl Einsteiger als auch Weinliebhaber leichtfällt, den passenden Wein zu finden.</p><ul><li><strong>Gutsweine</strong>: stammen aus unseren Weinbergen rund um Undenheim. Sie sind fruchtig und ideal für den Alltag.</li><li><strong>Ortsweine</strong>: zeigen, was unsere Heimat ausmacht. Die besten Lagen konzentriert auf ein Weindorf, mit Charakter und vom Terroir geprägt. </li><li><strong>Lagenweine</strong>: stammen aus exakt abgegrenzten Parzellen mit besonderem Boden, Mikroklima und Ausrichtung. Die besten Parzellen werden handwerklich selektiert</li></ul><p>Dazu kommen saisonale Highlights und echte Herzensprojekte – immer mit dem Anspruch, unsere Handschrift und unsere Heimat im Glas spürbar zu machen.</p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_PrgNTb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "Button text",
+            "url": "",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HXLhJW",
+        "heading_GJxypT",
+        "richtext_7YwpRM",
+        "button_PrgNTb"
+      ],
+      "custom_css": [
+        ".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "scheme-6",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/20220427_weingut-jung-weine_001_foto_mario-andreya.jpg",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "before_after_waUXDD": {
+      "type": "before-after",
+      "blocks": {
+        "before_YmdGwU": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Pyramide_Jung_1588c45a-8a18-45e5-9553-7bacda7ba275.webp",
+            "text": "Before",
+            "text_size": "h7",
+            "text_position": "start"
+          }
+        },
+        "after_HRq9at": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Pyramide_Jung_mitText.webp",
+            "text": "After",
+            "text_size": "h7",
+            "text_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "before_YmdGwU",
+        "after_HRq9at"
+      ],
+      "name": "t:sections.before_after.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "layout": "stacked",
+        "add_comparison_spacing": true,
+        "subheading": "",
+        "title": "",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_yQaexC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_KjFWjL": {
+          "type": "heading",
+          "settings": {
+            "text": "Persönliche Weinberatung",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_kfWxQY": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Wein ist Geschmackssache – und genau deshalb nehmen wir uns Zeit für Ihre Fragen, Wünsche und Vorlieben. Ob per Telefon, E-Mail oder direkt bei uns im Weingut: Wir beraten Sie persönlich, transparent und mit dem Blick fürs Detail. Denn wir möchten, dass Sie genau den Wein finden, der zu Ihnen passt.</p>",
+            "content_width": "md"
+          },
+          "blocks": {}
+        },
+        "button_eQbCBE": {
+          "type": "button",
+          "name": "t:blocks.button.name",
+          "settings": {
+            "text": "Persönliche Beratung",
+            "url": "shopify://pages/contact",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "#faf4f0",
+            "text_color": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_KjFWjL",
+        "rich_text_kfWxQY",
+        "button_eQbCBE"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/20240605_weingut-jung-vinothek_002_foto_mario-andreya_1_d23e2c93-6a50-44ae-8069-41f73219f066.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "products_with_image_dAjFU3": {
+      "type": "products-with-image",
+      "blocks": {
+        "subheading_T4yUHm": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading",
+            "position": "middle_center"
+          }
+        },
+        "heading_kfWnTH": {
+          "type": "heading",
+          "settings": {
+            "text": "Diese Weine passen perfekt zu deiner Auswahl",
+            "heading_tag": "h2",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_TTgcXn": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your products, and showcase a list of related products.</p>",
+            "position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_T4yUHm",
+        "heading_kfWnTH",
+        "richtext_TTgcXn"
+      ],
+      "disabled": true,
+      "name": "t:sections.products_with_image.name",
+      "settings": {
+        "color_scheme": "",
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
+        "desktop_product_list_position": "start",
+        "image": "shopify://shop_images/Weinreben.webp",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "desktop_product_layout": "grid",
+        "mobile_product_layout": "grid",
+        "mobile_products_per_row": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_with_media_8E8dGG",
+    "logo_list_N7BzBe",
+    "related-products",
+    "press_CP3GzR",
+    "recently_viewed_products_LVH7dk",
+    "text_with_media_9xGDFt",
+    "before_after_waUXDD",
+    "image_with_text_overlay_yQaexC",
+    "products_with_image_dAjFU3"
+  ]
+}
