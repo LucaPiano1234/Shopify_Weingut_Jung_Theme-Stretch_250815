@@ -48,7 +48,7 @@
           "type": "button",
           "settings": {
             "text": "Oder melden Sie sich zur nächsten monatlichen Weinprobe an!",
-            "url": "shopify://products/weinprobe-rheinhessen-im-glas-monat-xxx",
+            "url": "shopify://collections/weinproben",
             "open_in_new_tab": false,
             "style": "solid",
             "background": "#c35e02",
@@ -158,6 +158,7 @@
         "buy_buttons_TMWqjb",
         "pickup_availability_U9hAdz"
       ],
+      "disabled": true,
       "name": "t:sections.featured_product.name",
       "settings": {
         "color_scheme": "",
