@@ -229,6 +229,61 @@
         "add_horizontal_spacing": true
       }
     },
+    "text_with_media_eqRhgd": {
+      "type": "text-with-media",
+      "blocks": {
+        "heading_yKVddT": {
+          "type": "heading",
+          "settings": {
+            "text": "Weinprobe – Rheinhessen im Glas",
+            "heading_tag": "h5",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_iChxm3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Einmal im Monat öffnen wir unsere Türen für eine besondere Genussreise: Erleben Sie Rheinhessen im Glas und entdecken Sie die Vielfalt unserer Weine in entspannter Atmosphäre.<br/><br/>Wir führen Sie durch unser Sortiment, erzählen spannende Geschichten rund um Weinberge, Terroir und Kellerarbeit – und nehmen uns Zeit für Ihre Fragen. Keine Verkaufsshow, sondern authentische Begegnungen und echte Genussmomente.<br/><br/>Wichtiger Hinweis:<br/><br/>Die Plätze sind limitiert auf 30 Teilnehmer pro Termin. Sichern Sie sich jetzt Ihr Ticket für Ihre Wunsch-Weinprobe direkt hier im Shop.</p>",
+            "position": "bottom_left"
+          }
+        },
+        "button_7cJxe7": {
+          "type": "button",
+          "settings": {
+            "text": "Mehr dazu",
+            "url": "shopify://collections/weinproben",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "#c35e02",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yKVddT",
+        "richtext_iChxm3",
+        "button_7cJxe7"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "",
+        "content_position": "start",
+        "content_percentage_width": 55,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": true,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/20240605_weingut-jung-vinothek_019_foto_mario-andreya_1.jpg",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
     "slideshow_txfAXx": {
       "type": "slideshow",
       "blocks": {
@@ -293,7 +348,7 @@
       "name": "t:sections.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
-        "image_size": "auto",
+        "image_size": "md",
         "transition_type": "curtain",
         "autoplay": true,
         "pause_auto_rotate_on_hover": false,
@@ -307,6 +362,7 @@
     "rich_text_8VjrXb",
     "featured_product_VaW9Gg",
     "forms",
+    "text_with_media_eqRhgd",
     "slideshow_txfAXx"
   ]
 }
