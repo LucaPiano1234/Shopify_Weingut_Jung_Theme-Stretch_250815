@@ -246,7 +246,7 @@
         "richtext_iChxm3": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Einmal im Monat öffnen wir unsere Türen für eine besondere Genussreise: Erleben Sie Rheinhessen im Glas und entdecken Sie die Vielfalt unserer Weine in entspannter Atmosphäre.<br/><br/>Wir führen Sie durch unser Sortiment, erzählen spannende Geschichten rund um Weinberge, Terroir und Kellerarbeit – und nehmen uns Zeit für Ihre Fragen. Keine Verkaufsshow, sondern authentische Begegnungen und echte Genussmomente.<br/><br/>Wichtiger Hinweis:<br/><br/>Die Plätze sind limitiert auf 30 Teilnehmer pro Termin. Sichern Sie sich jetzt Ihr Ticket für Ihre Wunsch-Weinprobe direkt hier im Shop.</p>",
+            "text": "<p><strong>Einmal im Monat öffnen wir unsere Türen für eine besondere Genussreise:</strong></p><p> Erleben Sie Rheinhessen im Glas und entdecken Sie die Vielfalt unserer Weine in entspannter Atmosphäre.<br/><br/>Wir führen Sie durch unser Sortiment, erzählen spannende Geschichten rund um Weinberge, Terroir und Kellerarbeit – und nehmen uns Zeit für Ihre Fragen. Keine Verkaufsshow, sondern authentische Begegnungen und echte Genussmomente.<br/><br/>Wichtiger Hinweis:<br/><strong><br/>Die Plätze sind limitiert auf 30 Teilnehmer pro Termin. Sichern Sie sich jetzt Ihr Ticket für Ihre Wunsch-Weinprobe direkt hier im Shop.</strong></p>",
             "position": "bottom_left"
           }
         },
