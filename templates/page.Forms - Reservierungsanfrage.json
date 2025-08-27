@@ -267,11 +267,14 @@
         "richtext_iChxm3",
         "button_7cJxe7"
       ],
+      "custom_css": [
+        ".placement-grid {grid-template-rows: auto; row-gap: 0.5rem; display: grid; align-content: center;}"
+      ],
       "name": "t:sections.text_with_media.name",
       "settings": {
         "color_scheme": "",
         "content_position": "start",
-        "content_percentage_width": 55,
+        "content_percentage_width": 50,
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "add_media_spacing": true,
