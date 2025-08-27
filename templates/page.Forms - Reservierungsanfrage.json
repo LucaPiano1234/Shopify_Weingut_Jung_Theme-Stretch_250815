@@ -43,18 +43,141 @@
           "settings": {
             "text": "<p>Bei uns spüren Sie die Verbundenheit mit der Region in jedem Glas. Unsere Weinberge werden mit Respekt vor Boden und Natur gepflegt, im Keller entsteht aus jeder Traube ein Wein, der Charakter und Terroir widerspiegelt. Bei einer Weinprobe nehmen wir uns Zeit für Sie – keine Verkaufsshow, sondern echte Momente voller Geschmack, Geschichten und Herzlichkeit.</p><p>Reservieren Sie noch heute Ihre persönliche Weinprobe oder Ihren Besuch und lassen Sie sich von unserer Leidenschaft anstecken.</p><p>Füllen Sie einfach das Formular aus, wir melden uns so schnell wie möglich bei Ihnen, um Ihren Besuch oder Ihre Weinprobe zu vereinbaren.</p>"
           }
+        },
+        "button_Afx3pL": {
+          "type": "button",
+          "settings": {
+            "text": "Oder melden Sie sich zur nächsten monatlichen Weinprobe an!",
+            "url": "shopify://products/weinprobe-rheinhessen-im-glas-monat-xxx",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "#c35e02",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "subheading_aWmVTx",
         "heading_a8GhBd",
-        "richtext_qFibAT"
+        "richtext_qFibAT",
+        "button_Afx3pL"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "color_scheme": "",
         "content_width": "md",
         "text_alignment": "center"
+      }
+    },
+    "featured_product_VaW9Gg": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_4hNmiW": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_A9xgmm": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_Cfydh4": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_mJMV63": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_gtfxcq": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms_7fVdek": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_8a37cq": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_m7td7r": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
+          }
+        },
+        "variant_picker_qXMNTC": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "separate_options": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "swatch_selector_size": "lg",
+            "block_selector_style": "outline",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_TMWqjb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": true,
+            "add_quantity_selector_spacing": true,
+            "atc_button_style": "solid",
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_U9hAdz": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_4hNmiW",
+        "title_A9xgmm",
+        "badges_Cfydh4",
+        "price_mJMV63",
+        "rating_gtfxcq",
+        "payment_terms_7fVdek",
+        "separator_8a37cq",
+        "description_m7td7r",
+        "variant_picker_qXMNTC",
+        "buy_buttons_TMWqjb",
+        "pickup_availability_U9hAdz"
+      ],
+      "name": "t:sections.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "title": "Unsere monatliche Weinprobe im Weingut",
+        "title_tag": "h3",
+        "title_icon": "none",
+        "show_scrolling_title": false,
+        "show_product_link": false,
+        "text_alignment": "left",
+        "product": "weinprobe-rheinhessen-im-glas-monat-xxx",
+        "product_media_size": 50,
+        "content_alignment": "left",
+        "desktop_media_layout": "carousel",
+        "desktop_carousel_controls": "thumbnails_under",
+        "mobile_controls": "lines",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
       }
     },
     "forms": {
@@ -122,11 +245,12 @@
           },
           "blocks": {}
         },
-        "slideshow_image_slide_L97iBh": {
+        "slideshow_image_slide_tgwqge": {
           "type": "_slideshow-image-slide",
+          "name": "t:sections.slideshow.blocks.image.name",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/20240605_weingut-jung-vinothek_019_foto_mario-andreya_1.jpg",
+            "image": "shopify://shop_images/Gaesteraum_2014_1.jpg",
             "slide_link": "",
             "content_max_width": 1000,
             "mobile_content_position": "place-self-center",
@@ -136,12 +260,11 @@
           },
           "blocks": {}
         },
-        "slideshow_image_slide_tgwqge": {
+        "slideshow_image_slide_L97iBh": {
           "type": "_slideshow-image-slide",
-          "name": "t:sections.slideshow.blocks.image.name",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Gaesteraum_2014_1.jpg",
+            "image": "shopify://shop_images/20240605_weingut-jung-vinothek_019_foto_mario-andreya_1.jpg",
             "slide_link": "",
             "content_max_width": 1000,
             "mobile_content_position": "place-self-center",
@@ -163,8 +286,8 @@
       },
       "block_order": [
         "slideshow_image_slide_4QMYzH",
-        "slideshow_image_slide_L97iBh",
-        "slideshow_image_slide_tgwqge"
+        "slideshow_image_slide_tgwqge",
+        "slideshow_image_slide_L97iBh"
       ],
       "name": "t:sections.slideshow.name",
       "settings": {
@@ -181,6 +304,7 @@
   "order": [
     "00c86ed4-2278-4ddc-9d13-9668f82bdbad",
     "rich_text_8VjrXb",
+    "featured_product_VaW9Gg",
     "forms",
     "slideshow_txfAXx"
   ]

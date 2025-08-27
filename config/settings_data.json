@@ -67,6 +67,15 @@
     "social_instagram": "https://www.instagram.com/wein.macht.jung/",
     "favicon": "shopify://shop_images/20250417_WG_Jung_Logo_schwarz_freigestellt_189b8e0e-63c9-4d43-9594-8ba51f21bed4.png",
     "content_for_index": [],
+    "blocks": {
+      "13180643132867056963": {
+        "type": "shopify://apps/complianz-gdpr-cookie-consent/blocks/bc-block/e49729f0-d37d-4e24-ac65-e0e2f472ac27",
+        "disabled": false,
+        "settings": {
+          "hide_label": true
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
