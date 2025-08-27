@@ -69,6 +69,7 @@
         },
         "text_DacYMy": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Enthält Sulfite</p>"
           }
@@ -111,6 +112,7 @@
         "accordion_mD9gnL": {
           "type": "accordion",
           "name": "Langbeschreibung",
+          "disabled": true,
           "settings": {
             "title": "Mehr Details",
             "content": "<p>{{ product.metafields.custom.qualit_tspyramide.value }}</p><p>Rebsorte: {{ product.metafields.custom.rebsorte.value }}</p><p>Jahrgang: {{ product.metafields.custom.jahrgang.value }}</p><p>Anbaugebiet: {{ product.metafields.custom.anbaugebiet.value }}</p><p>Alkoholgehalt: {{ product.metafields.custom.alkohol.value }}</p><p>Qualität: {{ product.metafields.custom.qualit_tsstufe.value }}</p><p>Trinktemperatur: {{ product.metafields.custom.trinktemperatur.value }}</p><p>Anlass: {{ product.metafields.custom.anlass.value }}</p><p>Aromen:</p>{{ product.metafields.custom.aromen | metafield_tag }}",
@@ -122,6 +124,7 @@
         "accordion_TtawKz": {
           "type": "accordion",
           "name": "Nährwerte",
+          "disabled": true,
           "settings": {
             "title": "Nährwerte",
             "content": "<p>Kohlenhydrate: {{ product.metafields.custom.kohlenhydrate.value }}</p><p>davon Zucker: {{ product.metafields.custom.davon_zucker.value }}</p><p>Brennwert: {{ product.metafields.custom.brennwert.value }}</p><p>Säure: {{ product.metafields.custom.s_ure.value }}</p><p>Restsüße: {{ product.metafields.custom.rests_e.value }}</p><p>Enthält geringfügige Mengen von Fett, gesättigten Fettsäuren, Eiweiß und Salz</p>",
