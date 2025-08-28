@@ -81,7 +81,7 @@
   },
   "product": {
     "general": {
-      "description": "Beschreibung",
+      "description": "Inhalt & Highlights",
       "add_to_cart_button": "In den Warenkorb",
       "pre_order_button": "Vorbestellen",
       "sold_out_button": "Ausverkauft",
