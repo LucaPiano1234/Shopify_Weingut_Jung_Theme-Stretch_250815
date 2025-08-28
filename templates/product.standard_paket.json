@@ -14,6 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "title": {
@@ -63,7 +64,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false,
+            "collapse_content": true,
             "uppercase_title": false
           }
         },
@@ -113,7 +114,7 @@
           "name": "Langbeschreibung",
           "settings": {
             "title": "Mehr Details",
-            "content": "<p>{{ product.metafields.custom.qualit_tspyramide.value }}</p><p>Rebsorte: {{ product.metafields.custom.rebsorte.value }}</p><p>Jahrgang: {{ product.metafields.custom.jahrgang.value }}</p><p>Anbaugebiet: {{ product.metafields.custom.anbaugebiet.value }}</p><p>Alkoholgehalt: {{ product.metafields.custom.alkohol.value }}</p><p>Qualität: {{ product.metafields.custom.qualit_tsstufe.value }}</p><p>Trinktemperatur: {{ product.metafields.custom.trinktemperatur.value }}</p><p>Anlass: {{ product.metafields.custom.anlass.value }}</p><p>Aromen:</p>{{ product.metafields.custom.aromen | metafield_tag }}",
+            "content": "<p>Die Details variieren je nach Paketinhalt. Weitere Informationen zu den einzelnen Flaschen finden Sie auf den jeweiligen Produktseiten.</p>",
             "uppercase_title": false,
             "icon": "none",
             "page": ""
@@ -124,7 +125,7 @@
           "name": "Nährwerte",
           "settings": {
             "title": "Nährwerte",
-            "content": "<p>Kohlenhydrate: {{ product.metafields.custom.kohlenhydrate.value }}</p><p>davon Zucker: {{ product.metafields.custom.davon_zucker.value }}</p><p>Brennwert: {{ product.metafields.custom.brennwert.value }}</p><p>Säure: {{ product.metafields.custom.s_ure.value }}</p><p>Restsüße: {{ product.metafields.custom.rests_e.value }}</p><p>Enthält geringfügige Mengen von Fett, gesättigten Fettsäuren, Eiweiß und Salz</p>",
+            "content": "<p>Die Nährwertangaben und Zutatenlisten können je nach Flasche variieren. Detaillierte Informationen finden Sie auf den jeweiligen Produktseiten.</p><p>Die Weine enthalten nur geringe Mengen an Fett, gesättigten Fettsäuren, Eiweiß und Salz.</p>",
             "uppercase_title": false,
             "icon": "none",
             "page": ""
