@@ -157,7 +157,7 @@
         "show_sticky_add_to_cart": true,
         "product_media_size": 40,
         "content_alignment": "left",
-        "desktop_media_layout": "grid_half_highlight_first",
+        "desktop_media_layout": "carousel",
         "desktop_carousel_controls": "dots",
         "mobile_controls": "none",
         "enable_media_autoplay": false,
