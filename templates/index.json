@@ -432,7 +432,7 @@
           "type": "heading",
           "settings": {
             "text": "<em><strong>Unsere Weine kennenlernen </strong></em><strong>– ganz entspannt zu Hause</strong>",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "position": "middle_center",
             "highlight_effect": "underline_pencil",
             "highlight_accent_color": "",
