@@ -76,10 +76,42 @@
         "color_scheme": "scheme-2",
         "show_shipping_estimator": true
       }
+    },
+    "recently_viewed_products_TFmaiV": {
+      "type": "recently-viewed-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Recently viewed products",
+            "content": "<p>Use this content to share information about your store and products.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "name": "t:sections.recently_viewed_products.name",
+      "settings": {
+        "color_scheme": "",
+        "stack_products": true,
+        "products_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "show_scrolling_bar": true
+      }
     }
   },
   "order": [
     "rich_text_z8FeNc",
-    "main"
+    "main",
+    "recently_viewed_products_TFmaiV"
   ]
 }
