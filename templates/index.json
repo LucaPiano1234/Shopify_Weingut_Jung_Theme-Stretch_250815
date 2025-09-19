@@ -442,14 +442,26 @@
         "richtext_tymCXP": {
           "type": "richtext",
           "settings": {
-            "text": "<p>6 Weine, null Verpflichtung. Für alle, die Weine lieber probieren als studieren! <br/><br/>Wir packen eine Auswahl an frischen und sortenreinen Jung-Weinen ins Paket und ihr findet ganz einfach euren Lieblingswein.</p><p><strong>Jetzt probieren!</strong></p>",
+            "text": "<p>6 Weine, null Verpflichtung. Für alle, die Weine lieber probieren als studieren! <br/><br/>Wir packen eine Auswahl an frischen und sortenreinen Jung-Weinen ins Paket und ihr findet ganz einfach euren Lieblingswein.</p>",
             "position": "middle_center"
+          }
+        },
+        "button_gHwYih": {
+          "type": "button",
+          "settings": {
+            "text": "Jetzt probieren!",
+            "url": "shopify://products/kennenlernpaket",
+            "style": "solid",
+            "position": "middle_center",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_kYVd7U",
-        "richtext_tymCXP"
+        "richtext_tymCXP",
+        "button_gHwYih"
       ],
       "custom_css": [
         "@media screen and (min-width: 1000px) {.products-with-image__carousel-container {max-width: fit-content; }}",
