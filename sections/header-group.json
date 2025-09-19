@@ -98,7 +98,7 @@
         "desktop_layout": "logo_left_navigation_inline",
         "logo": "{{ shop.brand.logo }}",
         "logo_max_width": 95,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 55,
         "menu": "main-menu",
         "drawer_menu": "",
         "secondary_menu": "",
