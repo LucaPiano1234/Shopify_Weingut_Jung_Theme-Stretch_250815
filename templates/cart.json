@@ -85,8 +85,8 @@
           "static": true,
           "settings": {
             "subheading": "",
-            "title": "Recently viewed products",
-            "content": "<p>Use this content to share information about your store and products.</p>",
+            "title": "Machen Sie Ihre Bestellung komplett:",
+            "content": "<h5>Unsere Bestseller warten auf Sie</h5>",
             "button_text": "",
             "button_link": "",
             "button_style": "outline",
@@ -100,10 +100,10 @@
       },
       "name": "t:sections.recently_viewed_products.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "stack_products": true,
         "products_count": 4,
-        "products_per_row_mobile": "1",
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "show_scrolling_bar": true
       }
