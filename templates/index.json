@@ -245,6 +245,63 @@
         "logo_border": ""
       }
     },
+    "products_with_image_zezLbb": {
+      "type": "products-with-image",
+      "blocks": {
+        "heading_kYVd7U": {
+          "type": "heading",
+          "settings": {
+            "text": "<em><strong>Unsere Weine kennenlernen </strong></em><strong>– ganz entspannt zu Hause</strong>",
+            "heading_tag": "h4",
+            "position": "middle_center",
+            "highlight_effect": "underline_pencil",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_tymCXP": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>6 Weine, null Verpflichtung. Für alle, die Weine lieber probieren als studieren! <br/><br/>Wir packen eine Auswahl an frischen und sortenreinen Jung-Weinen ins Paket und ihr findet ganz einfach euren Lieblingswein.</p>",
+            "position": "middle_center"
+          }
+        },
+        "button_gHwYih": {
+          "type": "button",
+          "settings": {
+            "text": "Jetzt probieren!",
+            "url": "shopify://products/kennenlernpaket",
+            "style": "solid",
+            "position": "middle_center",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_kYVd7U",
+        "richtext_tymCXP",
+        "button_gHwYih"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {.products-with-image__carousel-container {max-width: fit-content; }}",
+        ".button {background: #c25f02; color: white; position: sticky;}"
+      ],
+      "name": "t:sections.products_with_image.name",
+      "settings": {
+        "color_scheme": "scheme-7",
+        "products": [
+          "kennenlernpaket"
+        ],
+        "desktop_product_list_position": "start",
+        "image": "shopify://shop_images/20220427_weingut-jung-weine_026_foto_mario-andreya.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 60,
+        "desktop_product_layout": "carousel",
+        "mobile_product_layout": "grid",
+        "mobile_products_per_row": "1"
+      }
+    },
     "featured_collections_eKdt6r": {
       "type": "featured-collections",
       "blocks": {
@@ -423,63 +480,6 @@
         "intro_button_text": "",
         "intro_button_link": "shopify://collections/all",
         "intro_button_style": "solid"
-      }
-    },
-    "products_with_image_zezLbb": {
-      "type": "products-with-image",
-      "blocks": {
-        "heading_kYVd7U": {
-          "type": "heading",
-          "settings": {
-            "text": "<em><strong>Unsere Weine kennenlernen </strong></em><strong>– ganz entspannt zu Hause</strong>",
-            "heading_tag": "h4",
-            "position": "middle_center",
-            "highlight_effect": "underline_pencil",
-            "highlight_accent_color": "",
-            "highlight_text_color": ""
-          }
-        },
-        "richtext_tymCXP": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>6 Weine, null Verpflichtung. Für alle, die Weine lieber probieren als studieren! <br/><br/>Wir packen eine Auswahl an frischen und sortenreinen Jung-Weinen ins Paket und ihr findet ganz einfach euren Lieblingswein.</p>",
-            "position": "middle_center"
-          }
-        },
-        "button_gHwYih": {
-          "type": "button",
-          "settings": {
-            "text": "Jetzt probieren!",
-            "url": "shopify://products/kennenlernpaket",
-            "style": "solid",
-            "position": "middle_center",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_kYVd7U",
-        "richtext_tymCXP",
-        "button_gHwYih"
-      ],
-      "custom_css": [
-        "@media screen and (min-width: 1000px) {.products-with-image__carousel-container {max-width: fit-content; }}",
-        ".button {background: #c25f02; color: white; position: sticky;}"
-      ],
-      "name": "t:sections.products_with_image.name",
-      "settings": {
-        "color_scheme": "scheme-7",
-        "products": [
-          "kennenlernpaket"
-        ],
-        "desktop_product_list_position": "start",
-        "image": "shopify://shop_images/20220427_weingut-jung-weine_026_foto_mario-andreya.jpg",
-        "overlay_color": "#000000",
-        "overlay_opacity": 60,
-        "desktop_product_layout": "carousel",
-        "mobile_product_layout": "grid",
-        "mobile_products_per_row": "1"
       }
     },
     "featured_product_k96yJc": {
@@ -1230,11 +1230,11 @@
     "slideshow_rwmxqG",
     "rich_text_AdhnUE",
     "logo_list_bAneNz",
+    "products_with_image_zezLbb",
     "featured_collections_eKdt6r",
     "trust_icons_HEJKDX",
     "text_with_media_prHap9",
     "featured_product_list_WeU8GW",
-    "products_with_image_zezLbb",
     "featured_product_k96yJc",
     "text_with_media_qeeKbC",
     "collection_list_DwYpDz",
