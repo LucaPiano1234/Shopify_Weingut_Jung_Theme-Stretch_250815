@@ -72,6 +72,9 @@
         "checkout_button",
         "payment_methods"
       ],
+      "custom_css": [
+        ".h-stack {align-items: center; justify-content: center; display: flex; align-content: space-between; flex-direction: row; flex-wrap: wrap;}"
+      ],
       "settings": {
         "color_scheme": "scheme-2",
         "show_shipping_estimator": true
