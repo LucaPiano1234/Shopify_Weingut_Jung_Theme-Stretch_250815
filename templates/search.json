@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-search",
+      "custom_css": [
+        ".container {padding-top: 0px;}"
+      ],
       "settings": {
         "color_scheme": "scheme-2",
         "show_sort_by": true,
