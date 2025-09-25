@@ -73,21 +73,7 @@
     search
     {%- endcomment -%}
 
-    <div class="container section-spacing section-spacing--tight" style="
-    padding-top: 0px;
-    padding-bottom: 20px;
-">
-      <div class="prose prose-justify-center">
-        <p>2 Treffer</p>
-        
-        <form class="max-w-xs" action="/search" method="get" role="search">
-          <div class="search-form"><svg aria-hidden="true" focusable="false" width="16" fill="none" class="icon icon-search" part="icon" viewBox="0 0 16 16">
-        <path stroke-width="1.2" stroke="currentColor" d="M1.333 7.333a6 6 0 1 0 12 0 6 6 0 0 0-12 0ZM11.575 11.576l3.09 3.09"></path>
-      </svg><input type="search" name="q" value="Weissburgunder Ortswein" class="search-form__input heading" placeholder="Gib etwas ein..." autocomplete="off" autocorrect="off">
-          </div>
-        </form>
-      </div>
-    </div>
+    <div class="container section-spacing section-spacing--tight">
       <div class="prose prose-justify-center">
         <p>{{ 'search.results_count' | t: count: search.results_count }}</p>
         
