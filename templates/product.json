@@ -130,6 +130,12 @@
             "icon": "none",
             "page": ""
           }
+        },
+        "liquid_FzmieJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.custom.e_label_ %}\n <a href=\"{{ product.metafields.custom.e_label_}}\" target=\"_blank\">\n    Zutaten und Nährwertangaben\n  </a>\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -147,7 +153,8 @@
         "variant_picker",
         "sku_4btNMz",
         "accordion_mD9gnL",
-        "accordion_TtawKz"
+        "accordion_TtawKz",
+        "liquid_FzmieJ"
       ],
       "settings": {
         "color_scheme": "scheme-2",
