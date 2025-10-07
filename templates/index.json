@@ -818,7 +818,7 @@
         "image_size": "lg",
         "image": "shopify://shop_images/20210311_weingut-jung-johannes-j.webp",
         "overlay_color": "#000000",
-        "overlay_opacity": 30,
+        "overlay_opacity": 40,
         "enable_sticky_content": false,
         "content_width": "md",
         "desktop_text_position": "sm:place-self-center",
