@@ -447,7 +447,7 @@
               "name": "t:blocks.button.name",
               "settings": {
                 "text": "Empfehlung entdecken",
-                "url": "https://weingut-jung-vd.myshopify.com/products/2020-sankt-laurent-barrique-trocken",
+                "url": "https://weingut-jung-vd.myshopify.com/search?q=Sankt+Laurent+Barrique+trocken",
                 "open_in_new_tab": false,
                 "style": "solid",
                 "background": "",
