@@ -389,7 +389,7 @@
               "name": "t:blocks.button.name",
               "settings": {
                 "text": "Empfehlung entdecken",
-                "url": "shopify://products/2021-riesling-niertein-roter-hang-trocken",
+                "url": "https://weingut-jung-vd.myshopify.com/search?q=Riesling+Nierstein+Roter+Hang+trocken",
                 "open_in_new_tab": false,
                 "style": "solid",
                 "background": "",
