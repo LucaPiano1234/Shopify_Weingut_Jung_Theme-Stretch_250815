@@ -23,12 +23,6 @@
             "heading_tag": "h3"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": true
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -77,6 +71,12 @@
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -141,7 +141,6 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
         "rating",
         "separator",
         "icons_with_text_V8LFEF",
@@ -149,6 +148,7 @@
         "description",
         "text_DacYMy",
         "payment_terms",
+        "price",
         "buy_buttons",
         "variant_picker",
         "sku_4btNMz",
