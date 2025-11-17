@@ -65,6 +65,7 @@
     "product_listing_spacing": "small",
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
+    "cart_show_free_shipping_bar": false,
     "social_facebook": "https://www.facebook.com/Wein.macht.Jung",
     "social_instagram": "https://www.instagram.com/weinmachtjung/",
     "favicon": "shopify://shop_images/20250417_WG_Jung_Logo_schwarz_freigestellt_189b8e0e-63c9-4d43-9594-8ba51f21bed4.png",
