@@ -197,7 +197,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Weingut_Jung_Geration_Riesling_Logo_Medium_dd8a9878-6469-48d6-af62-3cdce837fdcc.jpg",
-            "image_width": 120,
+            "image_width": 100,
             "link": "https://www.generationriesling.de/"
           }
         }
