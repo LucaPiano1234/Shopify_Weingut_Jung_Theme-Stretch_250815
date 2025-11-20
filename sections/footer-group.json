@@ -184,6 +184,22 @@
             "show_menu_title": true,
             "menu_title": "<strong>Rechtliches</strong>"
           }
+        },
+        "image_8EaFHw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jung_WIM_Logo.png",
+            "image_width": 260,
+            "link": "https://wineinmoderation.eu/"
+          }
+        },
+        "image_GVbAXe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Weingut_Jung_Geration_Riesling_Logo_Medium_dd8a9878-6469-48d6-af62-3cdce837fdcc.jpg",
+            "image_width": 120,
+            "link": "https://www.generationriesling.de/"
+          }
         }
       },
       "block_order": [
@@ -191,7 +207,9 @@
         "text_zHBbXg",
         "links_Pdime8",
         "links_84bKny",
-        "links"
+        "links",
+        "image_8EaFHw",
+        "image_GVbAXe"
       ],
       "settings": {
         "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
