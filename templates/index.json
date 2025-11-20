@@ -221,7 +221,7 @@
           "settings": {
             "logo": "shopify://shop_images/Eichelmann-Logo_f4513578-8cfb-44db-bcc2-5357a2d128ee_1.png",
             "width": 120,
-            "mobile_width": 90,
+            "mobile_width": 110,
             "link": ""
           }
         },
@@ -239,7 +239,7 @@
           "settings": {
             "logo": "shopify://shop_images/WG_Jung_AWC_logo.webp",
             "width": 120,
-            "mobile_width": 90,
+            "mobile_width": 200,
             "link": ""
           }
         }
@@ -260,7 +260,7 @@
         "reveal_on_scroll": true,
         "stack_on_mobile": true,
         "add_logos_spacing": false,
-        "logos_padding_block": 0,
+        "logos_padding_block": 24,
         "logo_background": "#ffffff",
         "logo_border": ""
       }
