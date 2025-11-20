@@ -224,11 +224,31 @@
             "mobile_width": 90,
             "link": ""
           }
+        },
+        "logo_Nb7yCh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/WG_Jung_Restaurantfuehrer-Logo_Web.svg",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        },
+        "logo_bV8xe4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/WG_Jung_AWC_logo.webp",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "logo_dGLjFj",
-        "logo_bHXWih"
+        "logo_bHXWih",
+        "logo_Nb7yCh",
+        "logo_bV8xe4"
       ],
       "name": "t:sections.logo_list.name",
       "settings": {
@@ -238,7 +258,7 @@
         "heading_tag": "h5",
         "content_alignment": "center",
         "reveal_on_scroll": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "add_logos_spacing": false,
         "logos_padding_block": 0,
         "logo_background": "#ffffff",
