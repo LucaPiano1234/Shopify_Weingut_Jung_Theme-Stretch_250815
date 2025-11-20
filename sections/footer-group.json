@@ -188,17 +188,9 @@
         "image_8EaFHw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Jung_WIM_Logo.png",
+            "image": "shopify://shop_images/Jung_Logo_GR_WIM.png",
             "image_width": 260,
             "link": "https://wineinmoderation.eu/"
-          }
-        },
-        "image_GVbAXe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Weingut_Jung_Geration_Riesling_Logo_Medium_dd8a9878-6469-48d6-af62-3cdce837fdcc.jpg",
-            "image_width": 100,
-            "link": "https://www.generationriesling.de/"
           }
         }
       },
@@ -208,8 +200,7 @@
         "links_Pdime8",
         "links_84bKny",
         "links",
-        "image_8EaFHw",
-        "image_GVbAXe"
+        "image_8EaFHw"
       ],
       "settings": {
         "color_scheme": "scheme-0471c931-47da-4c53-8a15-3a07a4c6a04f",
