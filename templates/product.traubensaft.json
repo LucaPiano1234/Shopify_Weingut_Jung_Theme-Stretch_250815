@@ -258,6 +258,7 @@
         "logo_CjEpDg",
         "logo_6DDRYF"
       ],
+      "disabled": true,
       "name": "t:sections.logo_list.name",
       "settings": {
         "color_scheme": "scheme-2",
@@ -270,6 +271,67 @@
         "add_logos_spacing": false,
         "logos_padding_block": 0,
         "logo_background": "",
+        "logo_border": ""
+      }
+    },
+    "logo_list_hJrRWQ": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_V7hYUY": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Falstaff__Weinjournal__Logo_svg.png",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        },
+        "logo_TwWzm4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Eichelmann-Logo_f4513578-8cfb-44db-bcc2-5357a2d128ee_1.png",
+            "width": 120,
+            "mobile_width": 110,
+            "link": ""
+          }
+        },
+        "logo_RFWa8Q": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/WG_Jung_Restaurantfuehrer-Logo_Web.svg",
+            "width": 120,
+            "mobile_width": 90,
+            "link": ""
+          }
+        },
+        "logo_AhXGTy": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/WG_Jung_AWC_logo.webp",
+            "width": 120,
+            "mobile_width": 200,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_V7hYUY",
+        "logo_TwWzm4",
+        "logo_RFWa8Q",
+        "logo_AhXGTy"
+      ],
+      "name": "t:sections.logo_list.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "",
+        "title": "Empfohlen von:",
+        "heading_tag": "h5",
+        "content_alignment": "center",
+        "reveal_on_scroll": true,
+        "stack_on_mobile": true,
+        "add_logos_spacing": false,
+        "logos_padding_block": 24,
+        "logo_background": "#ffffff",
         "logo_border": ""
       }
     },
@@ -633,6 +695,7 @@
     "main",
     "text_with_media_8E8dGG",
     "logo_list_N7BzBe",
+    "logo_list_hJrRWQ",
     "related-products",
     "press_CP3GzR",
     "recently_viewed_products_LVH7dk",
